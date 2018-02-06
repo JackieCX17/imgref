@@ -26266,7 +26266,7 @@
 			"spells": "detect magic, feather fall, levitate, light, control weather, water breathing"
 		},
 		{
-			"name": "Succubus/Incubus",
+			"name": "Succubus-Incubus",
 			"size": "M",
 			"type": {
 				"type": "fiend",
@@ -37400,12 +37400,7 @@
 		{
 			"name": "Sacred Stone Monk",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
+			"type": "humanoid",
 			"source": "PotA",
 			"alignment": "lawful evil",
 			"ac": "14",
@@ -37536,12 +37531,7 @@
 		{
 			"name": "Skyweaver",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
+			"type": "humanoid",
 			"source": "PotA",
 			"alignment": "chaotic evil",
 			"ac": "12 (15 with mage armor)",
@@ -37588,12 +37578,7 @@
 		{
 			"name": "Stonemelder",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
+			"type": "humanoid",
 			"source": "PotA",
 			"alignment": "neutral evil",
 			"ac": "17 (splint)",
