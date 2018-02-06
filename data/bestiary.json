@@ -33686,12 +33686,7 @@
 		{
 			"name": "Troglodyte Champion of Laogzed",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"troglodyte"
-				]
-			},
+			"type": "humanoid",
 			"source": "OotA",
 			"alignment": "chaotic evil",
 			"ac": "14 (natural armor)",
@@ -34608,7 +34603,7 @@
 			"alignment": "neutral evil",
 			"ac": "15 (natural armor)",
 			"hp": "82 (11d8+33)",
-			"speed": "30 ft.",
+			"speed": "30 ft., fly 30 ft.",
 			"str": "16",
 			"dex": "16",
 			"con": "16",
@@ -37832,12 +37827,7 @@
 		{
 			"name": "Windharrow",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"half-elf"
-				]
-			},
+			"type": "humanoid",
 			"source": "PotA",
 			"alignment": "neutral evil",
 			"ac": "15 (studded leather)",
@@ -43889,12 +43879,7 @@
 			"source": "ToA",
 			"name": "Tabaxi Hunter",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"tabaxi"
-				]
-			},
+			"type": "humanoid",
 			"alignment": "chaotic good",
 			"ac": "14 (leather armor)",
 			"hp": "40 (9d8)",
@@ -43952,14 +43937,9 @@
 		},
 		{
 			"source": "ToA",
-			"name": "Tabaxi Ministrel",
+			"name": "Tabaxi Minstrel",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"tabaxi"
-				]
-			},
+			"type": "humanoid",
 			"alignment": "chaolic good",
 			"ac": "12",
 			"hp": "22 (5d8)",
