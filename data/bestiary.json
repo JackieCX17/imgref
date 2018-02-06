@@ -46055,7 +46055,7 @@
 			"spells": "guidance, resistance, thaumaturgy, command, cure wounds, healing word, inflict wounds, blindness/deafness, lesser restoration, spiritual weapon, dispel magic, mass healing word, sending, death ward, freedom of movement, insect plague"
 		},
     {
-      "source": "PoTA",
+      "source": "PotAe",
       "name": "Thurl Merosska",
       "size": "M",
       "type": {
