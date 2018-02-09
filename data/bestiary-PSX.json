@@ -267,14 +267,9 @@
 		{
 			"source": "PSX",
 			"page": 33,
-			"name": "Elder Dinosaur (Zetalpa, Primal Dawn)",
+			"name": "Zetalpa, Primal Dawn",
 			"size": "G",
-			"type": {
-				"type": "monstrosity",
-				"tags": [
-					"titan"
-				]
-			},
+			"type": "beast",
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
@@ -380,14 +375,9 @@
 		{
 			"source": "PSX",
 			"page": 33,
-			"name": "Elder Dinosaur (Nezahal, Primal Tide)",
+			"name": "Nezahal, Primal Tide",
 			"size": "G",
-			"type": {
-				"type": "monstrosity",
-				"tags": [
-					"titan"
-				]
-			},
+			"type": "beast",
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
@@ -486,14 +476,9 @@
 		{
 			"source": "PSX",
 			"page": 33,
-			"name": "Elder Dinosaur (Etali, Primal Storm)",
+			"name": "Etali, Primal Storm",
 			"size": "G",
-			"type": {
-				"type": "monstrosity",
-				"tags": [
-					"titan"
-				]
-			},
+			"type": "beast",
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
@@ -592,14 +577,9 @@
 		{
 			"source": "PSX",
 			"page": 33,
-			"name": "Elder Dinosaur (Tetzimoc, Primal Death)",
+			"name": "Tetzimoc, Primal Death",
 			"size": "G",
-			"type": {
-				"type": "monstrosity",
-				"tags": [
-					"titan"
-				]
-			},
+			"type": "beast",
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
@@ -722,14 +702,9 @@
 		{
 			"source": "PSX",
 			"page": 33,
-			"name": "Elder Dinosaur (Ghalta, Primal Hunger)",
+			"name": "Ghalta, Primal Hunger",
 			"size": "G",
-			"type": {
-				"type": "monstrosity",
-				"tags": [
-					"titan"
-				]
-			},
+			"type": "beast",
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
@@ -828,14 +803,9 @@
 		{
 			"source": "PSX",
 			"page": 33,
-			"name": "Elder Dinosaur (Zacama, Primal Calamity)",
+			"name": "Zacama, Primal Calamity",
 			"size": "G",
-			"type": {
-				"type": "monstrosity",
-				"tags": [
-					"titan"
-				]
-			},
+			"type": "beast",
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
