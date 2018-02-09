@@ -2,7 +2,6 @@
 	"monster": [
 		{
 			"source": "PSX",
-			"page": 9,
 			"name": "Chupacabra",
 			"size": "M",
 			"type": "monstrosity",
@@ -10,19 +9,19 @@
 			"ac": "14 (natural armor)",
 			"hp": "45 (6d8+18)",
 			"speed": "30 ft.",
-			"str": 15,
-			"dex": 14,
-			"con": 16,
-			"int": 6,
-			"wis": 13,
-			"cha": 9,
+			"str": "15",
+			"dex": "14",
+			"con": "16",
+			"int": "6",
+			"wis": "13",
+			"cha": "9",
 			"skill": {
 				"perception": "+3",
 				"stealth": "+4"
 			},
 			"resist": "bludgeoning, piercing, and slashing from nonmagical weapons",
 			"senses": "dark vision 120 ft.",
-			"passive": 13,
+			"passive": "13",
 			"cr": "3",
 			"trait": [
 				{
@@ -57,7 +56,6 @@
 		},
 		{
 			"source": "PSX",
-			"page": 30,
 			"name": "Frilled Deathspitter",
 			"size": "S",
 			"type": "beast",
@@ -65,16 +63,16 @@
 			"ac": "13 (natural armor)",
 			"hp": "18 (4d6+4)",
 			"speed": "40 ft.",
-			"str": 20,
-			"dex": 16,
-			"con": 13,
-			"int": 4,
-			"wis": 12,
-			"cha": 6,
+			"str": "20",
+			"dex": "16",
+			"con": "13",
+			"int": "4",
+			"wis": "12",
+			"cha": "6",
 			"skill": {
 				"perception": "+3"
 			},
-			"passive": 13,
+			"passive": "13",
 			"cr": "1/2",
 			"action": [
 				{
@@ -105,7 +103,6 @@
 		},
 		{
 			"source": "PSX",
-			"page": 32,
 			"name": "Gishath, Sun's Avatar",
 			"size": "G",
 			"type": "beast",
@@ -113,17 +110,17 @@
 			"ac": "16 (natural armor)",
 			"hp": "203 (14d20+56)",
 			"speed": "40 ft.",
-			"str": 24,
-			"dex": 12,
-			"con": 18,
-			"int": 12,
-			"wis": 16,
-			"cha": 6,
+			"str": "24",
+			"dex": "12",
+			"con": "18",
+			"int": "12",
+			"wis": "16",
+			"cha": "6",
 			"save": "Str +11, Con +8, Wis +7, Cha +2",
 			"skill": {
 				"perception": "+7"
 			},
-			"passive": 17,
+			"passive": "17",
 			"cr": "10",
 			"trait": [
 				{
@@ -183,11 +180,10 @@
 		},
 		{
 			"source": "PSX",
-			"page": 33,
 			"name": "Elder Dinosaur",
 			"size": "G",
 			"type": {
-				"type": "monstrosity",
+				"type": "beast",
 				"tags": [
 					"titan"
 				]
@@ -196,17 +192,17 @@
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
 			"speed": "40 ft.",
-			"str": 30,
-			"dex": 11,
-			"con": 30,
-			"int": 3,
-			"wis": 11,
-			"cha": 11,
+			"str": "30",
+			"dex": "11",
+			"con": "30",
+			"int": "3",
+			"wis": "11",
+			"cha": "11",
 			"save": "Int +5, Wis +9, Cha +9",
 			"immune": "fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
 			"conditionImmune": "charmed, frightened, paralyzed, poisoned",
 			"senses": "blindsight 120 ft.",
-			"passive": 10,
+			"passive": "10",
 			"cr": "30",
 			"trait": [
 				{
@@ -271,11 +267,10 @@
 		},
 		{
 			"source": "PSX",
-			"page": 33,
-			"name": "Elder Dinosaur (Zetalpa, Primal Dawn)",
+			"name": "Zetalpa, Primal Dawn",
 			"size": "G",
 			"type": {
-				"type": "monstrosity",
+				"type": "beast",
 				"tags": [
 					"titan"
 				]
@@ -284,18 +279,18 @@
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
 			"speed": "20 ft., fly 60 ft.",
-			"str": 30,
-			"dex": 11,
-			"con": 30,
-			"int": 3,
-			"wis": 11,
-			"cha": 11,
+			"str": "30",
+			"dex": "11",
+			"con": "30",
+			"int": "3",
+			"wis": "11",
+			"cha": "11",
 			"save": "Int +5, Wis +9, Cha +9",
 			"immune": "fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
 			"resist": "radiant",
 			"conditionImmune": "charmed, frightened, paralyzed, poisoned",
 			"senses": "blindsight 120 ft.",
-			"passive": 10,
+			"passive": "10",
 			"cr": "30",
 			"trait": [
 				{
