@@ -355,7 +355,7 @@
 				{
 					"name": "Attack",
 					"text": [
-						"The elder dinosaur makes one claw attack, tail attack, wing attack, or flipper attack."
+						"The elder dinosaur makes one claw attack, tail attack, or wing attack."
 					]
 				},
 				{
@@ -456,7 +456,7 @@
 				{
 					"name": "Attack",
 					"text": [
-						"The elder dinosaur makes one claw attack, tail attack, wing attack, or flipper attack."
+						"The elder dinosaur makes one flipper attack."
 					]
 				},
 				{
@@ -557,7 +557,7 @@
 				{
 					"name": "Attack",
 					"text": [
-						"The elder dinosaur makes one claw attack, tail attack, wing attack, or flipper attack."
+						"The elder dinosaur makes one claw attack."
 					]
 				},
 				{
@@ -682,7 +682,7 @@
 				{
 					"name": "Attack",
 					"text": [
-						"The elder dinosaur makes one claw attack, tail attack, wing attack, or flipper attack."
+						"The elder dinosaur makes one claw attack or tail attack."
 					]
 				},
 				{
@@ -783,7 +783,7 @@
 				{
 					"name": "Attack",
 					"text": [
-						"The elder dinosaur makes one claw attack, tail attack, wing attack, or flipper attack."
+						"The elder dinosaur makes one tail attack."
 					]
 				},
 				{
@@ -884,7 +884,7 @@
 				{
 					"name": "Attack",
 					"text": [
-						"The elder dinosaur makes one claw attack, tail attack, wing attack, or flipper attack."
+						"The elder dinosaur makes one tail attack."
 					]
 				},
 				{
