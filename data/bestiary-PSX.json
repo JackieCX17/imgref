@@ -206,7 +206,7 @@
 			"source": "PSX",
 			"name": "Zetalpa, Primal Dawn",
 			"size": "G",
-			"type": "beast,
+			"type": "beast",
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
