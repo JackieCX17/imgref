@@ -36,19 +36,13 @@
 					"name": "Bite",
 					"text": [
 						"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
-					],
-          "attack": [
-            "Bite|4|2d4+2"
-          ]
+					]
 				},
 				{
 					"name": "Drain Blood",
 					"text": [
 						"Melee Weapon Attack: +4 to hit, reach 5 ft., one creature that is prone, incapacitated, or restrained. Hit: 5 (1d6+2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the chupacabra regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
-					],
-          "attack": [
-            "Drain Blood|4|1d6+2"
-          ]
+					]
 				}
 			],
 			"reaction": [
@@ -91,28 +85,19 @@
 					"name": "Bite",
 					"text": [
 						"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage."
-					],
-          "attack": [
-            "Bite|4|1d6+3"
-          ]
+					]
 				},
 				{
 					"name": "Claw",
 					"text": [
 						"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage."
-					],
-          "attack": [
-            "Claw|4|1d6+3"
-          ]
+					]
 				},
 				{
 					"name": "Spit Poison",
 					"text": [
 						"Ranged Weapon Attack: +4 to hit, range 15/30 ft., one creature. Hit: The target must make a DC 13 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. In addition, a creature that fails its saving throw is blinded until the end of the deathspitter's next turn."
-					],
-          "attack": [
-            "Spit Poison|4|4d8"
-          ]
+					]
 				}
 			]
 		},
@@ -156,10 +141,7 @@
 					"name": "Bite",
 					"text": [
 						"Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 39 (5d12 + 7) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 19 Dexterity saving throw or it is grappled (escape DC 19). Until this grapple ends, the target is restrained, and Gishath can't bite another target."
-					],
-          "attack": [
-            "Bite|11|5d12+7"
-          ]
+					]
 				},
 				{
 					"name": "Swallow",
@@ -172,19 +154,13 @@
 					"name": "Stomp",
 					"text": [
 						"Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 29 (5d8 + 7) bludgeoning damage, and the target must succeed on a DC 19 Strength saving throw or be knocked prone."
-					],
-          "attack": [
-            "Stomp|11|5d8+7"
-          ]
+					]
 				},
 				{
 					"name": "Tail",
 					"text": [
 						"Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 25 (4d8 + 7) bludgeoning damage."
-					],
-          "attack": [
-            "Tail|11|4d8+7"
-          ]
+					]
 				}
 			],
 			"legendary": [
@@ -206,7 +182,12 @@
 			"source": "PSX",
 			"name": "Elder Dinosaur",
 			"size": "G",
-			"type": "beast",
+			"type": {
+				"type": "beast",
+				"tags": [
+					"titan"
+				]
+			},
 			"alignment": "unaligned",
 			"ac": "25 (natural armor)",
 			"hp": "676 (33d20+330)",
