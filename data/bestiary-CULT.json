@@ -62,45 +62,334 @@
       "spells": "mage hand, prestidigitation, ray of frost, ray of sickness, sleep, Tasha's hideous laughter, alter self, invisibility"
     },
     {
-			"name": "Redbrand Ruffian",
+      "name": "Redbrand Ruffian",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "human"
+        ]
+      },
+      "source": "LMoP",
+      "alignment": "neutral evil",
+      "ac": "14 (studded leather armor)",
+      "hp": "16 (3d8+3)",
+      "speed": "30 ft.",
+      "str": "11",
+      "dex": "14",
+      "con": "12",
+      "int": "9",
+      "wis": "9",
+      "cha": "11",
+      "skill": {
+        "intimidation": "+2"
+      },
+      "passive": "9",
+      "languages": "Common",
+      "cr": "1/2",
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The ruffian makes two melee attacks."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "text": [
+            "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+          ],
+          "attack": [
+            "Shortsword|4|1d6+2"
+          ]
+        }
+      ]
+    },
+    {
+			"name": "Dragonclaw",
 			"size": "M",
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human"
-				]
-			},
-			"source": "LMoP",
+			"type": "humanoid",
+			"source": "ToD",
 			"alignment": "neutral evil",
-			"ac": "14 (studded leather armor)",
+			"ac": "14 (leather armor)",
 			"hp": "16 (3d8+3)",
 			"speed": "30 ft.",
-			"str": "11",
-			"dex": "14",
-			"con": "12",
-			"int": "9",
-			"wis": "9",
-			"cha": "11",
+			"str": "9",
+			"dex": "16",
+			"con": "13",
+			"int": "11",
+			"wis": "10",
+			"cha": "12",
+			"save": "Wis +2",
 			"skill": {
-				"intimidation": "+2"
+				"deception": "+3",
+				"stealth": "+5"
 			},
-			"passive": "9",
-			"languages": "Common",
-			"cr": "1/2",
+			"passive": "10",
+			"languages": "Common, Draconic",
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Dragon Fanatic",
+					"text": [
+						"The dragonclaw has advantage on saving throws against being charmed or frightened. While the dragonclaw can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonclaw ignores the effects of being charmed or frightened."
+					]
+				},
+				{
+					"name": "Fanatic Advantage",
+					"text": [
+						"Once per turn, if the dragonclaw makes a weapon attack with advantage on the attack roll and hits, it deals an extra 7 (2d6) damage."
+					],
+					"attack": [
+						"Fanatic Advantage||2d6"
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"text": [
+						"The dragonclaw has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated."
+					]
+				}
+			],
 			"action": [
 				{
 					"name": "Multiattack",
 					"text": [
-						"The ruffian makes two melee attacks."
+						"The dragonclaw attacks twice with its scimitar."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"text": [
+						"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage."
+					],
+					"attack": [
+						"Scimitar|5|1d6+3"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonfang",
+			"size": "M",
+			"type": "humanoid",
+			"source": "ToD",
+			"alignment": "neutral evil",
+			"ac": "15 (studded leather)",
+			"hp": "78 (12d8+24)",
+			"speed": "30 ft.",
+			"str": "11",
+			"dex": "16",
+			"con": "14",
+			"int": "12",
+			"wis": "12",
+			"cha": "14",
+			"save": "Wis +3",
+			"skill": {
+				"deception": "+4",
+				"stealth": "+5"
+			},
+			"resist": "one of the following: acid, cold, fire, lightning or poison",
+			"passive": "11",
+			"languages": "Common, Draconic, Infernal",
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Dragon Fanatic",
+					"text": [
+						"The dragonfang has advantage on saving throws against being charmed or frightened. While the dragonfang can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonfang ignores the effects of being charmed or frightened."
+					]
+				},
+				{
+					"name": "Fanatic Advantage",
+					"text": [
+						"Once per turn, if the dragonfang makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage."
+					],
+					"attack": [
+						"Fanatic Advantage||3d6"
+					]
+				},
+				{
+					"name": "Limited Flight",
+					"text": [
+						"The dragonfang can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"text": [
+						"The Dragonfang attacks twice with its shortsword."
 					]
 				},
 				{
 					"name": "Shortsword",
 					"text": [
-						"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
+						"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance."
 					],
 					"attack": [
-						"Shortsword|4|1d6+2"
+						"Shortsword|5|1d6+3+2d6"
+					]
+				},
+				{
+					"name": "Orb of Dragon's Breath (2/Day)",
+					"text": [
+						"Ranged Spell Attack: +5 to hit, range 50 ft., one target. Hit: 22 (5d8) damage of the type to which the dragonfang has damage resistance."
+					],
+					"attack": [
+						"Orb of Dragon's Breath|5|5d8"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonsoul",
+			"size": "M",
+			"type": "humanoid",
+			"source": "ToD",
+			"alignment": "neutral evil",
+			"ac": "16 (studded leather)",
+			"hp": "110 (17d8+34)",
+			"speed": "30 ft.",
+			"str": "11",
+			"dex": "18",
+			"con": "14",
+			"int": "13",
+			"wis": "12",
+			"cha": "16",
+			"save": "Wis +4",
+			"skill": {
+				"deception": "+6",
+				"stealth": "+7"
+			},
+			"resist": "one of the following: acid, cold, fire, lightning or poison",
+			"passive": "11",
+			"languages": "Common, Draconic, Infernal",
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Dragon Fanatic",
+					"text": [
+						"The dragonsoul has advantage on saving throws against being charmed or frightened. While the dragonsoul can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonsoul ignores the effects of being charmed or frightened."
+					]
+				},
+				{
+					"name": "Fanatic Advantage",
+					"text": [
+						"Once per turn, if the dragonsoul makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 10 (3d6) damage."
+					],
+					"attack": [
+						"Fanatic Advantage||3d6"
+					]
+				},
+				{
+					"name": "Limited Flight",
+					"text": [
+						"The dragonsoul can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"text": [
+						"The dragonsoul has advantage on an attack roll against a creature if at least one of the dragonclaw's allies is within 5 feet of the creature and the ally isn't incapacitated."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"text": [
+						"The Dragonsoul attacks twice with its shortsword."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"text": [
+						"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance."
+					],
+					"attack": [
+						"Shortsword|5|1d6+3+3d6"
+					]
+				},
+				{
+					"name": "Orb of Dragon's Breath (3/Day)",
+					"text": [
+						"Ranged Spell Attack: +7 to hit, range 90 ft., one target. Hit: 27 (6d8) damage of the type to which the dragonsoul has damage resistance."
+					],
+					"attack": [
+						"Orb of Dragon's Breath|7|6d8"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonwing",
+			"size": "M",
+			"type": "humanoid",
+			"source": "ToD",
+			"alignment": "neutral evil",
+			"ac": "14 (leather armor)",
+			"hp": "33 (6d8+6)",
+			"speed": "30 ft.",
+			"str": "11",
+			"dex": "16",
+			"con": "13",
+			"int": "11",
+			"wis": "11",
+			"cha": "13",
+			"save": "Wis +2",
+			"skill": {
+				"deception": "+3",
+				"stealth": "+5"
+			},
+			"resist": "one of the following: acid, cold, fire, lightning or poison",
+			"passive": "10",
+			"languages": "Common, Draconic",
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Dragon Fanatic",
+					"text": [
+						"The dragonwing has advantage on saving throws against being charmed or frightened. While the dragonwing can see a dragon or higher-ranking Cult of the Dragon cultist friendly to it, the dragonwing ignores the effects of being charmed or frightened."
+					]
+				},
+				{
+					"name": "Fanatic Advantage",
+					"text": [
+						"Once per turn, if the dragonwing makes a weapon attack with advantage on the attack roll and hits, the target takes an extra 7 (2d6) damage."
+					],
+					"attack": [
+						"Fanatic Advantage||2d6"
+					]
+				},
+				{
+					"name": "Limited Flight",
+					"text": [
+						"The dragonwing can use a bonus action to gain a flying speed of 30 feet until the end of its turn."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"text": [
+						"The dragonwing has advantage on an attack roll against a creature if at least one of the dragonwing's allies is within 5 feet of the creature and the ally isn't incapacitated."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"text": [
+						"The dragonwing attacks twice with its scimitar."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"text": [
+						"Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage plus 3 (1d6) damage of the type to which the cultist has resistance."
+					],
+					"attack": [
+						"Scimitar|5|1d6+3+1d6"
 					]
 				}
 			]

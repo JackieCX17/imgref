@@ -71,6 +71,157 @@
       ]
     },
     {
+      "name": "Strahd von Zarovich",
+      "size": "M",
+      "type": {
+        "type": "undead",
+        "tags": [
+          "shapechanger"
+        ]
+      },
+      "source": "CoS",
+      "alignment": "lawful evil",
+      "ac": "16 (natural armor)",
+      "hp": "144 (17d8+68)",
+      "speed": "30 ft.",
+      "str": "18",
+      "dex": "18",
+      "con": "18",
+      "int": "20",
+      "wis": "15",
+      "cha": "18",
+      "save": "Dex +9, Wis +7, Cha +9",
+      "skill": {
+        "arcana": "+15",
+        "perception": "+12",
+        "religion": "+10",
+        "stealth": "+14"
+      },
+      "resist": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "senses": "darkvision 120 ft.",
+      "passive": "22",
+      "languages": "Abyssal, Common, Draconic, Elvish, Giant, Infernal",
+      "cr": "15",
+      "trait": [
+        {
+          "name": "Shapechanger",
+          "text": [
+            "If Strahd isn't in running water or sunlight, he can use his action to polymorph into a Tiny bat, a Medium wolf, or a Medium cloud of mist, or back into his true form.",
+            "While in bat or wolf form, Strahd can't speak. In bat form, his walking speed is 5 feet, and he has a flying speed of 30 feet. In wolf form, his walking speed is 40 feet. His statistics, other than his size and speed, are unchanged. Anything he is wearing transforms with him, but nothing he is carrying does. He reverts to his true form if he dies.",
+            "While in mist form, Strahd can't take any actions, speak, or manipulate objects. He is weightless, has a flying speed of 30 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and he can't pass through water. He has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage he takes from sunlight."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Strahd fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Misty Escape",
+          "text": [
+            "When he drops to 0 hit points outside his coffin, Strahd transforms into a cloud of mist (as in the Shapechanger trait) instead of falling unconscious, provided that he isn't in running water or sunlight. If he can't transform, he is destroyed.",
+            "While he has 0 hit points in mist form, he can't revert to his vampire form, and he must reach his coffin within 2 hours or be destroyed. Once in his coffin, he reverts to his vampire form. He is then paralyzed until he regains at least 1 hit point. After spending 1 hour in his coffin with 0 hit points, he regains 1 hit point."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "text": [
+            "Strahd regains 20 hit points at the start of his turn if he has at least 1 hit point and isn't in running water or sunlight. If he takes radiant damage or damage from holy water, this trait doesn't function at the start of his next turn."
+          ]
+        },
+        {
+          "name": "Spellcasting",
+          "text": [
+            "Strahd is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). Strahd has the following wizard spells prepared:",
+            "• Cantrips (at will): mage hand, prestidigitation, ray of frost",
+            "•1st level (4 slots): comprehend languages, fog cloud, sleep",
+            "•2nd level (3 slots): detect thoughts, gust of wind, mirror image",
+            "•3rd level (3 slots): animate dead, fireball, nondetection",
+            "•4th level (3 slots): blight, greater invisibility, polymorph",
+            "•5th level (1 slot): animate objects, scrying"
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "text": [
+            "Strahd can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Vampire Weaknesses",
+          "text": [
+            "Strahd has the following flaws.",
+            "Forbiddance: He can't enter a residence without an invitation from one of the occupants.",
+            "Harmed by Running Water: He takes 20 acid damage if he ends his turn in running water.",
+            "Stake to the Heart: If a piercing weapon made of wood is driven into his heart while he is incapacitated in his coffin, he is paralyzed until the stake is removed.",
+            "Sunlight Hypersensitivity: While in sunlight, Strahd takes 20 radiant damage at the start of his turn, and he has disadvantage on attack rolls and ability checks."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack (Vampire Form Only)",
+          "text": [
+            "Strahd makes two attacks, only one of which can be a bite attack."
+          ]
+        },
+        {
+          "name": "Unarmed Strike (Vampire Form Only)",
+          "text": [
+            "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 8 (1d8+4) bludgeoning damage, plus 14 (4d6) necrotic damage. If the target is a creature, Strahd can grapple it (escape DC 18) instead of dealing the bludgeoning damage."
+          ],
+          "attack": [
+            "|9|1d8+4+4d6"
+          ]
+        },
+        {
+          "name": "Bite (Bat or Vampire Form Only)",
+          "text": [
+            "Melee Weapon Attack: +9 to hit, reach 5 ft., one willing creature, or a creature that is grappled by Strahd, incapacitated, or restrained. Hit: 7 (1d6+4) piercing damage plus 10 (3d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and Strahd regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under Strahd's control."
+          ],
+          "attack": [
+            "|9|1d6+4+3d6"
+          ]
+        },
+        {
+          "name": "Charm",
+          "text": [
+            "Strahd targets one humanoid he can see within 30 ft. of him. If the target can see Strahd, the target must succeed on a DC 17 Wisdom saving throw against this magic or be charmed. The charmed target regards Strahd as a trusted friend to be heeded and protected. The target isn't under Strahd's control, but it takes Strahd's requests and actions in the most favorable way and lets Strahd bite it.",
+            "Each time Strahd or his companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until Strahd is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+          ]
+        },
+        {
+          "name": "Children of the Night (1/day)",
+          "text": [
+            "Strahd magically calls 2d4 swarms of bats or swarms rats, provided that the sun isn't up. While outdoors, Strahd can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of Strahd and obeying his spoken commands. The beasts remain for 1 hour, until Strahd dies, or until he dismisses them as a bonus action."
+          ]
+        }
+      ],
+      "legendaryGroup": "Strahd von Zarovich",
+      "legendary": [
+        {
+          "name": "Move",
+          "text": [
+            "Strahd moves up to his speed without provoking opportunity attacks."
+          ]
+        },
+        {
+          "name": "Unarmed Strike",
+          "text": [
+            "Strahd makes one unarmed strike."
+          ]
+        },
+        {
+          "name": "Bite (Costs 2 Actions)",
+          "text": [
+            "Strahd makes one bite attack."
+          ]
+        }
+      ],
+      "spells": "mage hand, prestidigitation, ray of frost, comprehend languages, fog cloud, sleep, detect thoughts, gust of wind, mirror image, animate dead, fireball, nondetection, blight, greater invisibility, polymorph, animate objects, scrying"
+    },
+    {
       "name": "Strahd's Animated Armor",
       "size": "M",
       "type": "construct",
@@ -142,7 +293,1702 @@
           ]
         }
       ]
-    }
-
-  ]
+    },
+    {
+      "name": "Tiamat",
+      "size": "G",
+      "type": "fiend",
+      "source": "ToD",
+      "alignment": "chaotic evil",
+      "ac": "25 (natural armor)",
+      "hp": "615 (30d20+300)",
+      "speed": "60 ft., fly 120 ft.",
+      "str": "30",
+      "dex": "10",
+      "con": "30",
+      "int": "26",
+      "wis": "26",
+      "cha": "28",
+      "save": "Str +19, Dex +9, Wis +17",
+      "skill": {
+        "arcana": "+17",
+        "perception": "+26",
+        "religion": "+17"
+      },
+      "immune": "acid, cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "conditionImmune": "blinded, charmed, deafened, frightened, poisoned, stunned",
+      "senses": "darkvision 240 ft., truesight 120 ft.",
+      "passive": "36",
+      "languages": "Common, Draconic, Infernal",
+      "cr": "30",
+      "trait": [
+        {
+          "name": "Discorporation",
+          "text": [
+            "When Tiamat drops to 0 hit points or dies, her body is destroyed but her essence travels back to her domain in the Nine Hells, and she is unable to take physical form for a time."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting (3/Day)",
+          "text": [
+            "Tiamat can innately cast divine word (spell save DC 26). Her spellcasting ability is Charisma."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (5/Day)",
+          "text": [
+            "If Tiamat fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Limited Magic Immunity",
+          "text": [
+            "Unless she wishes to be affected, Tiamat is immune to spells of 6th level or lower. She has advantage on saving throws against all other spells and magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "text": [
+            "Tiamat's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Multiple Heads",
+          "text": [
+            "Tiamat can take one reaction per turn, rather than only one per round. She also has advantage on saving throws against being knocked unconscious. If she fails a saving throw against an effect that would stun a creature, one of her unspent legendary actions is spent."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "text": [
+            "Tiamat regains 30 hit points at the start of her turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Tiamat can use her Frightful Presence. She then makes three attacks: two with her claws and one with her tail."
+          ]
+        },
+        {
+          "name": "Claw",
+          "text": [
+            "Melee Weapon Attack: +19 to hit, reach 15 ft., one target. Hit: 24 (4d6+10) slashing damage."
+          ],
+          "attack": [
+            "Claw|19|4d6+10"
+          ]
+        },
+        {
+          "name": "Tail",
+          "text": [
+            "Melee Weapon Attack: +19 to hit, reach 25 ft., one target. Hit: 28 (4d8+10) piercing damage."
+          ],
+          "attack": [
+            "Tail|19|4d8+10"
+          ]
+        },
+        {
+          "name": "Frightful Presence",
+          "text": [
+            "Each creature of Tiamat's choice that is within 240 feet of Tiamat and aware of her must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Tiamat's Frightful Presence for the next 24 hours."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "",
+          "text": [
+            "Tiamat can take 5 legendary actions, choosing from the options listed. Only one legendary action option can be used at a time and only at the end of another creature's turn. Tiamat regains spent legendary actions at the start of her turn.",
+            "Tiamat's legendary action options are associated with her five dragon heads (a bite and a breath weapon for each). Once Tiamat chooses a legendary action option for one of her heads, she can't choose another one associated with that head until the start of her next turn."
+          ]
+        },
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +19 to hit, reach 20 ft., one target. Hit: 32 (4d10+10) slashing damage plus 14 (4d6) acid damage (black dragon head), lightning damage (blue dragon head), poison damage (green dragon head), fire damage (red dragon head), or cold damage (white dragon head)."
+          ],
+          "attack": [
+            "Bite|19|4d10+10+4d6"
+          ]
+        },
+        {
+          "name": "Black Dragon Head: Acid Breath (Costs 2 Actions)",
+          "text": [
+            "Tiamat breathes acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one."
+          ],
+          "attack": [
+            "Acid Breath||15d8"
+          ]
+        },
+        {
+          "name": "Blue Dragon Head: Lightning Breath (Costs 2 Actions)",
+          "text": [
+            "Tiamat breathes lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one."
+          ],
+          "attack": [
+            "Lightning Breath||16d10"
+          ]
+        },
+        {
+          "name": "Green Dragon Head: Poison Breath (Costs 2 Actions)",
+          "text": [
+            "Tiamat breathes poisonous gas in a 90-foot cone. Each creature in that area must make a DC 27 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one."
+          ],
+          "attack": [
+            "Poison Breath||22d6"
+          ]
+        },
+        {
+          "name": "Red Dragon Head: Fire Breath (Costs 2 Actions)",
+          "text": [
+            "Tiamat breathes fire in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
+          ],
+          "attack": [
+            "Fire Breath||26d6"
+          ]
+        },
+        {
+          "name": "White Dragon Head: Cold Breath (Costs 2 Actions)",
+          "text": [
+            "Tiamat breathes an icy blast in a 90-foot cone. Each creature in that area must make a DC 27 Dexterity saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one."
+          ],
+          "attack": [
+            "Cold Breath||16d8"
+          ]
+        }
+      ],
+      "spells": "divine word"
+    },
+    {
+      "name": "Baphomet",
+      "size": "H",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "source": "OotA",
+      "alignment": "chaotic evil",
+      "ac": "22 (natural armor)",
+      "hp": "333 (23d12+184)",
+      "speed": "40 ft.",
+      "str": "30",
+      "dex": "14",
+      "con": "26",
+      "int": "18",
+      "wis": "24",
+      "cha": "16",
+      "save": "Dex +9, Con +15, Wis +14",
+      "skill": {
+        "intimidation": "+17",
+        "perception": "+14"
+      },
+      "resist": "cold, fire, lightning",
+      "immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+      "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+      "senses": "truesight 120 ft.",
+      "passive": "24",
+      "languages": "all, telepathy 120 ft.",
+      "cr": "23",
+      "trait": [
+        {
+          "name": "Charge",
+          "text": [
+            "If Baphomet moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 22 (4d10) piercing damage. If the target is a creature, it must succeed on a DC 25 Strength saving throw or be pushed up to 10 feet away and knocked prone."
+          ],
+          "attack": [
+            "||4d10"
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Baphomet's spellcasting ability is Charisma (spell save DC 18). He can innately cast the following spells, requiring no material components:",
+            "At will: detect magic",
+            "3/day each: dispel magic, dominate beast, hunter's mark, maze, wall of stone",
+            "1/day each: teleport"
+          ]
+        },
+        {
+          "name": "Labyrinthine Recall",
+          "text": [
+            "Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Baphomet fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Baphomet has advantage on saving throws against spell and other magic effects."
+          ]
+        },
+        {
+          "name": "Magic Weapon",
+          "text": [
+            "Baphomet's weapon attacks are magical"
+          ]
+        },
+        {
+          "name": "Reckless",
+          "text": [
+            "At the start of his turn, Baphomet can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Baphomet makes three attacks: one with Heartcleaver, one with his bite, and one with his gore attack."
+          ]
+        },
+        {
+          "name": "Heartcleaver",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 24 (4d6+10) slashing damage"
+          ],
+          "attack": [
+            "|17|4d6+10"
+          ]
+        },
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 19 (2d8+10) piercing damage."
+          ],
+          "attack": [
+            "|17|2d8+10"
+          ]
+        },
+        {
+          "name": "Gore",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (2d10+10) piercing damage."
+          ],
+          "attack": [
+            "|17|2d10+10"
+          ]
+        },
+        {
+          "name": "Frightful Presence",
+          "text": [
+            "Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.",
+            "If a creature succeeds on any of these saves or the effect ends on it, the creature is immune is Baphomet's Frightful Presence for the next 24 hours."
+          ]
+        }
+      ],
+      "legendaryGroup": "Baphomet",
+      "legendary": [
+        {
+          "name": "Heartcleaver attack",
+          "text": [
+            "Baphomet makes a melee attack with Heartcleaver."
+          ],
+          "attack": [
+            "|17|4d6+10"
+          ]
+        },
+        {
+          "name": "Charge (Costs 2 actions)",
+          "text": [
+            "Baphomet moves up to his speed, then makes a gore attack."
+          ],
+          "attack": [
+            "|17|2d10+10"
+          ]
+        }
+      ],
+      "spells": "detect magic, dispel magic, dominate beast, hunter's mark, maze, wall of stone, teleport"
+    },
+    {
+      "name": "Demogorgon",
+      "size": "H",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "source": "OotA",
+      "alignment": "chaotic evil",
+      "ac": "22 (natural armor)",
+      "hp": "496 (34d12+272)",
+      "speed": "50 ft., swim 50 ft.",
+      "str": "29",
+      "dex": "14",
+      "con": "26",
+      "int": "20",
+      "wis": "17",
+      "cha": "25",
+      "save": "Dex +10, Con +16, Wis +11, Cha +15",
+      "skill": {
+        "insight": "+11",
+        "perception": "+19"
+      },
+      "resist": "cold, fire, lightning",
+      "immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+      "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+      "senses": "truesight 120 ft.",
+      "passive": "29",
+      "languages": "all, telepathy 120 ft.",
+      "cr": "26",
+      "trait": [
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Demogorgon's spellcasting ability is Charisma (spell save DC 23). Demogorgon can innately cast the following spells, requiring no material components:",
+            "At will: detect magic, major image",
+            "3/day each: dispel magic, fear, telekinesis",
+            "1/day each: feeblemind, project image"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Demogorgon fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Demogorgon has advantage on saving throws against spell and other magic effects."
+          ]
+        },
+        {
+          "name": "Magic Weapon",
+          "text": [
+            "Demogorgon's weapon attacks are magical"
+          ]
+        },
+        {
+          "name": "Two Heads",
+          "text": [
+            "Demogorgon has advantage on saving throws against being blinded, deafened, stunned, and knocked unconscious."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Demogorgon makes two tentacle attacks."
+          ]
+        },
+        {
+          "name": "Tentacle",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 35 (4d12+9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+          ],
+          "attack": [
+            "|17|4d12+9"
+          ]
+        },
+        {
+          "name": "Gaze",
+          "text": [
+            "Demogorgon turns his magical gaze toward one creature that he can see within 120 feet of him. That target must make a DC 23 Wisdom saving throw. Unless the target is incapacitated, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see Demogorgon until the start of his next turn. If the target looks at him in the meantime, it must immediately make the save.",
+            "If the target fails the save, the target suffers one of the following effects of Demogorgon's choice or at random:",
+            "1. Beguiling Gaze. The target is stunned until the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight.",
+            "2. Hypnotic Gaze. The target is charmed by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses how the charmed target uses its actions, reactions, and movement. Because this gaze requires Demogorgon to focus both heads on the target, he can't use his Maddening Gaze legendary action until the start of his next turn.",
+            "3. Insanity Gaze. The target suffers the effect of the confusion spell without making a saving throw. The effect lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to concentrate on the spell."
+          ]
+        }
+      ],
+      "legendaryGroup": "Demogorgon",
+      "legendary": [
+        {
+          "name": "Tail",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 31 (4d10+9) bludgeoning damage plus 22 (4d10) necrotic damage."
+          ],
+          "attack": [
+            "|17|4d10+9+4d10"
+          ]
+        },
+        {
+          "name": "Maddening Gaze",
+          "text": [
+            "Demogorgon uses his Gaze action, and must choose either the Beguiling Gaze or the Insanity Gaze effect."
+          ]
+        }
+      ],
+      "spells": "detect magic, major image, dispel magic, fear, telekinesis, feeblemind, project image"
+    },
+    {
+			"name": "Fraz-Urb'luu",
+			"size": "L",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"source": "OotA",
+			"alignment": "chaotic evil",
+			"ac": "18 (natural armor)",
+			"hp": "350 (28d10+196)",
+			"speed": "40 ft., fly 40 ft.",
+			"str": "29",
+			"dex": "12",
+			"con": "25",
+			"int": "26",
+			"wis": "24",
+			"cha": "26",
+			"save": "Dex +8, Con +15, Int +15, Wis +14",
+			"skill": {
+				"deception": "+15",
+				"perception": "+14",
+				"stealth": "+8"
+			},
+			"resist": "cold, fire, lightning",
+			"immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+			"conditionImmune": "charmed, exhaustion, frightened, poisoned",
+			"senses": "truesight 120 ft.",
+			"passive": "24",
+			"languages": "all, telepathy 120 ft.",
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Innate Spellcasting",
+					"text": [
+						"Fraz-Urb'luu's spellcasting ability is Charisma (spell save DC 23). Fraz-Urb'luu can innately cast the following spells, requiring no material components:",
+						"At will: alter self (can become Medium-sized when changing his appearance), detect magic, dispel magic, phantasmal force",
+						"3/day each: confusion, dream, mislead, programmed illusion, seeming",
+						"1/day each: mirage arcane, modify memory, project image"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"text": [
+						"If Fraz-Urb'luu fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"text": [
+						"Fraz-Urb'luu has advantage on saving throws against spell and other magic effects."
+					]
+				},
+				{
+					"name": "Magic Weapon",
+					"text": [
+						"Fraz-Urb'luu's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Undetectable",
+					"text": [
+						"Fraz-Urb'luu can't be targeted by divination magic, perceived through magical scrying sensors, or detected by abilities that sense demons or fiends."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"text": [
+						"Fraz-Urb'luu makes three attacks: one with his bite and two with his fists."
+					]
+				},
+				{
+					"name": "Bite",
+					"text": [
+						"Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 23 (4d6+9) piercing damage."
+					],
+					"attack": [
+						"|16|4d6+9"
+					]
+				},
+				{
+					"name": "Fist",
+					"text": [
+						"Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 27 (4d8+9) bludgeoning damage."
+					],
+					"attack": [
+						"|16|4d8+9"
+					]
+				}
+			],
+			"legendaryGroup": "Fraz-Urb'luu",
+			"legendary": [
+				{
+					"name": "Tail",
+					"text": [
+						"Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 31 (4d10+9) bludgeoning damage. If the target is a Large or smaller creature, it is also grappled (escape DC 24). The grappled target is also restrained. Fraz-Urb'luu can grapple only one creature with his tail at a time."
+					],
+					"attack": [
+						"|16|4d10+9"
+					]
+				},
+				{
+					"name": "Phantasmal Killer (Costs 2 Actions)",
+					"text": [
+						"Fraz-Urb'luu casts phantasmal killer, no concentration required."
+					]
+				}
+			],
+			"spells": "alter self, detect magic, dispel magic, phantasmal force, confusion, dream, mislead, programmed illusion, seeming, mirage arcane, modify memory, project image"
+		},
+    {
+      "name": "Graz'zt",
+      "size": "L",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "source": "OotA",
+      "alignment": "chaotic evil",
+      "ac": "20 (natural armor)",
+      "hp": "378 (36d10+180)",
+      "speed": "40 ft.",
+      "str": "22",
+      "dex": "15",
+      "con": "21",
+      "int": "23",
+      "wis": "21",
+      "cha": "26",
+      "save": "Dex +9, Con +12, Wis +12",
+      "skill": {
+        "deception": "+15",
+        "insight": "+12",
+        "perception": "+12",
+        "persuasion": "+15"
+      },
+      "resist": "cold, fire, lightning",
+      "immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+      "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+      "senses": "truesight 120 ft.",
+      "passive": "22",
+      "languages": "all, telepathy 120 ft.",
+      "cr": "24",
+      "trait": [
+        {
+          "name": "Shapechanger",
+          "text": [
+            "Graz'zt can use his action to polymorph into a form that resembles a Medium humanoid, or back into his true form. Aside from his size, his statistics are the same in each form, Any equipment he is wearing or carrying isn't transformed."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Graz'zt's spellcasting ability is Charisma (spell save DC 23). Graz'zt can innately cast the following spells, requiring no material components:",
+            "At will: charm person, crown of madness, detect magic, dispel magic, dissonant whispers",
+            "3/day each: counterspell, darkness, dominate person, sanctuary, telekinesis, teleport",
+            "1/day each: dominate monster, greater invisibility"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Graz'zt fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Graz'zt has advantage on saving throws against spell and other magic effects."
+          ]
+        },
+        {
+          "name": "Magic Weapon",
+          "text": [
+            "Graz'zt's weapon attacks are magical."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Graz'zt attacks twice with the Wave of Sorrow."
+          ]
+        },
+        {
+          "name": "Wave of Sorrow (Greatsword)",
+          "text": [
+            "Melee Weapon Attack: +13 to hit, reach 10 ft., one target, Hit; 20 (4d6+6) slashing damage plus 14 (4d6) acid damage."
+          ],
+          "attack": [
+            "|13|4d6+6+4d6"
+          ]
+        },
+        {
+          "name": "Teleport",
+          "text": [
+            "Graz'zt magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
+          ]
+        }
+      ],
+      "legendaryGroup": "Graz'zt",
+      "legendary": [
+        {
+          "name": "Attack",
+          "text": [
+            "Graz'zt attacks once with the Wave of Sorrow."
+          ]
+        },
+        {
+          "name": "Dance, My Puppet!",
+          "text": [
+            "One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs."
+          ]
+        },
+        {
+          "name": "Sow Discord",
+          "text": [
+            "Graz'zt casts crown of madness or dissonant whispers."
+          ]
+        },
+        {
+          "name": "Teleport",
+          "text": [
+            "Graz'zt uses his Teleport action."
+          ]
+        }
+      ],
+      "spells": "charm person, crown of madness, detect magic, dispel magic, dissonant whispers, counterspell, darkness, dominate person, sanctuary, telekinesis, teleport, dominate monster, greater invisibility"
+    },
+    {
+      "name": "Juiblex",
+      "size": "H",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "source": "OotA",
+      "alignment": "chaotic evil",
+      "ac": "18 (natural armor)",
+      "hp": "350 (28d12+168)",
+      "speed": "30 ft.",
+      "str": "24",
+      "dex": "10",
+      "con": "23",
+      "int": "20",
+      "wis": "20",
+      "cha": "16",
+      "save": "Dex +7, Con +13, Wis +12",
+      "skill": {
+        "perception": "+12"
+      },
+      "resist": "cold, fire, lightning",
+      "immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+      "conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
+      "senses": "truesight 120 ft.",
+      "passive": "22",
+      "languages": "all, telepathy 120 ft.",
+      "cr": "23",
+      "trait": [
+        {
+          "name": "Foul",
+          "text": [
+            "Any creature, other than an ooze, that starts its turn within 10 feet of Juiblex must succeed on a DC 21 Constitution saving throw or be poisoned until the start of the creature's next turn."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Juiblex's spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). Juiblex can innately cast the following spells, requiring no material components:",
+            "At will: acid splash (17th level), detect magic",
+            "3/day each: blight, contagion, gaseous form"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Juiblex fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Juiblex has advantage on saving throws against spell and other magic effects."
+          ]
+        },
+        {
+          "name": "Magic Weapon",
+          "text": [
+            "Juiblex's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "text": [
+            "Juiblex regains 20 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. Juiblex dies only if it starts its turn with 0 hit points and doesn't regenerate."
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "text": [
+            "Juiblex can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Juiblex makes three acid lash attacks."
+          ]
+        },
+        {
+          "name": "Acid Lash",
+          "text": [
+            "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (4d6+7) acid damage. Any creature killed by this attack is drawn into Juiblex's body, and the corpse is obliterated after 1 minute."
+          ],
+          "attack": [
+            "|14|4d6+7"
+          ]
+        },
+        {
+          "name": "Eject Slime (Recharge 5—6)",
+          "text": [
+            "Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a DC 21 Dexterity saving throw. On a failure, the target takes 55 (10d10) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent -1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent -1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to -5, the object is destroyed."
+          ],
+          "attack": [
+            "||10d10"
+          ]
+        }
+      ],
+      "legendaryGroup": "Juiblex",
+      "legendary": [
+        {
+          "name": "Acid Splash",
+          "text": [
+            "Juiblex casts acid splash."
+          ]
+        },
+        {
+          "name": "Attack",
+          "text": [
+            "Juiblex makes one acid lash attack."
+          ]
+        },
+        {
+          "name": "Corrupting Touch (Costs 2 Actions)",
+          "text": [
+            "Melee Weapon Attack: +14 to hit, reach 10 ft., one creature. Hit: 21 (4d6+ 7) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is poisoned, and any creature, other than an ooze, is poisoned while Within 10 of the target."
+          ],
+          "attack": [
+            "|14|4d6+7"
+          ]
+        }
+      ],
+      "spells": "acid splash, detect magic, blight, contagion, gaseous form"
+    },
+    {
+      "name": "Orcus",
+      "size": "H",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "source": "OotA",
+      "alignment": "chaotic evil",
+      "ac": "17 (natural armor)",
+      "hp": "405 (30d12+210)",
+      "speed": "40 ft., fly 40 ft.",
+      "str": "27",
+      "dex": "14",
+      "con": "25",
+      "int": "20",
+      "wis": "20",
+      "cha": "25",
+      "save": "Dex +10, Con +15, Wis +13",
+      "skill": {
+        "arcana": "+12",
+        "perception": "+12"
+      },
+      "resist": "cold, fire, lightning",
+      "immune": "necrotic, poison; bludgeoning, piercing, and slashing that is nonmagical",
+      "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+      "senses": "truesight 120 ft.",
+      "passive": "22",
+      "languages": "all, telepathy 120 ft.",
+      "cr": "26",
+      "trait": [
+        {
+          "name": "Wand of Orcus",
+          "text": [
+            "The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast animate dead, blight, or speak with dead. Alternatively, he can expend or 1 or more of the wand's charges to cast one of the following spells from it: circle of death (1 charge), finger of death (1 charge), or power word kill (2 charges). The wand regains 1d4+3 charges daily at dawn.",
+            "While holding the wand, Orcus gains +3 AC and can use an action to conjure undead creatures whose combined average hit points don't exceed 500, These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Orcus's spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+            "At will: chill touch (17th level), detect magic",
+            "3/day each: create undead, dispel magic",
+            "1/day: time stop"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Orcus fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Orcus has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapon",
+          "text": [
+            "Orcus's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Master of Undeath",
+          "text": [
+            "When Orcus casts animate dead or create undead, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Orcus makes two Wand of Orcus attacks."
+          ]
+        },
+        {
+          "name": "Wand of Orcus",
+          "text": [
+            "Melee Weapon Attack: +19 to hit, reach 10 ft., one target. Hit: 21 (3d8+8) bludgeoning damage plus 13 (2d12) necrotic damage."
+          ],
+          "attack": [
+            "|19|3d8+8+2d12"
+          ]
+        },
+        {
+          "name": "Tail",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 21 (3d8+8) piercing damage plus 18 (4d8) poison damage."
+          ],
+          "attack": [
+            "|17|3d8+8+4d8"
+          ]
+        }
+      ],
+      "legendaryGroup": "Orcus",
+      "legendary": [
+        {
+          "name": "Tail",
+          "text": [
+            "Orcus makes one tail attack."
+          ]
+        },
+        {
+          "name": "A Taste of Undeath",
+          "text": [
+            "Orcus casts chill touch (17th level)."
+          ]
+        },
+        {
+          "name": "Creeping Death (Costs 2 Actions)",
+          "text": [
+            "Orcus chooses a point on the ground that he can see within 100 feet of him. A cylinder of swirling necrotic energy 60 feet tall and with a 10-foot radius rises from that point and lasts until the end of Orcus's next turn. Creatures in that area are vulnerable to necrotic damage."
+          ]
+        }
+      ],
+      "spells": "chill touch, detect magic, create undead, dispel magic, time stop"
+    },
+    {
+      "name": "Yeenoghu",
+      "size": "H",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "source": "OotA",
+      "alignment": "chaotic evil",
+      "ac": "22 (natural armor)",
+      "hp": "348 (24d12+192)",
+      "speed": "50 ft.",
+      "str": "29",
+      "dex": "16",
+      "con": "23",
+      "int": "15",
+      "wis": "24",
+      "cha": "15",
+      "save": "Dex +10, Con +15, Wis +14",
+      "skill": {
+        "intimidation": "+9",
+        "perception": "+14"
+      },
+      "resist": "cold, fire, lightning",
+      "immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+      "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+      "senses": "truesight 120 ft.",
+      "passive": "24",
+      "languages": "all, telepathy 120 ft.",
+      "cr": "24",
+      "trait": [
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Yeenoghu's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+            "At will: detect magic, spiritual weapon (8th-level spell, 4d8+2 force damage on a hit, appears as a flail)",
+            "3/day each: dispel magic, fear, invisibility",
+            "1/day: teleport"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Yeenoghu fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Yeenoghu has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapon",
+          "text": [
+            "Yeenoghu's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Rampage",
+          "text": [
+            "When Yeenoghu reduces a creature to 0 hit points with a melee attack on his turn, Yeenoghu can take a bonus action to move up to half his speed and make a bite attack."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Yeenoghu makes three flail attacks. If an attack hits, he can cause it to create an additional effect of his choice or at random (each effect can be used only once per Multi attack):",
+            "1. The attack deals an extra 13 (2d12) bludgeoning damage.",
+            "2. The target must succeed on a DC 17 Constitution saving throw or be paralyzed until the start of Yeenoghu's next turn.",
+            "3. The target must succeed on a DC 17 Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn."
+          ]
+        },
+        {
+          "name": "Flail",
+          "text": [
+            "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 22 (2d12+9) bludgeoning damage."
+          ],
+          "attack": [
+            "|16|2d12+9"
+          ]
+        },
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 31 (4d10+9) piercing damage."
+          ],
+          "attack": [
+            "|16|4d10+9"
+          ]
+        }
+      ],
+      "legendaryGroup": "Yeenoghu",
+      "legendary": [
+        {
+          "name": "Charge",
+          "text": [
+            "Yeenoghu moves up to his speed."
+          ]
+        },
+        {
+          "name": "Swat Away",
+          "text": [
+            "Yeenoghu makes a flail attack. If the attack hits, the target must succeed on a DC 24 Strength saving throw or be pushed 15 feet in a straight line away from Yeenoghu. If the saving throw fails by 5 or more, the target falls prone."
+          ]
+        },
+        {
+          "name": "Savage (Costs 2 Actions)",
+          "text": [
+            "Yeenoghu makes a bite attack against each creature within 10 feet of him."
+          ]
+        }
+      ],
+      "spells": "detect magic, spiritual weapon, dispel magic, fear, invisibility, teleport"
+    },
+    {
+			"name": "Zuggtmoy",
+			"size": "L",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"demon"
+				]
+			},
+			"source": "OotA",
+			"alignment": "chaotic evil",
+			"ac": "18 (natural armor)",
+			"hp": "304 (32d10+128)",
+			"speed": "30 ft.",
+			"str": "22",
+			"dex": "15",
+			"con": "18",
+			"int": "20",
+			"wis": "19",
+			"cha": "24",
+			"save": "Dex +9, Con +11, Wis +11",
+			"skill": {
+				"perception": "+11"
+			},
+			"resist": "cold, fire, lightning",
+			"immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+			"conditionImmune": "charmed, exhaustion, frightened, poisoned",
+			"senses": "truesight 120 ft.",
+			"passive": "21",
+			"languages": "all, telepathy 120 ft.",
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Innate Spellcasting",
+					"text": [
+						"Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:",
+						"At will: detect magic, locate animals or plants, ray of sickness",
+						"3/day each: dispel magic, ensnaring strike, entangle, plant growth",
+						"1/day: etherealness, teleport"
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"text": [
+						"If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"text": [
+						"Zuggtmoy has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapon",
+					"text": [
+						"Zuggtmoy's weapon attacks are magical."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"text": [
+						"Zuggtmoy makes four pseudopod attacks."
+					]
+				},
+				{
+					"name": "Pseudopod",
+					"text": [
+						"Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) bludgeoning damage plus 9 (2d8) poison damage."
+					],
+					"attack": [
+						"|13|2d8+6+2d8"
+					]
+				},
+				{
+					"name": "Infestation Spores (3/Day)",
+					"text": [
+						"Zuggtmoy releases spores that burst out in cloud fills a 20-foof-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 19 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+					]
+				},
+				{
+					"name": "Mind Control Spores (Recharge 5—6)",
+					"text": [
+						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a DC 19 Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected, the creature is charmed by her and can't be reinfected by these spores."
+					]
+				}
+			],
+			"legendaryGroup": "Zuggtmoy",
+			"legendary": [
+				{
+					"name": "Attack",
+					"text": [
+						"Zuggtmoy makes one pseudopod attack."
+					]
+				},
+				{
+					"name": "Exert Will",
+					"text": [
+						"One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates."
+					]
+				}
+			],
+			"spells": "detect magic, locate animals or plants, ray of sickness, dispel magic, ensnaring strike, entangle, plant growth, etherealness, teleport"
+		}
+  ],
+  "legendaryGroup": [
+    {
+      "name": "Baphomet",
+      "lairActions": [
+        "On initiative count 20 (losing initiative ties), Baphomet can take a lair action to cause one of the following magical effects; he can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Baphomet seals one doorway or other entryway within the lair. The opening must be unoccupied. It is filled with solid stone for 1 minute or until Baphomet creates this effect again.",
+            "Baphomet chooses a room within the lair that is no larger in any dimension than 100 feet. Until the next initiative count 20, gravity is reversed within that room. Any creatures or objects in the room when this happens fall in the direction ofthc new pull of gravity, unless they have some means of remaining aloft. Baphomet can ignore the gravity reversal if he's in the room, although he likes to use this action to land on a ceiling to attack targets nying near it.",
+            "Baphomet casts {@spell mirage arcane}, affecting a room within the lair that is no longer in any dimension than 100 feet. The effect ends on the next initiative count 20."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The region containing Baphomet's lair is warped by his magic, creating one or more of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "Plant life within 1 mile of the lair grows thick and forms walls of trees, hedges, and other flora in the form of small mazes.",
+            "Beasts within 1 mile of the lair become frightened and disoriented, as though constantly under threat of being hunted, and might lash out or panic even when no visible threat is nearby.",
+            "If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 18 Wisdom saving throw or descend into a madness determined by the Madness of Baphomet table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+          ]
+        },
+        "If Baphomet dies, these effects fade over the course of 1d10 days.",
+        {
+          "type": "entries",
+          "name": "Madness of Baphomet",
+          "entries": [
+            "If a creature goes mad in Baphomet's lair or within line of sight of the demon lord, roll on the Madness of Baphomet table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+            {
+              "type": "table",
+              "caption": "Madness of Baphomet",
+              "colLabels": [
+                "d100",
+                "Flaw (lasts until cured)"
+              ],
+              "colStyles": [
+                "col-xs-1",
+                "col-xs-11"
+              ],
+              "rows": [
+                [
+                  "01-20",
+                  "\"My anger consumes me. I can't be reasoned with when my rage has been stoked.\""
+                ],
+                [
+                  "21-40",
+                  "\"I degenerate into beastly behavior, seeming more like a wild animal than a thinking being.\""
+                ],
+                [
+                  "41-60",
+                  "\"The world is my hunting ground. Others are my prey.\""
+                ],
+                [
+                  "61-80",
+                  "\"Hate comes easily to me and explodes into rage.\""
+                ],
+                [
+                  "81-00",
+                  "\"I see those who oppose me not as people, but as beasts meant to be preyed upon.\""
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+			"name": "Demogorgon",
+			"lairActions": [
+				"On Initiative count 20 (losing initiative ties), Demogorgon can take a lair action to cause one of the following effects: Demogorgon can't use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Demogorgon creates an illusory duplicate of himself, which appears in his own space and lasts until initiative count 20 of the next round. On his turn, Demogorgon can move the illusory duplicate a distance equal to his walking speed (no action required). The first time a creature or object interacts physically with Demogorgon (for example, hitting him with an attack), there is a 50 percent chance that it is the illusory duplicate that is being affected, not Demogorgon himself, in which case the illusion disappears.",
+						"Demogorgon casts the {@spell darkness} spell four times at its lowest level, targeting different areas with the spell. Demogorgon doesn't need to concentrate on the spells, which end on initiative count 20 of the next round."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing Demogorgon's lair is warped by his magic, creating one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"The area within 6 miles of the lair becomes overpopulated with lizards, poisonous snakes, and other venomous beasts.",
+						"Beasts within 1 mile of the lair become violent and crazed-even creatures that are normally docile.",
+						"If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 23 Wisdom saving throw or descend into a madness determined by the Madness of Demogorgon table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+					]
+				},
+				"If Demogorgon dies, these effects fade over the course of 1d10 days.",
+				{
+					"type": "entries",
+					"name": "Madness of Demogorgon",
+					"entries": [
+						"If a creature goes mad in Demogorgon's lair or within line of sight of the demon lord, roll on the Madness of Demogorgon table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+						{
+							"type": "table",
+							"caption": "Madness of Demogorgon",
+							"colLabels": [
+								"d100",
+								"Flaw (lasts until cured)"
+							],
+							"colStyles": [
+								"col-xs-1",
+								"col-xs-11"
+							],
+							"rows": [
+								[
+									"01-20",
+									"\"Someone is plotting to kill me. I need to strike first to stop them!\""
+								],
+								[
+									"21-40",
+									"\"There is only one solution to my problems: kill them all!\""
+								],
+								[
+									"41-60",
+									"\"There is more than one mind inside my head.\""
+								],
+								[
+									"61-80",
+									"\"If you don't agree with me, I'll beat you into submission to get my way.\""
+								],
+								[
+									"81-00",
+									"\"I can't allow anyone to touch anything that belongs to me. They might try to take it away from me!\""
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+    {
+      "name": "Fraz-Urb'luu",
+      "lairActions": [
+        "On Initiative count 20 (losing initiative ties), Fraz-Urb'luu can take a lair action to cause one of the following effects: he can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Fraz-Urb'luu causes up to 5 doors within the lair to be come walls, and an equal number of doors to appear on walls where there previously were none.",
+            "Fraz-Urb'luu chooses one humanoid within the lair and instantly creates a simulacrum of that creature (as if created with the {@spell simulacrum} spell). This simulacrum obeys Fraz-Urb'luu·s commands and is destroyed on the next initiative count 20.",
+            "Fraz-Urb'luu creates a wave of anguish. Each creature he can see within the lair must succeed on a DC 23 Wisdom saving throw or take 33 (6d10) psychic damage."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The region containing Fraz-Urb'luu's lair is warped by his magic, creating one or more of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "Intelligent creatures within 1 mile of the lair frequently see hallucinations of long-dead friends and comrades that vanish after only a brief glimpse.",
+            "Roads and paths within 6 miles of the lair twist and turn back on themselves, making navigation in the area exceedingly difficult.",
+            "If a humanoid spends at least 1 hour within 1 mile of the lair, that rreature must succeed on a DC 23 Wisdom saving throw or descend into a madness determined by the Madness of Fraz-Urb'luu table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+          ]
+        },
+        "If Fraz-Urb'luu dies, these effects fade over the course of 1d10 days.",
+        {
+          "type": "entries",
+          "name": "Madness of Fraz-Urb'luu",
+          "entries": [
+            "If a creature goes mad in Fraz-Urb'luu's lair or within line of sight of the demon lord, roll on the Madness of Fraz-Urb'luu table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+            {
+              "type": "table",
+              "caption": "Madness of Fraz-Urb'luu",
+              "colLabels": [
+                "d100",
+                "Flaw (lasts until cured)"
+              ],
+              "colStyles": [
+                "col-xs-1",
+                "col-xs-11"
+              ],
+              "rows": [
+                [
+                  "01-20",
+                  "\"I never let anyone know the truth about my actions or intentions, even if doing so would be beneficial to me.\""
+                ],
+                [
+                  "21-40",
+                  "\"I have intermittent hallucinations and fits of catatonia.\""
+                ],
+                [
+                  "41-60",
+                  "\"My mind wanders as I have elaborate fantasies that have no bearing on reality. When I return my focus to the world, I have a hard time remembering that it was just a daydream.\""
+                ],
+                [
+                  "61-80",
+                  "\"I convince myself that things are true, even in the face of overwhelming evidence to the contrary.\""
+                ],
+                [
+                  "81-00",
+                  "\"My perception of reality doesn't match anyone else's. It makes me prone to violent delusions that make no sense to anyone else.\""
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graz'zt",
+      "lairActions": [
+        "On Initiative count 20 (losing initiative ties), Graz'zt can take a lair action to cause one of the following effects: he can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Graz'zt casts the {@spell command} spell on every creature of his choice in the lair. He needn't see each one, but he must be aware that an individual is in the lair to target that creature. He issues the same command to all the targets.",
+            "Smooth surfaces within the lair become as reflective as a polished mirror. Until a different lair action is used, creatures within the lair have disadvantage on Dexterity (Stealth) checks made to hide."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The region containing Graz'zt's lair is warped by his magic, creating one or more of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "Flat surfaces within 1 mile of the lair that are made of stone or metal become highly reflective, as though polished to a shine. These surfaces become supernaturally mirrorlike.",
+            "Wild beasts within 6 miles of the lair break into frequent conflicts and coupling, mirroring the behavior that occurs during their mating seasons.",
+            "If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 23 Wisdom saving throw or descend into a madness determined by the Madness of Graz'zt table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+          ]
+        },
+        "If Graz'zt dies, these effects fade over the course of 1d10 days.",
+        {
+          "type": "entries",
+          "name": "Madness of Graz'zt",
+          "entries": [
+            "If a creature goes mad in Graz'zt's lair or within line of sight of the demon lord, roll on the Madness of Graz'zt table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+            {
+              "type": "table",
+              "caption": "Madness of Graz'zt",
+              "colLabels": [
+                "d100",
+                "Flaw (lasts until cured)"
+              ],
+              "colStyles": [
+                "col-xs-1",
+                "col-xs-11"
+              ],
+              "rows": [
+                [
+                  "01-20",
+                  "\"There is nothing in the world more important than me and my desires.\""
+                ],
+                [
+                  "21-40",
+                  "\"Anyone who doesn't do exactly what I say doesn't deserve to live.\""
+                ],
+                [
+                  "41-60",
+                  "\"Mine is the path of redemption. Anyone who says otherwise is intentionally misleading you.\""
+                ],
+                [
+                  "61-80",
+                  "\"I will not rest until I have made someone else mine, and doing so is more important to me than my own life-or the lives of others.\""
+                ],
+                [
+                  "81-90",
+                  "\"My own pleasure is of paramount importance. Everything else, including social graces, is a triviality.\""
+                ],
+                [
+                  "91-00",
+                  "\"Anything that can bring me happiness should be enjoyed immediately. There is no point to saving anything pleasurable for later.\""
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Juiblex",
+      "lairActions": [
+        "On Initiative count 20 (losing initiative ties), Juiblex can take a lair action to cause one of the following effects: he can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature in that area must succeed on a DC 21 Strength saving throw or become restrained. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save. A restrained creature is stuck as long as it remains in the slimy area or until it breaks free. The restrained creature. or another creature who can reach it. can usc its action to try to break free and must succeed on a DC 21 Strength check. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 (4d10) fire damage.",
+            "Juiblex slimes a square area of ground it can see within the lair. The area can be up to 10 feet on a side. The slime lasts for 1 hour or until it is burned away with fire. When the slime appears, each creature on it must succeed on a DC 21 Dexterity saving throw or fall prone and slide 10 feet in a random direction determined by a d8 roll. When a creature enters the area for the first time on a turn or ends its turn there, that creature must make the same save. If the slime is set on fire, it burns away after 1 round. Any creature that starts its turn in the burning slime takes 22 (4d10) fire damage.",
+            "A green slime (see the Dungeon Master's Guide) appears on a spot on the ceiling that Juiblex chooses within the lair. The slime disintegrates after 1 hour."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The region containing Juiblex's lair is warped by his magic, creating one or more of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "Small bodies of water, such as ponds or wells, within 1 mile of the lair turn highly acidic, corroding any object that touches them. Surfaces within 6 miles of the lair are frequently covered by a thin film of slime, which is slick and sticks to anything that touches it.",
+            "If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 18 Wisdom saving throw or descend into a madness determined by the Madness of Juiblex table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+          ]
+        },
+        "If Juiblex dies, these effects fade over the course of 1d10 days.",
+        {
+          "type": "entries",
+          "name": "Madness of Juiblex",
+          "entries": [
+            "If a creature goes mad in Juiblex's lair or within line of sight of the demon lord, roll on the Madness of Juiblex table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+            {
+              "type": "table",
+              "caption": "Madness of Juiblex",
+              "colLabels": [
+                "d100",
+                "Flaw (lasts until cured)"
+              ],
+              "colStyles": [
+                "col-xs-1",
+                "col-xs-11"
+              ],
+              "rows": [
+                [
+                  "01-20",
+                  "\"I must consume everything I can!\""
+                ],
+                [
+                  "21-40",
+                  "\"I refuse to part with any of my possessions.\""
+                ],
+                [
+                  "41-60",
+                  "\"I'll do everything I can to get others to eat and drink beyond their normal limits.\""
+                ],
+                [
+                  "61-80",
+                  "\"I must possess as many material goods as I can.\""
+                ],
+                [
+                  "81-00",
+                  "\"My personality is irrelevant. I am defined by what I consume.\""
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orcus",
+      "lairActions": [
+        "On Initiative count 20 (losing initiative ties), Orcus can take a lair action to cause one of the following effects: he can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Orcus's voice booms throughout the lair. His utterance causes one creature of his choice to be subjected to {@spell power word kill} (save DC 23). Orcus needn't see the creature, but he must be aware that the individual is in the lair.",
+            "Orcus causes up to six corpses within the lair to rise as skeletons, zombies, or ghouls. These undead obey his telepathic commands, which can reach anywhere in the lair.",
+            "Orcus causes skeletal arms to rise from an area on the ground in a 20-foot square that he can see. They last until the next initiative count 20. Each creature in that area when the arms appear must succeed on a DC 23 Strength saving throw or be restrained until the arms disappear or until Orcus releases their grasp (no action required)."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The region containing Orcus's lair is warped by his magic, creating one or more of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "Dead beasts periodically animate as undead mockeries of their former selves. Skeletal and zombie versions of local wildlife are commonly seen in the area.",
+            "The air becomes filled with the stench of rotting flesh, and buzzing flies grow thick within the region, even when there is no carrion to be found.",
+            "If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 23 Wisdom saving throw or descend into a madness determined by the Madness of Orcus table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+          ]
+        },
+        "If Orcus dies, these effects fade over the course of 1d10 days.",
+        {
+          "type": "entries",
+          "name": "Madness of Orcus",
+          "entries": [
+            "If a creature goes mad in Orcus's lair or within line of sight of the demon lord, roll on the Madness of Orcus table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+            {
+              "type": "table",
+              "caption": "Madness of Orcus",
+              "colLabels": [
+                "d100",
+                "Flaw (lasts until cured)"
+              ],
+              "colStyles": [
+                "col-xs-1",
+                "col-xs-11"
+              ],
+              "rows": [
+                [
+                  "01-20",
+                  "\"I often become withdrawn and moody, dwelling on the insufferable state of life.\""
+                ],
+                [
+                  "21-40",
+                  "\"I am compelled to make the weak suffer.\""
+                ],
+                [
+                  "41-60",
+                  "\"I have no compunction against tampering with the dead in my search to better understand death.\""
+                ],
+                [
+                  "61-80",
+                  "\"I want to achieve the everlasting existence of undeath.\""
+                ],
+                [
+                  "81-00",
+                  "\"I am awash in the awareness of life's futility.\""
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Strahd von Zarovich",
+      "lairActions": [
+        "While Strahd is in Castle Ravenloft, he can take lair actions as long as he isn't incapacitated.",
+        "On initiative count 20 (losing initiative ties), Strahd can take one of the following lair action options, or forgo using any of them in that round:",
+        {
+          "type": "list",
+          "items": [
+            "Until initiative count 20 of the next round, Strahd can pass through solid walls, doors, ceilings, and floors as if they weren't there.",
+            "Strahd targets any number of doors and windows that he can see, causing each one to either open or close as he wishes. Closed doors can be magically locked (needing a successful DC 20 Strength check to force open) until Strahd chooses to end the effect, or until Strahd uses this lair action again.",
+            "Strahd summons the angry spirit of one who has died in the castle. The apparition appears next to a hostile creature that Strahd can see, makes an attack against that creature, and then disappears. The apparition has the statistics of a {@creature specter}.",
+            "Strahd targets one Medium or smaller creature that casts a shadow. The target's shadow must be visible to Strahd and within 30 feet of him. If the target fails a DC 17 Charisma saving throw, its shadow detaches from it and becomes a {@creature shadow} that obeys Strahd's commands, acting on initiative count 20. A {@spell greater restoration} spell or a {@spell remove curse} spell cast on the target restores its natural shadow, but only if its undead shadow has been destroyed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yeenoghu",
+      "lairActions": [
+        "On Initiative count 20 (losing initiative ties), Yeenoghu can take a lair action to cause one of the following effects: he can't use the same effect two rounds in a row:",
+        {
+          "type": "list",
+          "items": [
+            "Yeenoghu causes an iron spike - 5 feet tall and 1 inch in diameter - to burst from the ground at a point he can see within 100 feet of him. Any creature in the space where the spike emerges must make a DC 24 Dexterity saving throw. On a failed save, the creature takes 27 (6d8) piercing damage and is restrained by being impaled on the spike. A creature can use an action to remove itself (or a creature it can reach) from the spike, ending the restrained condition.",
+            "Each gnoll or hyena that Yeenoghu can see can use its reaction to move up to its speed.",
+            "Until the next initiative count 20, all gnolls and hyenas within the lair are enraged, causing them to have advantage on melee weapon attack rolls and causing attack rolls to have advantage against them."
+          ]
+        }
+      ],
+      "regionalEffects": [
+        "The region containing Yeenoghu's lair is warped by his magic, creating one or more of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "Within 1 mile of the lair, large iron spikes grow out of the ground and stone surfaces. Yeenoghu impales the bodies of the slain on these spikes.",
+            "Predatory beasts within 6 miles of the lair become unusually savage, killing far more than what they need for food. Carcasses of prey are left to rot in an unnatural display of wasteful slaughter.",
+            "If a humanoid spends at least 1 hour within 1 mile of the lair, that creatu re must succeed on a DC 17 Wisdom saving throw or descend into a madness determined by the Madness of Yeenoghu table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+          ]
+        },
+        "If Yeenoghu dies, these effects fade over the course of 1d10 days.",
+        {
+          "type": "entries",
+          "name": "Madness of Yeenoghu",
+          "entries": [
+            "If a creature goes mad in Yeenoghu's lair or within line of sight of the demon lord, roll on the Madness of Yeenoghu table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+            {
+              "type": "table",
+              "caption": "Madness of Yeenoghu",
+              "colLabels": [
+                "d100",
+                "Flaw (lasts until cured)"
+              ],
+              "colStyles": [
+                "col-xs-1",
+                "col-xs-11"
+              ],
+              "rows": [
+                [
+                  "01-20",
+                  "\"I get caught up in the flow of anger, and try to stoke others around me into forming an angry mob.\""
+                ],
+                [
+                  "21-40",
+                  "\"The flesh of other intelligent creatures is delicious!\""
+                ],
+                [
+                  "41-60",
+                  "\"I rail against the laws and customs of civilization, attempting to return to a more primitive time.\""
+                ],
+                [
+                  "61-80",
+                  "\"I hunger for the deaths of others, and am constantly starting fights in the hope of seeing bloodshed.\""
+                ],
+                [
+                  "81-00",
+                  "\"I keep trophies from the bodies I have slain, turning them into adornments.\""
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+			"name": "Zuggtmoy",
+			"lairActions": [
+				"On Initiative count 20 (losing initiative ties), Zuggtmoy can take a lair action to cause one of the following effects: he can't use the same effect two rounds in a row:",
+				{
+					"type": "list",
+					"items": [
+						"Zuggtmoy causes four {@creature gas spore|mm|gas spores} or {@creature violet fungus|mm|violet fungi} to appear in unoccupied spaces that she chooses within the lair. They vanish after 1 hour.",
+						"Up to four plant creatures that are friendly to Zuggtmoy and that Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack.",
+						"Zuggtmoy uses either her Infestation Spores or her Mind Control Spores, centered on a mushroom or other fungus within her lair, instead of on herself."
+					]
+				}
+			],
+			"regionalEffects": [
+				"The region containing Zuggtmoy's lair is warped by his magic, creating one or more of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Molds and fungi grow on surfaces within 6 miles of the lair, even where they would normally find no purchase.",
+						"Plant life within 1 mile of the lair becomes infested with parasitic fungi, slowly mutating as it is overwhelmed.",
+						"If a humanoid spends at least 1 hour within 1 mile of the lair, that creature must succeed on a DC 17 Wisdom saving throw or descend into a madness determined by the Madness of Zuggtmoy table. A creature that succeeds on this saving throw can't be affected by this regional effect again for 24 hours."
+					]
+				},
+				"If Zuggtmoy dies, these effects fade over the course of 1d10 days.",
+				{
+					"type": "entries",
+					"name": "Madness of Zuggtmoy",
+					"entries": [
+						"If a creature goes mad in Zuggtmoy's lair or within line of sight of the demon lord, roll on the Madness of Zuggtmoy table to determine the nature of the madness, which is a character flaw that lasts until cured. See the Dungeon Master's Guide for more on madness.",
+						{
+							"type": "table",
+							"caption": "Madness of Zuggtmoy",
+							"colLabels": [
+								"d100",
+								"Flaw (lasts until cured)"
+							],
+							"colStyles": [
+								"col-xs-1",
+								"col-xs-11"
+							],
+							"rows": [
+								[
+									"01-20",
+									"\"I see visions in the world around me that others do not.\""
+								],
+								[
+									"21-40",
+									"\"I periodically slip into a catatonic state, staring off into the distance for long stretches at a time.\""
+								],
+								[
+									"41-60",
+									"\"I see an altered version of reality, with my mind convincing itself that things are true even in the face of overwhelming evidence to the contrary.\""
+								],
+								[
+									"61-80",
+									"\"My mind is slipping away, and my intelligence seems to wax and wane.\""
+								],
+								[
+									"81-00",
+									"\"I am constantly scratching at unseen fungal infections.\""
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+  ] 
 }
