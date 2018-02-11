@@ -34632,7 +34632,12 @@
 		{
 			"name": "Howling Hatred Priest",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "PotA",
 			"alignment": "neutral evil",
 			"ac": "15 (studded leather)",
@@ -34701,7 +34706,12 @@
 		{
 			"name": "Hurricane",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "PotA",
 			"alignment": "lawful evil",
 			"ac": "14",
@@ -35280,7 +35290,12 @@
 		{
 			"name": "One-Eyed Shiver",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "PotA",
 			"alignment": "chaotic evil",
 			"ac": "12 (15 with mage armor)",
@@ -35410,7 +35425,12 @@
 		{
 			"name": "Razerblast",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "PotA",
 			"alignment": "chaotic evil",
 			"ac": "17 (splint)",
@@ -35650,7 +35670,7 @@
 			"type": "humanoid",
 			"source": "PotA",
 			"alignment": "neutral evil",
-			"ac": "19 (splint, shield)",
+			"ac": "17 (splint)",
 			"hp": "75 (10d8+30)",
 			"speed": "30 ft.",
 			"str": "15",
@@ -37485,7 +37505,12 @@
 		{
 			"name": "Uthgardt Shaman",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "SKT",
 			"alignment": "neutral evil",
 			"ac": "13",
@@ -37891,7 +37916,12 @@
 			"source": "TTP",
 			"name": "Tortle",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tortle"
+				]
+			},
 			"alignment": "lawful good",
 			"ac": "17 (natural armor)",
 			"hp": "22 (4d8+4)",
@@ -37958,7 +37988,12 @@
 			"source": "TTP",
 			"name": "Tortle Druid",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tortle"
+				]
+			},
 			"alignment": "lawful neutral",
 			"ac": "17 (natural armor)",
 			"hp": "33 (6d8+6)",
@@ -38079,7 +38114,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"human"
+					"any race"
 				]
 			},
 			"alignment": "any alignment",
@@ -38359,7 +38394,12 @@
 			"source": "TftYP",
 			"name": "Duergar Spy",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
 			"alignment": "lawful evil",
 			"ac": "15 (studded leather)",
 			"hp": "33 (6d8+6)",
@@ -40649,7 +40689,12 @@
 			"source": "ToA",
 			"name": "Albino Dwarf Warrior",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
 			"alignment": "any alignment",
 			"ac": "13 (hide armor)",
 			"hp": "30 (4d8+12)",
@@ -40939,7 +40984,12 @@
 			"source": "ToA",
 			"name": "Atropal",
 			"size": "H",
-			"type": "undead",
+			"type": {
+				"type": "undead",
+				"tags": [
+					"titan"
+				]
+			},
 			"alignment": "neutral evil",
 			"ac": "7",
 			"hp": "225 (18d12+108)",
@@ -42733,7 +42783,12 @@
 		{
 			"name": "Dragonclaw",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "ToD",
 			"alignment": "neutral evil",
 			"ac": "14 (leather armor)",
@@ -42797,7 +42852,12 @@
 		{
 			"name": "Dragonfang",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "ToD",
 			"alignment": "neutral evil",
 			"ac": "15 (studded leather)",
@@ -42871,7 +42931,12 @@
 		{
 			"name": "Dragonsoul",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "ToD",
 			"alignment": "neutral evil",
 			"ac": "16 (studded leather)",
@@ -42951,7 +43016,12 @@
 		{
 			"name": "Dragonwing",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
 			"source": "ToD",
 			"alignment": "neutral evil",
 			"ac": "14 (leather armor)",
@@ -44324,7 +44394,12 @@
 		{
 			"name": "Abjurer",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -44607,7 +44682,12 @@
 		{
 			"name": "Apprentice Wizard",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "10",
@@ -44652,7 +44732,12 @@
 		{
 			"name": "Archdruid",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "16 (hide armor, shield)",
@@ -44715,7 +44800,12 @@
 		{
 			"name": "Archer",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "16 (studded leather armor)",
@@ -44964,7 +45054,12 @@
 		{
 			"name": "Bard",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "15 (chain shirt)",
@@ -45033,7 +45128,12 @@
 		{
 			"name": "Barghest",
 			"size": "L",
-			"type": "fiend",
+			"type": {
+				"type": "fiend",
+				"tags": [
+					"shapechanger"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "17 (natural armor)",
@@ -45310,7 +45410,12 @@
 		{
 			"name": "Blackguard",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any non-good alignment",
 			"ac": "18 (plate)",
@@ -45726,7 +45831,12 @@
 		{
 			"name": "Champion",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "18 (plate)",
@@ -45947,7 +46057,12 @@
 		{
 			"name": "Cloud Giant Smiling One",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"cloud giant"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic neutral",
 			"ac": "15 (natural armor)",
@@ -46035,7 +46150,12 @@
 		{
 			"name": "Conjurer",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -46400,7 +46520,12 @@
 		{
 			"name": "Deep Scion",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"shapechanger"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "11",
@@ -46634,7 +46759,12 @@
 		{
 			"name": "Diviner",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -46941,7 +47071,12 @@
 		{
 			"name": "Enchanter",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -47000,7 +47135,12 @@
 		{
 			"name": "Evoker",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -47059,7 +47199,12 @@
 		{
 			"name": "Fire Giant Dreadnought",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"fire giant"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "21 (plate, shields)",
@@ -47128,7 +47273,12 @@
 		{
 			"name": "Firenewt Warlock of Imix",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"firenewt"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "10 (13 with mage armor)",
@@ -47189,7 +47339,12 @@
 		{
 			"name": "Firenewt Warrior",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"firenewt"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "16 (chain shirt, shield)",
@@ -47310,7 +47465,12 @@
 		{
 			"name": "Flind",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnoll"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "16 (chain mail)",
@@ -47460,7 +47620,12 @@
 		{
 			"name": "Frost Giant Everlasting One",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"frost giant"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "15 (patchwork armor)",
@@ -47770,7 +47935,12 @@
 		{
 			"name": "Gnoll Flesh Gnawer",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnoll"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "14 (studded leather armor)",
@@ -47831,7 +48001,12 @@
 		{
 			"name": "Gnoll Hunter",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gnoll"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "13 (leather armor)",
@@ -48019,7 +48194,12 @@
 		{
 			"name": "Grung",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"grung"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "12",
@@ -48089,7 +48269,12 @@
 		{
 			"name": "Grung Elite Warrior",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"grung"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "13",
@@ -48174,7 +48359,12 @@
 		{
 			"name": "Grung Wildling",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"grung"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "13 (16 with barkskin)",
@@ -48294,7 +48484,12 @@
 		{
 			"name": "Hobgoblin Devastator",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "13 (studded leather armor)",
@@ -48361,7 +48556,12 @@
 		{
 			"name": "Hobgoblin Iron Shadow",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "15",
@@ -48580,7 +48780,12 @@
 		{
 			"name": "Illusionist",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -48755,7 +48960,12 @@
 		{
 			"name": "Kobold Dragonshield",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kobold"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "15 (leather armor, shield)",
@@ -48822,7 +49032,12 @@
 		{
 			"name": "Kobold Inventor",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kobold"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "12",
@@ -48899,7 +49114,12 @@
 		{
 			"name": "Kobold Scale Sorcerer",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kobold"
+				]
+			},
 			"source": "VGM",
 			"alignment": "lawful evil",
 			"ac": "15 (natural armor)",
@@ -49050,7 +49270,12 @@
 		{
 			"name": "Kraken Priest",
 			"size": "M",
-      "type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any evil alignment",
 			"ac": "10",
@@ -49185,7 +49410,12 @@
 		{
 			"name": "Martial Arts Adept",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "16",
@@ -49252,7 +49482,12 @@
 		{
 			"name": "Master Thief",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "16 (studded leather armor)",
@@ -49680,7 +49915,12 @@
 		{
 			"name": "Mouth of Grolantor",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"hill giant"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "14 (natural armor)",
@@ -49736,7 +49976,12 @@
 		{
 			"name": "Necromancer",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -50057,7 +50302,12 @@
 		{
 			"name": "Nilbog",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "13 (leather armor)",
@@ -50132,7 +50382,12 @@
 		{
 			"name": "Orc Blade of Ilneval",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "18 (chain mail, shield)",
@@ -50205,7 +50460,12 @@
 		{
 			"name": "Orc Claw of Luthic",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "14 (hide armor)",
@@ -50272,7 +50532,12 @@
 		{
 			"name": "Orc Hand of Yurtrus",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "12 (hide armor)",
@@ -50333,7 +50598,12 @@
 		{
 			"name": "Orc Nurtured One of Yurtrus",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "9",
@@ -50393,7 +50663,12 @@
 		{
 			"name": "Orc Red Fang of Shargaas",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "15 (studded leather armor)",
@@ -51192,7 +51467,12 @@
 		{
 			"name": "Stone Giant Dreamwalker",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"stone giant"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic neutral",
 			"ac": "18 (natural armor)",
@@ -51258,7 +51538,12 @@
 		{
 			"name": "Storm Giant Quintessent",
 			"size": "H",
-			"type": "giant",
+			"type": {
+				"type": "giant",
+				"tags": [
+					"storm giant"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic good",
 			"ac": "12",
@@ -51452,7 +51737,12 @@
 		{
 			"name": "Swashbuckler",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any non-lawful alignment",
 			"ac": "17 (leather armor)",
@@ -51519,7 +51809,8 @@
 			"type": {
 				"type": "fiend",
 				"tags": [
-					"demon"
+					"demon",
+					"orc"
 				]
 			},
 			"source": "VGM",
@@ -51701,7 +51992,12 @@
 		{
 			"name": "Transmuter",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -52131,7 +52427,12 @@
 		{
 			"name": "War Priest",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "18 (plate)",
@@ -52193,7 +52494,12 @@
 		{
 			"name": "Warlock of the Archfey",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "11 (14 with mage armor)",
@@ -52256,7 +52562,12 @@
 		{
 			"name": "Warlock of the Fiend",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -52320,7 +52631,12 @@
 		{
 			"name": "Warlock of the Great Old One",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "12 (15 with mage armor)",
@@ -52382,7 +52698,12 @@
 		{
 			"name": "Warlord",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
 			"source": "VGM",
 			"alignment": "any alignment",
 			"ac": "18 (plate)",
@@ -52597,7 +52918,12 @@
 		{
 			"name": "Xvart",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"xvart"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "13 (leather armor)",
@@ -52660,7 +52986,12 @@
 		{
 			"name": "Xvart Speaker",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"xvart"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "13 (leather armor)",
@@ -52723,7 +53054,12 @@
 		{
 			"name": "Xvart Warlock of Raxivort",
 			"size": "S",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"xvart"
+				]
+			},
 			"source": "VGM",
 			"alignment": "chaotic evil",
 			"ac": "12 (15 with mage armor)",
@@ -52853,7 +53189,13 @@
 		{
 			"name": "Yuan-ti Anathema",
 			"size": "H",
-			"type": "monstrosity",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "16 (natural armor)",
@@ -52969,7 +53311,12 @@
 		{
 			"name": "Yuan-ti Broodguard",
 			"size": "M",
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"yuan-ti"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "14 (natural armor)",
@@ -53047,7 +53394,13 @@
 		{
 			"name": "Yuan-ti Mind Whisperer",
 			"size": "M",
-			"type": "monstrosity",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "14 (natural armor)",
@@ -53158,7 +53511,13 @@
 		{
 			"name": "Yuan-ti Nightmare Speaker",
 			"size": "M",
-			"type": "monstrosity",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "14 (natural armor)",
@@ -53272,7 +53631,13 @@
 		{
 			"name": "Yuan-ti Pit Master",
 			"size": "M",
-			"type": "monstrosity",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"shapechanger",
+					"yuan-ti"
+				]
+			},
 			"source": "VGM",
 			"alignment": "neutral evil",
 			"ac": "14 (natural armor)",
