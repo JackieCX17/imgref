@@ -1187,62 +1187,296 @@
       "spells": "detect magic, spiritual weapon, dispel magic, fear, invisibility, teleport"
     },
     {
-			"name": "Zuggtmoy",
-			"size": "L",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "OotA",
-			"alignment": "chaotic evil",
-			"ac": "18 (natural armor)",
-			"hp": "304 (32d10+128)",
-			"speed": "30 ft.",
-			"str": "22",
-			"dex": "15",
-			"con": "18",
-			"int": "20",
-			"wis": "19",
-			"cha": "24",
-			"save": "Dex +9, Con +11, Wis +11",
-			"skill": {
-				"perception": "+11"
-			},
-			"resist": "cold, fire, lightning",
-			"immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
-			"conditionImmune": "charmed, exhaustion, frightened, poisoned",
-			"senses": "truesight 120 ft.",
-			"passive": "21",
-			"languages": "all, telepathy 120 ft.",
-			"cr": "23",
+      "name": "Zuggtmoy",
+      "size": "L",
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "demon"
+        ]
+      },
+      "source": "OotA",
+      "alignment": "chaotic evil",
+      "ac": "18 (natural armor)",
+      "hp": "304 (32d10+128)",
+      "speed": "30 ft.",
+      "str": "22",
+      "dex": "15",
+      "con": "18",
+      "int": "20",
+      "wis": "19",
+      "cha": "24",
+      "save": "Dex +9, Con +11, Wis +11",
+      "skill": {
+        "perception": "+11"
+      },
+      "resist": "cold, fire, lightning",
+      "immune": "poison; bludgeoning, piercing, and slashing that is nonmagical",
+      "conditionImmune": "charmed, exhaustion, frightened, poisoned",
+      "senses": "truesight 120 ft.",
+      "passive": "21",
+      "languages": "all, telepathy 120 ft.",
+      "cr": "23",
+      "trait": [
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:",
+            "At will: detect magic, locate animals or plants, ray of sickness",
+            "3/day each: dispel magic, ensnaring strike, entangle, plant growth",
+            "1/day: etherealness, teleport"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Zuggtmoy has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapon",
+          "text": [
+            "Zuggtmoy's weapon attacks are magical."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Zuggtmoy makes four pseudopod attacks."
+          ]
+        },
+        {
+          "name": "Pseudopod",
+          "text": [
+            "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) bludgeoning damage plus 9 (2d8) poison damage."
+          ],
+          "attack": [
+            "|13|2d8+6+2d8"
+          ]
+        },
+        {
+          "name": "Infestation Spores (3/Day)",
+          "text": [
+            "Zuggtmoy releases spores that burst out in cloud fills a 20-foof-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 19 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+          ]
+        },
+        {
+          "name": "Mind Control Spores (Recharge 5—6)",
+          "text": [
+            "Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a DC 19 Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected, the creature is charmed by her and can't be reinfected by these spores."
+          ]
+        }
+      ],
+      "legendaryGroup": "Zuggtmoy",
+      "legendary": [
+        {
+          "name": "Attack",
+          "text": [
+            "Zuggtmoy makes one pseudopod attack."
+          ]
+        },
+        {
+          "name": "Exert Will",
+          "text": [
+            "One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates."
+          ]
+        }
+      ],
+      "spells": "detect magic, locate animals or plants, ray of sickness, dispel magic, ensnaring strike, entangle, plant growth, etherealness, teleport"
+    },
+    {
+      "name": "Imix",
+      "size": "H",
+      "type": "elemental",
+      "source": "PotA",
+      "alignment": "neutral evil",
+      "ac": "17",
+      "hp": "325 (26d12+156)",
+      "speed": "50 ft., fly 50 ft.",
+      "str": "19",
+      "dex": "24",
+      "con": "22",
+      "int": "15",
+      "wis": "16",
+      "cha": "23",
+      "save": "Dex +14, Con +13, Cha +13",
+      "resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "fire, poison",
+      "conditionImmune": "charmed, frightened, paralyzed, petrified, poisoned, prone, restrained",
+      "senses": "blindsight 120 ft.",
+      "passive": "13",
+      "languages": "Common, Ignan",
+      "cr": "19",
+      "trait": [
+        {
+          "name": "Empowered Attacks",
+          "text": [
+            "Imix's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Fire Aura",
+          "text": [
+            "At the start of each of Imix's turns, each creature within 10 feet of him takes 17 (5d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature also takes 17 (5d6) fire damage if it touches Imix or hits him with a melee attack while within 10 feet of him, and a creature takes that damage the first time on a turn that Imix moves into its space. Nonmagical weapons that hit Imix are destroyed by fire immediately after dealing damage to him"
+          ],
+          "attack": [
+            "Fire Aura||5d6"
+          ]
+        },
+        {
+          "name": "Fire Form",
+          "text": [
+            "Imix can enter a hostile creature's space and stop there. He can move through a space as narrow as 1 inch without squeezing if fire could pass through that space."
+          ]
+        },
+        {
+          "name": "Illumination",
+          "text": [
+            "Imix sheds bright light in a 60-foot radius and dim light for an additional 60 feet."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Imix fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Imix's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+            "• At will: fireball, wall of fire",
+            "• 3/day each: fire storm, haste, teleport"
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Imix has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Imix makes two slam attacks or two flame blast attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10+7) bludgeoning damage plus 18 (5d6) fire damage."
+          ],
+          "attack": [
+            "Slam|12|2d10+7+5d6"
+          ]
+        },
+        {
+          "name": "Flame Blast",
+          "text": [
+            "Ranged Spell Attack: +12 to hit, range 250 ft., one target. Hit: 35 (10d6) fire damage."
+          ],
+          "attack": [
+            "Flame Blast|12|10d6"
+          ]
+        },
+        {
+          "name": "Summon Elementals (1/Day)",
+          "text": [
+            "Imix summons up to three fire elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Imix, and disappear if Imix is reduced to 0 hit points."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Heat Wave",
+          "text": [
+            "Imix creates a blast of heat within 300 feet of himself. Each creature in the area in physical contact with metal objects (for example, carrying metal weapons or wearing metal armor) takes 9 (2d8) fire damage. Each creature in the area that isn't resistant or immune to fire damage must make a DC 21 Constitution saving throw or gain one level of exhaustion."
+          ],
+          "attack": [
+            "Heat Wave||2d8"
+          ]
+        },
+        {
+          "name": "Teleport (Costs 2 Actions)",
+          "text": [
+            "Imix magically teleports up to 120 feet to an unoccupied space he can see. Anything Imix is wearing or carrying isn't teleported with him."
+          ]
+        },
+        {
+          "name": "Combustion (Costs 3 Actions)",
+          "text": [
+            "Imix causes one creature he can see within 30 feet of him to burst into flames. The target must make a DC 21 Constitution saving throw. On a failed save, the target takes 70 (20d6) fire damage and catches fire. A target on fire takes 10 (3d6) fire damage when it starts its turn, and remains on fire until it or another creature takes an action to douse the flames. On a successful save, the target takes half as much damage and doesn't catch fire."
+          ],
+          "attack": [
+            "Combustion||20d6"
+          ]
+        }
+      ],
+      "spells": "fireball, wall of fire, fire storm, haste, teleport"
+    },
+    {
+			"name": "Ogremoch",
+			"size": "G",
+			"type": "elemental",
+			"source": "PotA",
+			"alignment": "neutral evil",
+			"ac": "20 (natural armor)",
+			"hp": "526 (27d20+243)",
+			"speed": "50 ft., burrow 50 ft.",
+			"str": "26",
+			"dex": "11",
+			"con": "28",
+			"int": "11",
+			"wis": "15",
+			"cha": "22",
+			"save": "Str +14, Con +15, Wis +8",
+			"resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+			"immune": "poison",
+			"conditionImmune": "charmed, frightened, paralyzed, petrified, poisoned, prone",
+			"senses": "blindsight 120 ft., tremorsense 120 ft.",
+			"passive": "12",
+			"languages": "Common, Terran",
+			"cr": "20",
 			"trait": [
+				{
+					"name": "Empowered Attacks",
+					"text": [
+						"Ogremoch's slam attacks are treated as magical and adamantine for the purpose of bypassing resistance and immunity to nonmagical attacks."
+					]
+				},
 				{
 					"name": "Innate Spellcasting",
 					"text": [
-						"Zuggtmoy's spellcasting ability is Charisma (spell save DC 22). She can innately cast the following spells, requiring no material components:",
-						"At will: detect magic, locate animals or plants, ray of sickness",
-						"3/day each: dispel magic, ensnaring strike, entangle, plant growth",
-						"1/day: etherealness, teleport"
+						"Ogremoch's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+						"• At will: meld into stone, move earth, wall of stone"
 					]
 				},
 				{
 					"name": "Legendary Resistance (3/Day)",
 					"text": [
-						"If Zuggtmoy fails a saving throw, she can choose to succeed instead."
+						"If Ogremoch fails a saving throw, he can choose to succeed instead."
 					]
 				},
 				{
 					"name": "Magic Resistance",
 					"text": [
-						"Zuggtmoy has advantage on saving throws against spells and other magical effects."
+						"Ogremoch has advantage on saving throws against spells and other magical effects."
 					]
 				},
 				{
-					"name": "Magic Weapon",
+					"name": "Siege Monster",
 					"text": [
-						"Zuggtmoy's weapon attacks are magical."
+						"Ogremoch deals double damage to objects and structures with his melee and ranged weapon attacks."
 					]
 				}
 			],
@@ -1250,47 +1484,523 @@
 				{
 					"name": "Multiattack",
 					"text": [
-						"Zuggtmoy makes four pseudopod attacks."
+						"Ogremoch makes two slam attacks."
 					]
 				},
 				{
-					"name": "Pseudopod",
+					"name": "Slam",
 					"text": [
-						"Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) bludgeoning damage plus 9 (2d8) poison damage."
+						"Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 30 (4d10+8) bludgeoning damage."
 					],
 					"attack": [
-						"|13|2d8+6+2d8"
+						"Slam|14|4d10+8"
 					]
 				},
 				{
-					"name": "Infestation Spores (3/Day)",
+					"name": "Boulder",
 					"text": [
-						"Zuggtmoy releases spores that burst out in cloud fills a 20-foof-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 19 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
+						"Ranged Weapon Attack: +6 to hit, range 500 ft., one target. Hit: 46 (7d10+8) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked prone."
+					],
+					"attack": [
+						"Boulder|6|7d10+8"
 					]
 				},
 				{
-					"name": "Mind Control Spores (Recharge 5—6)",
+					"name": "Summon Elementals (1/Day)",
 					"text": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a DC 19 Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected, the creature is charmed by her and can't be reinfected by these spores."
+						"Ogremoch summons up to three earth elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Ogremoch, and disappear if Ogremoch is reduced to 0 hit points."
 					]
 				}
 			],
-			"legendaryGroup": "Zuggtmoy",
 			"legendary": [
 				{
-					"name": "Attack",
+					"name": "Illuminating Crystals",
 					"text": [
-						"Zuggtmoy makes one pseudopod attack."
+						"Ogremoch's crystalline protrusions flare. Each creature within 30 feet of Ogremoch becomes outlined in orange light, shedding dim light in a 10-foot radius. Any attack roll against an affected creature has advantage if the attacker can see it, and the affected creature can't benefit from being invisible."
 					]
 				},
 				{
-					"name": "Exert Will",
+					"name": "Stomp (Costs 2 Actions)",
 					"text": [
-						"One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates."
+						"Ogremoch stomps the ground, creating an earth tremor that extends in a 30-foot radius. Other creatures standing on the ground in that radius must succeed on a DC 23 Dexterity saving throw or fall prone."
+					]
+				},
+				{
+					"name": "Create Gargoyle (Costs 3 Actions)",
+					"text": [
+						"Ogremoch's hit points are reduced by 50 as he breaks off a chunk of his body and places it on the ground in an unoccupied space within 15 feet of him. The chunk of rock instantly transforms into a gargoyle and acts on the same initiative count as Ogremoch. Ogremoch can't use this action if he has 50 hit points or fewer. The gargoyle obeys Ogremoch's commands and fights until destroyed."
 					]
 				}
 			],
-			"spells": "detect magic, locate animals or plants, ray of sickness, dispel magic, ensnaring strike, entangle, plant growth, etherealness, teleport"
+			"spells": "meld into stone, move earth, wall of stone"
+		},
+    {
+      "name": "Olhydra",
+      "size": "H",
+      "type": "elemental",
+      "source": "PotA",
+      "alignment": "neutral evil",
+      "ac": "18 (natural armor)",
+      "hp": "324 (24d12+168)",
+      "speed": "50 ft., swim 100 ft.",
+      "str": "21",
+      "dex": "22",
+      "con": "24",
+      "int": "17",
+      "wis": "18",
+      "cha": "23",
+      "save": "Str +11, Con +13, Wis +10",
+      "resist": "lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "acid, cold, poison",
+      "conditionImmune": "charmed, frightened, paralyzed, petrified, poisoned, prone, restrained",
+      "senses": "blindsight 120 ft.",
+      "passive": "14",
+      "languages": "Aquan",
+      "cr": "18",
+      "trait": [
+        {
+          "name": "Empowered Attacks",
+          "text": [
+            "Olhydra's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Olhydra's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+            "• At will: wall of ice",
+            "• 3/day: ice storm",
+            "• 1/day: storm of vengeance"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Olhydra fails a saving throw, she can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Olhydra has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Water Form",
+          "text": [
+            "Olhydra can enter a hostile creature's space and stop there. She can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Olhydra makes two slam attacks or two water jet attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 21 (3d10+5) bludgeoning damage, and the target is grappled (escape DC 19). Olhydra can grapple up to four targets. When Olhydra moves, all creatures she is grappling move with her."
+          ],
+          "attack": [
+            "Slam|11|3d10+5"
+          ]
+        },
+        {
+          "name": "Water Jet",
+          "text": [
+            "Ranged Weapon Attack: +12 to hit, range 120 ft., one target. Hit: 21 (6d6) bludgeoning damage, and the target is knocked prone if it fails a DC 19 Strength saving throw."
+          ],
+          "attack": [
+            "Water Jet|12|6d6"
+          ]
+        },
+        {
+          "name": "Summon Elementals (1/Day)",
+          "text": [
+            "Olhydra summons up to three water elementals and loses 30 hit points for each elemental she summons. Summoned elementals have maximum hit points, appear within 100 feet of Olhydra, and disappear if Olhydra is reduced to 0 hit points."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Crush",
+          "text": [
+            "One creature that Olhydra is grappling is crushed for 21 (3d10+5) bludgeoning damage."
+          ],
+          "attack": [
+            "Crush||3d10+5"
+          ]
+        },
+        {
+          "name": "Fling (Costs 2 Actions)",
+          "text": [
+            "Olhydra releases one creature she is grappling by flinging the creature up to 60 feet away from her, in a direction of her choice. If the flung creature comes into contact with a solid surface, such as a wall or floor, the creature takes 1d6 bludgeoning damage for every 10 feet it was flung."
+          ]
+        },
+        {
+          "name": "Water to Acid (Costs 3 Actions)",
+          "text": [
+            "Olhydra transforms her watery body into acid. This effect lasts until Olhydra's next turn. Any creature that comes into contact with Olhydra or hits her with a melee attack while standing within 5 feet of her takes 11 (2d10) acid damage. Any creature grappled by Olhydra takes 22 (4d10) acid damage at the start of its turn."
+          ],
+          "attack": [
+            "Contact||2d10",
+            "Grappled||4d10"
+          ]
+        }
+      ],
+      "spells": "wall of ice, ice storm, storm of vengeance"
+    },
+    {
+      "name": "Yan-C-Bin",
+      "size": "H",
+      "type": "elemental",
+      "source": "PotA",
+      "alignment": "neutral evil",
+      "ac": "22 (natural armor)",
+      "hp": "283 (21d12+147)",
+      "speed": "50 ft., fly 150 ft.",
+      "str": "18",
+      "dex": "24",
+      "con": "24",
+      "int": "16",
+      "wis": "21",
+      "cha": "23",
+      "save": "Dex +13, Wis +11, Cha +12",
+      "resist": "cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "lightning, poison, thunder",
+      "conditionImmune": "charmed, frightened, paralyzed, petrified, poisoned, prone, restrained",
+      "senses": "blindsight 120 ft.",
+      "passive": "15",
+      "languages": "Auran",
+      "cr": "18",
+      "trait": [
+        {
+          "name": "Air Form",
+          "text": [
+            "Yan-C-Bin can enter a hostile creature's space and stop there. He can move through a space as narrow as 1 inch wide without squeezing if air could pass through that space."
+          ]
+        },
+        {
+          "name": "Empowered Attacks",
+          "text": [
+            "Yan-C-Bin's slam attacks are treated as magical for the purpose of bypassing resistance and immunity to nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Yan-C-Bin's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+            "• At will: gust of wind, invisibility, lightning bolt",
+            "• 2/day each: chain lightning, cloudkill, haste"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If Yan-C-Bin fails a saving throw, he can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Yan-C-Bin has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Yan-C-Bin makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 20 (3d8+7) force damage plus 10 (3d6) lightning damage."
+          ],
+          "attack": [
+            "Slam|14|3d8+7+3d6"
+          ]
+        },
+        {
+          "name": "Thundercrack (Recharges after a Short or Long Rest)",
+          "text": [
+            "Yan-C-Bin unleashes a terrible thundercrack in a 100-foot- radius sphere centered on himself. All other creatures in the area must succeed on a DC 24 Constitution saving throw or take 31 (9d6) thunder damage and be deafened for 1 minute. On a successful save, a creature takes half as much damage and is deafened until the start of Yan-C-Bin's next turn."
+          ],
+          "attack": [
+            "Thundercrack||9d6"
+          ]
+        },
+        {
+          "name": "Change Shape",
+          "text": [
+            "Yan-C-Bin polymorphs into a Medium humanoid. While in polymorphed form, a swirling breeze surrounds him, his eyes are pale and cloudy, and he loses the Air Form trait. He can remain in polymorphed form for up to 1 hour. Reverting to his true form requires an action."
+          ]
+        },
+        {
+          "name": "Summon Elementals (1/Day)",
+          "text": [
+            "Yan-C-Bin summons up to three air elementals and loses 30 hit points for each elemental he summons. Summoned elementals have maximum hit points, appear within 100 feet of Yan-C-Bin, and disappear if Yan-C-Bin is reduced to 0 hit points."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Peal of Thunder",
+          "text": [
+            "Yan-C-Bin unleashes a peal of thunder that can be heard out to a range of 300 feet. Each creature within 30 feet of Yan-C-Bin takes 5 (1d10) thunder damage."
+          ],
+          "attack": [
+            "Peal of Thunder||1d10"
+          ]
+        },
+        {
+          "name": "Teleport (Costs 2 Actions)",
+          "text": [
+            "Yan-C-Bin magically teleports up to 120 feet to an unoccupied space he can see. Anything Yan-C-Bin is wearing or carrying is teleported with him."
+          ]
+        },
+        {
+          "name": "Suffocate (Costs 3 Actions)",
+          "text": [
+            "Yan-C-Bin steals the air of one breathing creature he can see within 60 feet of him. The target must make a DC 21 Constitution saving throw. On a failed save, the target drops to 0 hit points and is dying. On a successful save, the target can't breathe or speak until the start of its next turn."
+          ]
+        }
+      ],
+      "spells": "gust of wind, invisibility, lightning bolt, chain lightning, cloudkill, haste"
+    },
+    {
+      "name": "Maegera the Dawn Titan",
+      "size": "G",
+      "type": "elemental",
+      "source": "SKT",
+      "alignment": "chaotic evil",
+      "ac": "16",
+      "hp": "341 (22d20+110)",
+      "speed": "50 ft..",
+      "str": "21",
+      "dex": "22",
+      "con": "20",
+      "int": "10",
+      "wis": "10",
+      "cha": "19",
+      "save": "Con +12, Wis +7, Cha +11",
+      "resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "fire, poison",
+      "conditionImmune": "charmed, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+      "senses": "blindsight 120 ft.",
+      "passive": "10",
+      "languages": "Ignan",
+      "cr": "23",
+      "trait": [
+        {
+          "name": "Empowered Attacks",
+          "text": [
+            "Maegera's slam attacks are treated as magical for the purpose of overcoming resistance and immunity to damage from nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Fire Aura",
+          "text": [
+            "At the start of each of Maegera's turns, each creature within 30 feet of it takes 35 (10d6) fire damage, and flammable objects in the aura that aren't being worn or carried ignite. A creature also takes 35 (10d6) fire damage from touching Maegera or from hitting it with a melee attack while within 10 feet of it, and a creature takes that damage the first time on a turn that Maegera moves into its space. Nonmagical weapons that hit Maegera are destroyed by fire immediately after dealing damage to it."
+          ],
+          "attack": [
+            "Fire Aura||10d6"
+          ]
+        },
+        {
+          "name": "Fire Form",
+          "text": [
+            "Maegera can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing if fire could pass through that space."
+          ]
+        },
+        {
+          "name": "Illumination",
+          "text": [
+            "Maegera sheds bright light in a 120-foot radius and dim light in an additional 120 ft.."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "Maegera's can innately cast fireball (spell save DC 19) at will, requiring no material components. Maegera's spell casting ability is Charisma."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "Maegera has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "Maegera makes three slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 15 (3d6+5) bludgeoning damage plus 35 (10d6) fire damage"
+          ],
+          "attack": [
+            "Slam|12|3d6+5"
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Quench Magic",
+          "text": [
+            "Maegera targets one creature that it can see within 60 feet of it. Any resistence or immunity to fire damage that the target gains from a spell or magic item is suppressed. The effect lasts until the end of Maegera's next turn."
+          ]
+        },
+        {
+          "name": "Smoke Cloud (Costs 2 Actions)",
+          "text": [
+            "Maegera exhales a billowing cloud of hot smoke and embers that fills a 60 feet cube. Each creature in the area takes 11 (2d10) fire damage. The cloud lasts until the end of Maegera's next turn. Creatures completely in the cloud are blinded and can't be seen."
+          ],
+          "attack": [
+            "Smoke|2d10"
+          ]
+        },
+        {
+          "name": "Create Fire Elemental (Costs 3 Actions)",
+          "text": [
+            "Maegera's hit points are reduced by 50 as part of it separates and becomes a fire elemental with 102 hit points. The fire element appears in an unoccupied space within 15 feet of Maegera and acts on Maegera's initiative count. Maegera can't use this action if it has 50 hit points or fewer. The fire element obeys Maegera's commands and fights until destroyed."
+          ]
+        }
+      ]
+    },
+    {
+			"source": "ToA",
+			"name": "Acererak",
+			"size": "M",
+			"type": "undead",
+			"alignment": "neutral evil",
+			"ac": "21 (natural armor)",
+			"hp": "285 (30d8+150)",
+			"speed": "30 ft.",
+			"str": "13",
+			"dex": "16",
+			"con": "20",
+			"int": "27",
+			"wis": "21",
+			"cha": "20",
+			"save": "Con +12, Int +15, Wis +12",
+			"skill": {
+				"arcana": "+22",
+				"history": "+22",
+				"insight": "+12",
+				"perception": "+12"
+			},
+			"resist": "cold, lightning",
+			"immune": "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+			"conditionImmune": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, stunned ",
+			"senses": "truesight 120 ft.",
+			"passive": "22",
+			"languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Giant, Infernal, Primordial, Undercommon",
+			"cr": "23",
+			"trait": [
+				{
+					"name": "Special Equipment",
+					"text": [
+						"Acererak carries the Staff of the Forgotten One (see appendix C). He wears a talisman of the sphere and has a sphere of annihilation under his control."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"text": [
+						"If Acererak fails a saving throw, he can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Rejuvenation",
+					"text": [
+						"Acererak's body turns to dust when he drops to 0 hit points, and his equipment is left behind. Acererak gains a new body after 1d10 days, regaining all his hit points and becoming active again. The new body appears within 5 feet of Acererak's phylactery, the location of which is hidden."
+					]
+				},
+				{
+					"name": "Spellcasting",
+					"text": [
+						"Acererak is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). Acererak has the following wizard spells prepared:",
+						"Cantrips (at will): mage hand, ray of frost, shocking grasp",
+						"1st level (at will): ray of sickness, shield",
+						"2nd level (at will): arcane lock, knock",
+						"3rd level (at will): animate dead, counterspell",
+						"4th level (3 slots): blight, ice storm, phantasmal killer",
+						"5th level (3 slots): cloud kill, hold monster, wall of force",
+						"6th level (3 slots): chain lightning, circle of death, disintegrate",
+						"7th level (3 slots): finger of death, plane shift, teleport",
+						"8th level (2 slots): maze, mind blank",
+						"9th level (2 slots): power word kill, time stop"
+					]
+				},
+				{
+					"name": "Turn Resistance",
+					"text": [
+						"Acererak has advantage on saving throws against any effect that turns undead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Paralyzing Touch",
+					"text": [
+						"Melee Spell Attack: +15 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage, and the target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of Its turns, ending the effect on itself on a success."
+					]
+				},
+				{
+					"name": "Staff (+3 Quarterstaff)",
+					"text": [
+						"Melee Weapon Attack:+11 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) bludgeoning damage plus 10 (3d6) necrotic damage, or 8 (1d8+4) bludgeoning damage plus 10 (3d6) necrotic damage when used with two hands."
+					]
+				},
+				{
+					"name": "Invoke Curse",
+					"text": [
+						"While holding the Staff of the Forgotten One, Acererak expends 1 charge from it and targets one creature he can see within 60 feet of him. The target must succeed on a DC 23 Constitution saving throw or be cursed. Until the curse is ended, the target can't regain hit points and has vulnerability to necrotic damage. Greater restoration, remove curse, or similar magic ends the curse on the target."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "At-Will Spell",
+					"text": [
+						"Acererak casts one of his at-will spells."
+					]
+				},
+				{
+					"name": "Melee Attack",
+					"text": [
+						"Acererak uses Paralyzing Touch or makes one melee attack with his staff."
+					]
+				},
+				{
+					"name": "Frightening Gaze (Costs 2 Actions)",
+					"text": [
+						"Acererak fixes his gaze on one creature he can see within 10 feet of him. The target must succeed on a DC 20 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target its immune to Acererak's gaze for the next 24 hours."
+					]
+				},
+				{
+					"name": "Talisman of the Sphere (Costs 2 Actions)",
+					"text": [
+						"Acererak uses his talisman of the sphere to move the sphere of annihilation under his control up to 90 feet."
+					]
+				},
+				{
+					"name": "Disrupt Life (Costs 3 Actions)",
+					"text": [
+						"Each creature within 20 feet of Acererak must make a DC 20 Constitution saving throw against this magic, taking 42 (12d6) necrotic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			]
 		}
   ],
   "legendaryGroup": [
