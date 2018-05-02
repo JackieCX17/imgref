@@ -34637,7 +34637,7 @@
 			"type": "elemental",
 			"alignment": "chaotic evil",
 			"ac": "17 (natural armor)",
-			"hp": "147 (1d6+4)",
+			"hp": "147 (14d10+70)",
 			"speed": "30 ft., fly 60 ft.",
 			"str": "19",
 			"dex": "11",
