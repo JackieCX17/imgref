@@ -32818,20 +32818,26 @@
 			"passive": "11",
 			"languages": "Deep Speech",
 			"cr": "1",
-			"trait": [
-				{
-					"name": "Aberrant Quickness (Recharge after a Short or Long Rest)",
-					"text": [
-						"The choker can take an extra action on its turn."
-					]
-				},
-				{
-					"name": "Spider Climb",
-					"text": [
-						"The choker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-					]
-				}
-			],
+      "trait": [
+        {
+          "name": "Aberrant Quickness (Recharge after a Short or Long Rest)",
+          "text": [
+            "The choker can take an extra action on its turn."
+          ]
+        },
+        {
+          "name": "Boneless",
+          "text": [
+            "The choker can move through and occupy a space as narrow as 4 inches wide without squeezing."
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "text": [
+            "The choker can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        }
+      ],
 			"action": [
 				{
 					"name": "Multiattack",
