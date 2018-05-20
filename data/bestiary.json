@@ -31943,7 +31943,7 @@
 			"source": "PotA",
 			"alignment": "neutral",
 			"ac": "18 (plate)",
-			"hp": "117 (18d8+36)",
+			"hp": "123 (18d9+38)",
 			"speed": "40 ft.",
 			"str": "13",
 			"dex": "18",
@@ -32045,7 +32045,7 @@
 				{
 					"name": "Trident",
 					"text": [
-						"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage."
+						"Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d8+4) piercing damage."
 					],
 					"attack": [
 						"Trident|7|1d6+4"
@@ -34121,7 +34121,7 @@
 				{
 					"name": "Sunlight Hypersensitivity",
 					"text": [
-						"The vampiric mist takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, the mist has disadvantage on attack rolls and ability checks."
+						"The vampiric mist takes 10 radiant damage when it starts its turn in sunlight. While in sunlight, the mist has disadvantage on attack rolls and ability checks."
 					]
 				}
 			],

@@ -380,1710 +380,956 @@
 				}
 			]
 		},
-		{
-			"name": "Star Spawn Seer",
-			"size": "M",
-			"type": "aberration",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "17 (natural armor)",
-			"hp": {
-				"average": 153,
-				"formula": "18d8+72"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 12,
-			"con": 18,
-			"int": 22,
-			"wis": 19,
-			"cha": 16,
-			"save": {
-				"dex": "+6",
-				"int": "+11",
-				"wis": "+9",
-				"cha": "+8"
-			},
-			"skill": {
-				"perception": "+9"
-			},
-			"resist": [
-				"cold",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"psychic"
-			],
-			"conditionImmune": [
-				"charmed",
-				"frightened"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 19,
-			"languages": "Common, Deep Speech, Undercommon",
-			"cr": "13",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Out-of-Phase Movement",
-					"text": [
-						"The seer can move through other creatures and objects as if they were difficult terrain. Each creature it moves through takes 5 ( 1d10}) psychic damage; no creature can take this damage more than once per turn. The seer takes 5 ( 1d10}) force damage if it ends its turn inside an object."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The seer makes two comet staff attacks or uses Psychic Orb twice."
-					]
-				},
-				{
-					"name": "Comet Staff",
-					"text": [
-						"Melee Weapon Attack:  +11} to hit, reach 5 ft., one target. Hit: 9 ( 1d6+6}) bludgeoning damage plus 18 ( 4d8}) psychic damage, or 10 ( 1d8+6}) bludgeoning damage plus 18 ( 4d8}) psychic damage, if used with two hands, and the target must succeed on a DC 19 Constitution saving throw or be incapacitated until the end of its next turn."
-					]
-				},
-				{
-					"name": "Psychic Orb",
-					"text": [
-						"Ranged Spell Attack:  +11} to hit, range 120 feet, one target. Hit: 27 ( 5d10}) psychic damage."
-					]
-				},
-				{
-					"name": "Collapse Distance (Recharge 6)",
-					"text": [
-						"The seer warps space around a creature it can see within 30 feet of it. That creature must make a DC 19 Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is magically teleported up to 60 feet to an unoccupied space the seer can see, and all other creatures within 10 feet of the target's original space each takes 39 ( 6d12}) psychic damage. On a successful save, the target takes 19 ( 3d12}) psychic damage."
-					]
-				}
-			]
-		},
-		{
-			"name": "Bronze Scout",
-			"size": "M",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"U"
-			],
-			"ac": "13",
-			"hp": {
-				"average": 18,
-				"formula": "4d8"
-			},
-			"speed": {
-				"walk": 30,
-				"burrow": 30
-			},
-			"str": 10,
-			"dex": 16,
-			"con": 11,
-			"int": 3,
-			"wis": 14,
-			"cha": 1,
-			"skill": {
-				"perception": "+6",
-				"stealth": "+7"
-			},
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't adamantine"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 16,
-			"languages": "understands one language of its creator but can't speak",
-			"cr": "1",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Earth Armor",
-					"text": [
-						"The bronze scout doesn't provoke opportunity attacks when it burrows."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The bronze scout has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Bite",
-					"text": [
-						"Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 5 ( 1d4+3}) piercing damage plus 3 ( 1d6}) lightning damage."
-					]
-				},
-				{
-					"name": "Lightning Flare (Recharges after a Short or Long Rest)",
-					"text": [
-						"Each creature in contact with the ground within 15 feet of the bronze scout must make a DC 13 Dexterity saving throw, taking 14 ( 4d6}) lightning damage on a failed save, or half as much damage on a successful one."
-					]
-				}
-			]
-		},
-		{
-			"name": "Cadaver Collector",
-			"size": "L",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "17 (natural armor)",
-			"hp": {
-				"average": 189,
-				"formula": "18d10+90"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 21,
-			"dex": 14,
-			"con": 20,
-			"int": 5,
-			"wis": 11,
-			"cha": 8,
-			"immune": [
-				"necrotic",
-				"poison",
-				"psychic",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't adamantine"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "understands all languages but can't speak",
-			"cr": "14",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The cadaver collector has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Summon Specters (Recharges after a Short or Long Rest)",
-					"text": [
-						"As a bonus action, the cadaver collector calls up the enslaved spirits of those it has slain;  1d6} specters (without Sunlight Sensitivity) arise in unoccupied spaces within 15 feet of the cadaver collector. The specters act right after the cadaver collector on the same initiative count and fight until they're destroyed. They disappear when the cadaver collector is destroyed."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The cadaver collector makes two slam attacks."
-					]
-				},
-				{
-					"name": "Slam",
-					"text": [
-						"Melee Weapon Attack:  +10} to hit, reach 5 ft., one target. Hit: 18 ( 3d8+5}) bludgeoning damage plus 16 ( 3d10}) necrotic damage."
-					]
-				},
-				{
-					"name": "Paralyzing Breath (Recharge 5-6)",
-					"text": [
-						"The cadaver collector releases paralyzing gas in a 30-foot cone. Each creature in that area must make a successful DC 18 Constitution saving throw or be paralyzed for 1 minute. A paralyzed creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success."
-					]
-				}
-			]
-		},
-		{
-			"name": "Duergar Hammerer",
-			"size": "M",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "17 (natural armor)",
-			"hp": {
-				"average": 33,
-				"formula": "6d8+6"
-			},
-			"speed": {
-				"walk": 20
-			},
-			"str": 17,
-			"dex": 7,
-			"con": 12,
-			"int": 5,
-			"wis": 5,
-			"cha": 5,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 7,
-			"languages": "understands Dwarvish but can't speak",
-			"cr": "2",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Engine of Pain",
-					"text": [
-						"Once per turn, a creature that attacks the hammerer can target the duergar trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 5 ( 1d10}) damage to the hammerer, and the hammerer can respond by using its Multiattack with its reaction."
-					]
-				},
-				{
-					"name": "Siege Monster",
-					"text": [
-						"The hammerer deals double damage to objects and structures."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The hammerer makes two attacks: one with its claw and one with its hammer."
-					]
-				},
-				{
-					"name": "Claw",
-					"text": [
-						"Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 6 ( 1d6+3}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Hammer",
-					"text": [
-						"Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 10 ( 2d6+3}) bludgeoning damage."
-					]
-				}
-			]
-		},
-		{
-			"name": "Duergar Screamer",
-			"size": "M",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "15 (natural armor)",
-			"hp": {
-				"average": 38,
-				"formula": "7d8+7"
-			},
-			"speed": {
-				"walk": 20
-			},
-			"str": 18,
-			"dex": 7,
-			"con": 12,
-			"int": 5,
-			"wis": 5,
-			"cha": 5,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 7,
-			"languages": "understands Dwarvish but can't speak",
-			"cr": "3",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Engine of Pain",
-					"text": [
-						"Once per turn, a creature that attacks the screamer can target the duergar trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 11 ( 2d10}) damage to the screamer, and the screamer can respond by using its Multiattack with its reaction."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The screamer makes one drill attack and uses its Sonic Scream."
-					]
-				},
-				{
-					"name": "Drill",
-					"text": [
-						"Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 10 ( 1d12+4}) piercing damage."
-					]
-				},
-				{
-					"name": "Sonic Scream",
-					"text": [
-						"The screamer emits destructive energy in a 15-foot cube. Each creature in that area must succeed on a DC 11 Strength saving throw or take 7 ( 2d6}) thunder damage and be knocked prone."
-					]
-				}
-			]
-		},
-		{
-			"name": "Hellfire Engine",
-			"size": "H",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "18 (natural armor)",
-			"hp": {
-				"average": 216,
-				"formula": "16d12+112"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 20,
-			"dex": 16,
-			"con": 24,
-			"int": 2,
-			"wis": 10,
-			"cha": 1,
-			"save": {
-				"dex": "+8",
-				"wis": "+5",
-				"cha": "+0"
-			},
-			"resist": [
-				"cold",
-				"psychic",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't silvered"
-				}
-			],
-			"immune": [
-				"fire",
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"poisoned",
-				"unconscious"
-			],
-			"senses": "darkvision 120 ft.",
-			"passive": 10,
-			"languages": "understands Infernal but can't speak",
-			"cr": "16",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Immutable Form",
-					"text": [
-						"The hellfire engine is immune to any spell or effect that would alter its form."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The hellfire engine has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Flesh-Crushing Stride",
-					"text": [
-						"The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters must make a DC 18 Dexterity saving throw. On a successful save, the creature is pushed 5 feet to the nearest space out of the hellfire engine's path. On a failed save, the creature falls prone and takes 28 ( 8d6}) bludgeoning damage.",
-						"If the hellfire engine remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the hellfire engine. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer restrained."
-					]
-				},
-				{
-					"name": "Hellfire Weapons",
-					"text": [
-						"The hellfire engine uses one of the following options:",
-						{
-						    "type": "list",
-						    "items": [
-								"Bonemelt Sprayer. The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a DC 20 Dexterity saving throw, taking 11 ( 2d10}) fire damage plus 18 ( 4d8}) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 ( 1d10}) fire damage plus 9 ( 2d8}) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel.",
-								"Lightning Flail. Melee Weapon Attack:  +11} to hit, reach 15 ft., one creature. Hit: 18 ( 3d8+5}) bludgeoning damage plus 22 ( 5d8}) lightning damage. Up to three other creatures of the hellfire engine's choice that it can see within 30 feet of the target must each make a DC 20 Dexterity saving throw, taking 22 ( 5d8}) lightning damage on a failed save, or half as much damage on a successful one.",
-								"Thunder Cannon. The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a DC 20 Dexterity saving throw, taking 27 ( 5d10}) bludgeoning damage plus 13 ( 2d12}) thunder damage on a failed save, or half as much damage on a successful one.",
-								"If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in  1d4} hours. If the creature isn't revived before then, only a wish spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
-						    ]
-						}
-					]
-				}
-			]
-		},
-		{
-			"name": "Iron Cobra",
-			"size": "M",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"U"
-			],
-			"ac": "13",
-			"hp": {
-				"average": 45,
-				"formula": "7d8+14"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 16,
-			"con": 14,
-			"int": 3,
-			"wis": 10,
-			"cha": 1,
-			"skill": {
-				"stealth": "+7"
-			},
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't adamantine"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "understands one language of its creator but can't speak",
-			"cr": "4",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The iron cobra has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Bite",
-					"text": [
-						"Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 6 ( 1d6+3}) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random poison effect:",
-						"1. Poison Damage: The target takes 13 ( 3d8}) poison damage.",
-						"2. Confusion: On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it's holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the Dash action, moving toward the nearest creature.",
-						"3. Paralysis: The target is paralyzed until the end of its next turn."
-					]
-				}
-			]
-		},
-		{
-			"name": "Oaken Bolter",
-			"size": "M",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"U"
-			],
-			"ac": "16 (natural armor)",
-			"hp": {
-				"average": 58,
-				"formula": "9d8+18"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 18,
-			"con": 15,
-			"int": 3,
-			"wis": 10,
-			"cha": 1,
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't adamantine"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "understands one language of its creator but can't speak",
-			"cr": "5",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The oaken bolter has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The oaken bolter makes two lancing bolt attacks or one lancing bolt attack and one harpoon attack."
-					]
-				},
-				{
-					"name": "Lancing Bolt",
-					"text": [
-						"Melee or Ranged Weapon Attack:  +7} to hit, reach 5 ft. or range 100/400 ft., one target. Hit: 15 ( 2d10+4}) piercing damage."
-					]
-				},
-				{
-					"name": "Harpoon",
-					"text": [
-						"Ranged Weapon Attack:  +7} to hit, range 50/200 ft., one target. Hit: 9 ( 1d10+4}) piercing damage, and the target is grappled (escape DC 12). While grappled in this way, a creature's speed isn't reduced, but it can move only in directions that bring it closer to the oaken bolter. A creature takes 5 ( 1d10}) slashing damage if it escapes from the grapple or if it tries and fails. As a bonus action, the oaken bolter can pull a creature grappled by it 20 feet closer. The oaken bolter can grapple only one creature at a time."
-					]
-				},
-				{
-					"name": "Explosive Bolt (Recharge 5-6)",
-					"text": [
-						"The oaken bolter launches an explosive charge at a point within 120 feet. Each creature within 20 feet of that point must make a DC 15 Dexterity saving throw, taking 17 ( 5d6}) fire damage on a failed save, or half as much damage on a successful one."
-					]
-				}
-			]
-		},
-		{
-			"name": "Retriever",
-			"size": "L",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "19 (natural armor)",
-			"hp": {
-				"average": 210,
-				"formula": "20d10+100"
-			},
-			"speed": {
-				"walk": 40,
-				"climb": 40
-			},
-			"str": 22,
-			"dex": 16,
-			"con": 20,
-			"int": 3,
-			"wis": 11,
-			"cha": 4,
-			"save": {
-				"dex": "+8",
-				"con": "+10",
-				"wis": "+5"
-			},
-			"skill": {
-				"perception": "+5",
-				"stealth": "+8"
-			},
-			"immune": [
-				"necrotic",
-				"poison",
-				"psychic",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't adamantine"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"poisoned"
-			],
-			"senses": "blindsight 30 ft., darkvision 60 ft.",
-			"passive": 15,
-			"languages": "understands Abyssal, Elvish, and Undercommon but can't speak",
-			"cr": "14",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Faultless Tracker",
-					"text": [
-						"The retriever is given a quarry by its master. The quarry can be a specific creature or object the master is personally acquainted with, or it can be a general type of creature or object the master has seen before. The retriever knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The retriever can have only one such quarry at a time. The retriever also always knows the location of its master."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The retriever makes two foreleg attacks and uses its force or paralyzing beam once, if available."
-					]
-				},
-				{
-					"name": "Foreleg",
-					"text": [
-						"Melee Weapon Attack:  +11} to hit, reach 10 ft., one target. Hit: 15 ( 2d8+6}) slashing damage."
-					]
-				},
-				{
-					"name": "Force Beam",
-					"text": [
-						"The retriever targets one creature it can see within 60 feet of it. The target must make a DC 16 Dexterity saving throw, taking 27 ( 5d10}) force damage on a failed save, or half as much damage on a successful one."
-					]
-				},
-				{
-					"name": "Paralyzing Beam (Recharge 5-6)",
-					"text": [
-						"The retriever targets one creature it can see within 60 feet of it. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-						"If the paralyzed creature is Medium or smaller, the retriever can pick it up as part of the retriever's move and walk or climb with it at full speed."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The retriever's innate spellcasting ability is Wisdom. The retriever can innately cast the following spells, requiring no material components."
-					],
-					"daily": {
-						"3e": [
-							"{@spell plane shift} (only self and up to one incapacitated creature which is considered willing for the spell)",
-							"{@spell web}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Sacred Statue",
-			"size": "L",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				{
-					"special": "as the eidolon's alignment"
-				}
-			],
-			"ac": "19 (natural armor)",
-			"hp": {
-				"average": 95,
-				"formula": "10d10+40"
-			},
-			"speed": {
-				"walk": 25
-			},
-			"str": 19,
-			"dex": 8,
-			"con": 19,
-			"int": 14,
-			"wis": 19,
-			"cha": 16,
-			"save": {
-				"wis": "+8"
-			},
-			"resist": [
-				"acid",
-				"fire",
-				"lightning",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"cold",
-				"necrotic",
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 14,
-			"languages": "the languages the eidolon knew in life",
-			"cr": "Unknown",
-			"page": 0,
-			"trait": [
-				{
-					"name": "False Appearance",
-					"text": [
-						"While the statue remains motionless, it is indistinguishable from a normal statue."
-					]
-				},
-				{
-					"name": "Ghostly Inhabitant",
-					"text": [
-						"The eidolon that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the dispel evil and good spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
-					]
-				},
-				{
-					"name": "Inert",
-					"text": [
-						"When not inhabited by an eidolon, the statue is an object."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The statue makes two slam attacks."
-					]
-				},
-				{
-					"name": "Slam",
-					"text": [
-						"Melee Weapon Attack:  +8} to hit, reach 10 ft., one target. Hit: 43 ( 6d12+4}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Rock",
-					"text": [
-						"Ranged Weapon Attack:  +8} to hit, range 60 ft./240 ft., one target. Hit: 37 ( 6d10+4}) bludgeoning damage."
-					]
-				}
-			]
-		},
-		{
-			"name": "Steel Predator",
-			"size": "L",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "20 (natural armor)",
-			"hp": {
-				"average": 207,
-				"formula": "18d10+108"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 24,
-			"dex": 17,
-			"con": 22,
-			"int": 4,
-			"wis": 14,
-			"cha": 6,
-			"skill": {
-				"perception": "+7",
-				"stealth": "+8",
-				"survival": "+7"
-			},
-			"resist": [
-				"cold",
-				"lightning",
-				"necrotic",
-				"thunder"
-			],
-			"immune": [
-				"poison",
-				"psychic",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"stunned"
-			],
-			"senses": "blindsight 30 ft., darkvision 60 ft.",
-			"passive": 17,
-			"languages": "understands Modron and the language of its owner but can't speak",
-			"cr": "16",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The steel predator has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"The steel predator's weapon attacks are magical."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The steel predator makes three attacks: one with its bite and two with its claw."
-					]
-				},
-				{
-					"name": "Bite",
-					"text": [
-						"Melee Weapon Attack:  +12} to hit, reach 5 ft., one target. Hit: 14 ( 2d6+7}) piercing damage."
-					]
-				},
-				{
-					"name": "Claw",
-					"text": [
-						"Melee Weapon Attack:  +12} to hit, reach 5 ft., one target. Hit: 16 ( 2d8+7}) slashing damage."
-					]
-				},
-				{
-					"name": "Stunning Roar (Recharge 5-6)",
-					"text": [
-						"The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a DC 19 Constitution saving throw. On a failed save, a creature takes 27 ( 5d10}) thunder damage, drops everything it's holding, and is stunned for 1 minute. On a successful save, a creature takes half as much damage. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The steel predator's innate spellcasting ability is Wisdom. The steel predator can innately cast the following spells, requiring no components:"
-					],
-					"daily": {
-						"3e": [
-							"{@spell dimension door} (self only)",
-							"{@spell plane shift} (self only)"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Stone Cursed",
-			"size": "M",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": "17 (natural armor)",
-			"hp": {
-				"average": 19,
-				"formula": "3d8+4"
-			},
-			"speed": {
-				"walk": 10
-			},
-			"str": 16,
-			"dex": 5,
-			"con": 14,
-			"int": 5,
-			"wis": 8,
-			"cha": 7,
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"petrified",
-				"poisoned"
-			],
-			"vulnerable": [
-				"bludgeoning"
-			],
-			"passive": 9,
-			"languages": "the languages it knew in life",
-			"cr": "1",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Cunning Opportunist",
-					"text": [
-						"The stone cursed has advantage on the attack rolls of opportunity attacks."
-					]
-				},
-				{
-					"name": "False Appearance",
-					"text": [
-						"While the stone cursed remains motionless, it is indistinguishable from a normal statue."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Petrifying Claws",
-					"text": [
-						"Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 8 ( 1d10+3}) slashing damage, or 14 ( 2d10+3}) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw, or it begins to turn to stone and is restrained until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is petrified for 24 hours."
-					]
-				}
-			]
-		},
-		{
-			"name": "Stone Defender",
-			"size": "M",
-			"type": "construct",
-			"source": "MTF",
-			"alignment": [
-				"U"
-			],
-			"ac": "16 (natural armor)",
-			"hp": {
-				"average": 52,
-				"formula": "7d8+21"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 19,
-			"dex": 10,
-			"con": 17,
-			"int": 3,
-			"wis": 10,
-			"cha": 1,
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't adamantine"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"paralyzed",
-				"petrified",
-				"poisoned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "understands one language of its creator but can't speak",
-			"cr": "4",
-			"page": 0,
-			"trait": [
-				{
-					"name": "False Appearance",
-					"text": [
-						"While the stone defender remains motionless against an uneven earthen or stone surface, it is indistinguishable from that surface."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The stone defender has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Slam",
-					"text": [
-						"Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 11 ( 2d6+4}) bludgeoning damage, and if the target is Large or smaller, it is knocked prone."
-					]
-				}
-			]
-		},
-		{
-			"name": "Marut",
-			"size": "L",
-			"type": {
-				"type": "construct",
-				"tags": [
-					"inevitable"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"ac": "22 (natural armor)",
-			"hp": {
-				"average": 432,
-				"formula": "32d10+256"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": {
-					"number": 30,
-					"condition": "(hover)"
-				}
-			},
-			"str": 28,
-			"dex": 12,
-			"con": 26,
-			"int": 19,
-			"wis": 15,
-			"cha": 18,
-			"save": {
-				"int": "+12",
-				"wis": "+10",
-				"cha": "+12"
-			},
-			"skill": {
-				"insight": "+10",
-				"intimidation": "+12",
-				"perception": "+10"
-			},
-			"resist": [
-				"thunder",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"frightened",
-				"paralyzed",
-				"poisoned",
-				"unconscious"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 20,
-			"languages": "all but rarely speaks",
-			"cr": "25",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Immutable Form",
-					"text": [
-						"The marut is immune to any spell or effect that would alter its form."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If the marut fails a saving throw, it can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The marut has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The marut makes two slam attacks."
-					]
-				},
-				{
-					"name": "Unerring Slam",
-					"text": [
-						"Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit: 60 force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller."
-					]
-				},
-				{
-					"name": "Blazing Edict (Recharge 5-6)",
-					"text": [
-						"Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a DC 20 Wisdom saving throw or be stunned until the end of the marut's next turn."
-					]
-				},
-				{
-					"name": "Justify",
-					"text": [
-						"The marut targets up to two creatures it can see within 60 feet of it. Each target must succeed on a DC 20 Charisma saving throw or be teleported to a teleportation circle in the Hall of Concordance in Sigil. A target fails automatically if it is incapacitated. If either target is teleported in this way, the marut teleports with it to the circle.",
-						"After teleporting in this way, the marut can't use this action again until it finishes a short or long rest."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The marut's innate spellcasting ability is Intelligence. The marut can innately cast the following spell, requiring no material components."
-					],
-					"will": [
-						"{@spell plane shift} (self only)"
-					]
-				}
-			]
-		},
-		{
-			"name": "Air Elemental Myrmidon",
-			"size": "M",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"N"
-			],
-			"ac": "18 (plate)",
-			"hp": {
-				"average": 117,
-				"formula": "18d8+36"
-			},
-			"speed": {
-				"walk": 30,
-				"fly": {
-					"number": 30,
-					"condition": "(hover)"
-				}
-			},
-			"str": 18,
-			"dex": 14,
-			"con": 14,
-			"int": 9,
-			"wis": 10,
-			"cha": 10,
-			"resist": [
-				"lightning",
-				"thunder",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "Auran, one language of its creator's choice",
-			"cr": "7",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"The myrmidon's weapon attacks are magical."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The myrmidon makes three flail attacks."
-					]
-				},
-				{
-					"name": "Flail",
-					"text": [
-						"Melee Weapon Attack:  +7} to hit, reach 5 ft., one target. Hit: 8 ( 1d8+4}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Lightning Strike (Recharge 6)",
-					"text": [
-						"The myrmidon makes one flail attack. On a hit, the target takes an extra 18 ( 4d8}) lightning damage, and the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the myrmidon's next turn."
-					]
-				}
-			]
-		},
-		{
-			"name": "Azer",
-			"size": "M",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"L",
-				"N"
-			],
-			"ac": "17 (natural armor, shield)",
-			"hp": {
-				"average": 39,
-				"formula": "6d8+12"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 17,
-			"dex": 12,
-			"con": 15,
-			"int": 12,
-			"wis": 13,
-			"cha": 10,
-			"save": {
-				"con": "+4"
-			},
-			"immune": [
-				"fire",
-				"poison"
-			],
-			"conditionImmune": [
-				"poisoned"
-			],
-			"passive": 11,
-			"languages": "Ignan",
-			"cr": "2",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Heated Body",
-					"text": [
-						"A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 ( 1d10}) fire damage."
-					]
-				},
-				{
-					"name": "Heated Weapons",
-					"text": [
-						"When the azer hits with a metal melee weapon, it deals an extra 3 ( 1d6}) fire damage (included in the attack)."
-					]
-				},
-				{
-					"name": "Illumination",
-					"text": [
-						"The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Warhammer",
-					"text": [
-						"Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 7 ( 1d8+3}) bludgeoning damage plus 3 ( 1d6}) fire damage, or 8 ( 1d10+3}) bludgeoning damage plus 3 ( 1d6}) fire damage if used with two hands to make a melee attack."
-					]
-				}
-			]
-		},
-		{
-			"name": "Earth Elemental Myrmidon",
-			"size": "M",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"N"
-			],
-			"ac": "18 (plate)",
-			"hp": {
-				"average": 127,
-				"formula": "17d8+51"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 18,
-			"dex": 10,
-			"con": 17,
-			"int": 8,
-			"wis": 10,
-			"cha": 10,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "Terran, one language of its creator's choice",
-			"cr": "7",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"The myrmidon's weapon attacks are magical."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The myrmidon makes two maul attacks."
-					]
-				},
-				{
-					"name": "Maul",
-					"text": [
-						"Melee Weapon Attack:  +7} to hit, reach 5 ft., one target. Hit: 11 ( 2d6+4}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Thunderous Strike (Recharge 6)",
-					"text": [
-						"The myrmidon makes one maul attack. On a hit, the target takes an extra 16 ( 3d10}) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone."
-					]
-				}
-			]
-		},
-		{
-			"name": "Elder Tempest",
-			"size": "G",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"N"
-			],
-			"ac": "19",
-			"hp": {
-				"average": 264,
-				"formula": "16d20+96"
-			},
-			"speed": {
-				"walk": 0,
-				"fly": {
-					"number": 120,
-					"condition": "(hover)"
-				}
-			},
-			"str": 23,
-			"dex": 28,
-			"con": 23,
-			"int": 2,
-			"wis": 21,
-			"cha": 18,
-			"save": {
-				"wis": "+12",
-				"cha": "+11"
-			},
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"lightning",
-				"poison",
-				"thunder"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained",
-				"stunned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 15,
-			"cr": "23",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Air Form",
-					"text": [
-						"The tempest can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
-					]
-				},
-				{
-					"name": "Flyby",
-					"text": [
-						"The tempest doesn't provoke opportunity attacks when it flies out of an enemy's reach."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If the tempest fails a saving throw, it can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Living Storm",
-					"text": [
-						"The tempest is always at the center of a storm  1d6+4 }miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing.",
-						"In addition, strong winds swirl in the area covered by the storm. The winds impose disadvantage on ranged attack rolls. The winds extinguish open flames and disperse fog."
-					]
-				},
-				{
-					"name": "Siege Monster",
-					"text": [
-						"The tempest deals double damage to objects and structures."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The tempest makes two attacks with its thunderous slam."
-					]
-				},
-				{
-					"name": "Thunderous Slam",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 20 ft., one target. Hit: 23 ( 4d6+9}) thunder damage."
-					]
-				},
-				{
-					"name": "Lightning Storm (Recharge 6)",
-					"text": [
-						"All other creatures within 120 feet of the tempest must each make a DC 20 Dexterity saving throw, taking 27 ( 6d8}) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also stunned until the end of its next turn."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Move",
-					"text": [
-						"The tempest moves up to its speed."
-					]
-				},
-				{
-					"name": "Lightning Strike (Costs 2 Actions)",
-					"text": [
-						"The tempest can cause a bolt of lightning to strike a point on the ground anywhere under its storm. Each creature within 5 feet of that point must make a DC 20 Dexterity saving throw, taking 16 ( 3d10}) lightning damage on a failed save, or half as much damage on a successful one."
-					]
-				},
-				{
-					"name": "Screaming Gale (Costs 3 Actions)",
-					"text": [
-						"The tempest releases a blast of thunder and wind in a line that is 1 mile long and 20 feet wide. Objects in that area take 22 ( 4d10}) thunder damage. Each creature there must succeed on a DC 21 Dexterity saving throw or take 22 ( 4d10}) thunder damage and be flung up to 60 feet in a direction away from the line. If a thrown target collides with an immovable object, such as a wall or floor, the target takes 3 ( 1d6}) bludgeoning damage for every 10 feet it was thrown before impact. If the target would collide with another creature instead, that other creature must succeed on a DC 19 Dexterity saving throw or take the same damage and be knocked prone."
-					]
-				}
-			]
-		},
-		{
-			"name": "Fire Elemental Myrmidon",
-			"size": "M",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"N"
-			],
-			"ac": "18 (plate)",
-			"hp": {
-				"average": 123,
-				"formula": "19d8+38"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 13,
-			"dex": 18,
-			"con": 15,
-			"int": 9,
-			"wis": 10,
-			"cha": 10,
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"fire",
-				"poison"
-			],
-			"conditionImmune": [
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "Ignan, one language of its creator's choice",
-			"cr": "7",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Illumination",
-					"text": [
-						"The myrmidon sheds bright light in a 20-foot radius and dim light in a 40-foot radius."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"The myrmidon's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Water Susceptibility",
-					"text": [
-						"For every 5 feet the myrmidon moves in 1 foot or more of water, it takes 2 ( 1d4}) cold damage."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The myrmidon makes three scimitar attacks."
-					]
-				},
-				{
-					"name": "Scimitar",
-					"text": [
-						"Melee Weapon Attack:  +7} to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4}) slashing damage."
-					]
-				},
-				{
-					"name": "Fiery Strikes (Recharge 6)",
-					"text": [
-						"The myrmidon uses Multiattack. Each attack that hits deals an extra 5 ( 1d10}) fire damage."
-					]
-				}
-			]
-		},
+    {
+      "name": "Star Spawn Seer",
+      "size": "M",
+      "type": "aberration",
+      "source": "MTF",
+      "alignment": "neutral evil",
+      "ac": "17 (natural armor)",
+      "hp": "153 (18d8+72)",
+      "speed": "30 ft.",
+      "str": 14,
+      "dex": 12,
+      "con": 18,
+      "int": 22,
+      "wis": 19,
+      "cha": 16,
+      "save": "dex +6, int +11, wis +9, cha +8",
+      "skill": {
+        "perception": "+9"
+      },
+      "resist": "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "psychic",
+      "conditionImmune": "charmed, frightened",
+      "senses": "darkvision 60 ft.",
+      "passive": 19,
+      "languages": "Common, Deep Speech, Undercommon",
+      "cr": "13",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Out-of-Phase Movement",
+          "text": [
+            "The seer can move through other creatures and objects as if they were difficult terrain. Each creature it moves through takes 5 (1d10) psychic damage; no creature can take this damage more than once per turn. The seer takes 5 (1d10) force damage if it ends its turn inside an object."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The seer makes two comet staff attacks or uses Psychic Orb twice."
+          ]
+        },
+        {
+          "name": "Comet Staff",
+          "text": [
+            "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 9 (1d6+6) bludgeoning damage plus 18 (4d8) psychic damage, or 10 (1d8+6) bludgeoning damage plus 18 (4d8) psychic damage, if used with two hands, and the target must succeed on a DC 19 Constitution saving throw or be incapacitated until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Psychic Orb",
+          "text": [
+            "Ranged Spell Attack: +11 to hit, range 120 feet, one target. Hit: 27 (5d10) psychic damage."
+          ]
+        },
+        {
+          "name": "Collapse Distance (Recharge 6)",
+          "text": [
+            "The seer warps space around a creature it can see within 30 feet of it. That creature must make a DC 19 Wisdom saving throw. On a failed save, the target, along with any equipment it is wearing or carrying, is magically teleported up to 60 feet to an unoccupied space the seer can see, and all other creatures within 10 feet of the target's original space each takes 39 (6d12) psychic damage. On a successful save, the target takes 19 (3d12) psychic damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bronze Scout",
+      "size": "M",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Unaligned",
+      "ac": "13",
+      "hp": "18 (4d8)",
+      "speed": "30 ft., burrow 30 ft.",
+      "str": 10,
+      "dex": 16,
+      "con": 11,
+      "int": 3,
+      "wis": 14,
+      "cha": 1,
+      "skill": {
+        "perception": "+6",
+        "stealth": "+7"
+      },
+      "immune": "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 16,
+      "languages": "understands one language of its creator but can't speak",
+      "cr": "1",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Earth Armor",
+          "text": [
+            "The bronze scout doesn't provoke opportunity attacks when it burrows."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The bronze scout has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage plus 3 (1d6) lightning damage."
+          ]
+        },
+        {
+          "name": "Lightning Flare (Recharges after a Short or Long Rest)",
+          "text": [
+            "Each creature in contact with the ground within 15 feet of the bronze scout must make a DC 13 Dexterity saving throw, taking 14 (4d6) lightning damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cadaver Collector",
+      "size": "L",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "17 (natural armor)",
+      "hp": "189 (18d10+90)",
+      "speed": "30ft.",
+      "str": 21,
+      "dex": 14,
+      "con": 20,
+      "int": 5,
+      "wis": 11,
+      "cha": 8,
+      "immune": "necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 10,
+      "languages": "understands all languages but can't speak",
+      "cr": "14",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The cadaver collector has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Summon Specters (Recharges after a Short or Long Rest)",
+          "text": [
+            "As a bonus action, the cadaver collector calls up the enslaved spirits of those it has slain;  1d6 specters (without Sunlight Sensitivity) arise in unoccupied spaces within 15 feet of the cadaver collector. The specters act right after the cadaver collector on the same initiative count and fight until they're destroyed. They disappear when the cadaver collector is destroyed."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The cadaver collector makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 18 (3d8+5) bludgeoning damage plus 16 (3d10) necrotic damage."
+          ]
+        },
+        {
+          "name": "Paralyzing Breath (Recharge 5-6)",
+          "text": [
+            "The cadaver collector releases paralyzing gas in a 30-foot cone. Each creature in that area must make a successful DC 18 Constitution saving throw or be paralyzed for 1 minute. A paralyzed creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a success."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Duergar Hammerer",
+      "size": "M",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "17 (natural armor)",
+      "hp": " 33 (6d8+6)",
+      "speed": "20 ft.,",
+      "str": 17,
+      "dex": 7,
+      "con": 12,
+      "int": 5,
+      "wis": 5,
+      "cha": 5,
+      "immune": "poison",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 7,
+      "languages": "understands Dwarvish but can't speak",
+      "cr": "2",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Engine of Pain",
+          "text": [
+            "Once per turn, a creature that attacks the hammerer can target the humanoid trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 5 (1d10) damage to the hammerer, and the hammerer can respond by using its Multiattack with its reaction."
+          ]
+        },
+        {
+          "name": "Siege Monster",
+          "text": [
+            "The hammerer deals double damage to objects and structures."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The hammerer makes two attacks: one with its claw and one with its hammer."
+          ]
+        },
+        {
+          "name": "Claw",
+          "text": [
+            "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Hammer",
+          "text": [
+            "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) bludgeoning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Duergar Screamer",
+      "size": "M",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "15 (natural armor)",
+      "hp": "38 (7d8+7)",
+      "speed": "20 ft.",
+      "str": 18,
+      "dex": 7,
+      "con": 12,
+      "int": 5,
+      "wis": 5,
+      "cha": 5,
+      "immune": "poison",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 7,
+      "languages": "understands Dwarvish but can't speak",
+      "cr": "3",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Engine of Pain",
+          "text": [
+            "Once per turn, a creature that attacks the screamer can target the humanoid trapped in it. The attacker has disadvantage on the attack roll. On a hit, the attack deals an extra 11 (2d10) damage to the screamer, and the screamer can respond by using its Multiattack with its reaction."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The screamer makes one drill attack and uses its Sonic Scream."
+          ]
+        },
+        {
+          "name": "Drill",
+          "text": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12+4) piercing damage."
+          ]
+        },
+        {
+          "name": "Sonic Scream",
+          "text": [
+            "The screamer emits destructive energy in a 15-foot cube. Each creature in that area must succeed on a DC 11 Strength saving throw or take 7 (2d6) thunder damage and be knocked prone."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hellfire Engine",
+      "size": "H",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "18 (natural armor)",
+      "hp": "216 (16d12+112)",
+      "speed": "40 ft.",
+      "str": 20,
+      "dex": 16,
+      "con": 24,
+      "int": 2,
+      "wis": 10,
+      "cha": 1,
+      "save": "dex +8, wis +5, cha +0",
+      "resist": "cold, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered",
+      "immune": "fire, poison",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
+      "senses": "darkvision 120 ft.",
+      "passive": 10,
+      "languages": "understands Infernal but can't speak",
+      "cr": "16",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Immutable Form",
+          "text": [
+            "The hellfire engine is immune to any spell or effect that would alter its form."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The hellfire engine has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Flesh-Crushing Stride",
+          "text": [
+            "The hellfire engine moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the hellfire engine enters must make a DC 18 Dexterity saving throw. On a successful save, the creature is pushed 5 feet to the nearest space out of the hellfire engine's path. On a failed save, the creature falls prone and takes 28 (8d6) bludgeoning damage.",
+            "If the hellfire engine remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the hellfire engine. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the hellfire engine and is no longer restrained."
+          ]
+        },
+        {
+          "name": "Hellfire Weapons",
+          "text": [
+            "The hellfire engine uses one of the following options:",
+            {
+              "type": "list",
+              "items": [
+                "Bonemelt Sprayer. The hellfire engine spews acidic flame in a 60-foot cone. Each creature in the cone must make a DC 20 Dexterity saving throw, taking 11 (2d10) fire damage plus 18 (4d8) acid damage on a failed save, or half as much damage on a successful one. Creatures that fail the saving throw are drenched in burning acid and take 5 (1d10) fire damage plus 9 (2d8) acid damage at the end of their turns. An affected creature or another creature within 5 feet of it can take an action to scrape off the burning fuel.",
+                "Lightning Flail. Melee Weapon Attack: +11 to hit, reach 15 ft., one creature. Hit: 18 (3d8+5) bludgeoning damage plus 22 (5d8) lightning damage. Up to three other creatures of the hellfire engine's choice that it can see within 30 feet of the target must each make a DC 20 Dexterity saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a successful one.",
+                "Thunder Cannon. The hellfire engine targets a point within 120 feet of it that it can see. Each creature within 30 feet of that point must make a DC 20 Dexterity saving throw, taking 27 (5d10) bludgeoning damage plus 13 (2d12) thunder damage on a failed save, or half as much damage on a successful one.",
+                "If the chosen option kills a creature, the creature's soul rises from the River Styx as a lemure in Avernus in 1d4 hours. If the creature isn't revived before then, only a wish spell or killing the lemure and casting true resurrection on the creature's original body can restore it to life. Constructs and devils are immune to this effect."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Iron Cobra",
+      "size": "M",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Unaligned",
+      "ac": "13",
+      "hp": "45 (7d8+14)",
+      "speed": "30 ft.",
+      "str": 12,
+      "dex": 16,
+      "con": 14,
+      "int": 3,
+      "wis": 10,
+      "cha": 1,
+      "skill": {
+        "stealth": "+7"
+      },
+      "immune": "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 10,
+      "languages": "understands one language of its creator but can't speak",
+      "cr": "4",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The iron cobra has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random poison effect:",
+            "1. Poison Damage: The target takes 13 (3d8) poison damage.",
+            "2. Confusion: On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it's holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the Dash action, moving toward the nearest creature.",
+            "3. Paralysis: The target is paralyzed until the end of its next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oaken Bolter",
+      "size": "M",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Unaligned",
+      "ac": "16 (natural armor)",
+      "hp": "58 (9d8+18)",
+      "speed": "30 ft.",
+      "str": 12,
+      "dex": 18,
+      "con": 15,
+      "int": 3,
+      "wis": 10,
+      "cha": 1,
+      "immune": "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 10,
+      "languages": "understands one language of its creator but can't speak",
+      "cr": "5",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The oaken bolter has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The oaken bolter makes two lancing bolt attacks or one lancing bolt attack and one harpoon attack."
+          ]
+        },
+        {
+          "name": "Lancing Bolt",
+          "text": [
+            "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 100/400 ft., one target. Hit: 15 (2d10+4) piercing damage."
+          ]
+        },
+        {
+          "name": "Harpoon",
+          "text": [
+            "Ranged Weapon Attack: +7 to hit, range 50/200 ft., one target. Hit: 9 (1d10+4) piercing damage, and the target is grappled (escape DC 12). While grappled in this way, a creature's speed isn't reduced, but it can move only in directions that bring it closer to the oaken bolter. A creature takes 5 (1d10) slashing damage if it escapes from the grapple or if it tries and fails. As a bonus action, the oaken bolter can pull a creature grappled by it 20 feet closer. The oaken bolter can grapple only one creature at a time."
+          ]
+        },
+        {
+          "name": "Explosive Bolt (Recharge 5-6)",
+          "text": [
+            "The oaken bolter launches an explosive charge at a point within 120 feet. Each creature within 20 feet of that point must make a DC 15 Dexterity saving throw, taking 17 ( 5d6}) fire damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Retriever",
+      "size": "L",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "19 (natural armor)",
+      "hp": "210 (20d10+100)",
+      "speed": "40 ft., climb 40 ft.",
+      "str": 22,
+      "dex": 16,
+      "con": 20,
+      "int": 3,
+      "wis": 11,
+      "cha": 4,
+      "save": "dex +8, con +10, wis +5",
+      "skill": {
+        "perception": "+5",
+        "stealth": "+8"
+      },
+      "immune": "necrotic, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
+      "senses": "blindsight 30 ft., darkvision 60 ft.",
+      "passive": 15,
+      "languages": "understands Abyssal, Elvish, and Undercommon but can't speak",
+      "cr": "14",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The retriever's innate spellcasting ability is Wisdom(spell save DC 13). The retriever can innately cast the following spells, requiring no material components.",
+            "3/day each: plane shift(only self and up to one incapacitated creature, which is considered willing for the spell), web"
+          ]
+        },
+        {
+          "name": "Faultless Tracker",
+          "text": [
+            "The retriever is given a quarry by its master. The quarry can be a specific creature or object the master is personally acquainted with, or it can be a general type of creature or object the master has seen before. The retriever knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The retriever can have only one such quarry at a time. The retriever also always knows the location of its master."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The retriever makes two foreleg attacks and uses its force or paralyzing beam once, if available."
+          ]
+        },
+        {
+          "name": "Foreleg",
+          "text": [
+            "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) slashing damage."
+          ]
+        },
+        {
+          "name": "Force Beam",
+          "text": [
+            "The retriever targets one creature it can see within 60 feet of it. The target must make a DC 16 Dexterity saving throw, taking 27 (5d10) force damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Paralyzing Beam (Recharge 5-6)",
+          "text": [
+            "The retriever targets one creature it can see within 60 feet of it. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+            "If the paralyzed creature is Medium or smaller, the retriever can pick it up as part of the retriever's move and walk or climb with it at full speed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sacred Statue",
+      "size": "L",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "as the eidolon's alignment",
+      "ac": "19 (natural armor)",
+      "hp": " 95 (10d10+40)",
+      "speed": "25 ft.",
+      "str": 19,
+      "dex": 8,
+      "con": 19,
+      "int": 14,
+      "wis": 19,
+      "cha": 16,
+      "save": "wis +8",
+      "resist": "acid, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "cold, necrotic, poison",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 14,
+      "languages": "the languages the eidolon knew in life",
+      "cr": "Unknown",
+      "page": 0,
+      "trait": [
+        {
+          "name": "False Appearance",
+          "text": [
+            "While the statue remains motionless, it is indistinguishable from a normal statue."
+          ]
+        },
+        {
+          "name": "Ghostly Inhabitant",
+          "text": [
+            "The eidolon that enters the sacred statue remains inside it until the statue drops to 0 hit points, the eidolon uses a bonus action to move out of the statue, or the eidolon is turned or forced out by an effect such as the dispel evil and good spell. When the eidolon leaves the statue, it appears in an unoccupied space within 5 feet of the statue."
+          ]
+        },
+        {
+          "name": "Inert",
+          "text": [
+            "When not inhabited by an eidolon, the statue is an object."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The statue makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 43 (6d12+4) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Rock",
+          "text": [
+            "Ranged Weapon Attack: +8 to hit, range 60 ft./240 ft., one target. Hit: 37 (6d10+4) bludgeoning damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steel Predator",
+      "size": "L",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "20 (natural armor)",
+      "hp": " 207 (18d10+108)",
+      "speed": "40 ft.",
+      "str": 24,
+      "dex": 17,
+      "con": 22,
+      "int": 4,
+      "wis": 14,
+      "cha": 6,
+      "skill": {
+        "perception": "+7",
+        "stealth": "+8",
+        "survival": "+7"
+      },
+      "resist": "cold, lightning, necrotic, thunder",
+      "immune": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
+      "senses": "blindsight 30 ft., darkvision 60 ft.",
+      "passive": 17,
+      "languages": "understands Modron and the language of its owner but can't speak",
+      "cr": "16",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The steel predator's innate spellcasting ability is Wisdom. The steel predator can innately cast the following spells, requiring no components:",
+            "3/day each: dimension door(self only), plane shift(self only)"
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The steel predator has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "text": [
+            "The steel predator's weapon attacks are magical."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The steel predator makes three attacks: one with its bite and two with its claw."
+          ]
+        },
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6+7) piercing damage."
+          ]
+        },
+        {
+          "name": "Claw",
+          "text": [
+            "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 16 (2d8+7) slashing damage."
+          ]
+        },
+        {
+          "name": "Stunning Roar (Recharge 5-6)",
+          "text": [
+            "The steel predator emits a roar in a 60-foot cone. Each creature in that area must make a DC 19 Constitution saving throw. On a failed save, a creature takes 27 (5d10) thunder damage, drops everything it's holding, and is stunned for 1 minute. On a successful save, a creature takes half as much damage. The stunned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stone Cursed",
+      "size": "M",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "17 (natural armor)",
+      "hp": "19 (3d8+4)",
+      "speed": "10 ft.",
+      "str": 16,
+      "dex": 5,
+      "con": 14,
+      "int": 5,
+      "wis": 8,
+      "cha": 7,
+      "immune": "poison",
+      "conditionImmune": "charmed, exhaustion, frightened, petrified, poisoned",
+      "vulnerable": "bludgeoning",
+      "passive": 9,
+      "languages": "the languages it knew in life",
+      "cr": "1",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Cunning Opportunist",
+          "text": [
+            "The stone cursed has advantage on the attack rolls of opportunity attacks."
+          ]
+        },
+        {
+          "name": "False Appearance",
+          "text": [
+            "While the stone cursed remains motionless, it is indistinguishable from a normal statue."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Petrifying Claws",
+          "text": [
+            "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) slashing damage, or 14 (2d10+3) slashing damage if the attack roll had advantage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw, or it begins to turn to stone and is restrained until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise the target is petrified for 24 hours."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stone Defender",
+      "size": "M",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Unaligned",
+      "ac": "16 (natural armor)",
+      "hp": "52 (7d8+21)",
+      "speed": "\"30 ft.,",
+      "str": 19,
+      "dex": 10,
+      "con": 17,
+      "int": 3,
+      "wis": 10,
+      "cha": 1,
+      "immune": "poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren't adamantine",
+      "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+      "senses": "darkvision 60 ft.",
+      "passive": 10,
+      "languages": "understands one language of its creator but can't speak",
+      "cr": "4",
+      "page": 0,
+      "trait": [
+        {
+          "name": "False Appearance",
+          "text": [
+            "While the stone defender remains motionless against an uneven earthen or stone surface, it is indistinguishable from that surface."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The stone defender has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) bludgeoning damage, and if the target is Large or smaller, it is knocked prone."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marut",
+      "size": "L",
+      "type": "construct",
+      "source": "MTF",
+      "alignment": "Lawful Neutral",
+      "ac": "22 (natural armor)",
+      "hp": "432 (32d10+256)",
+      "speed": "40 ft., fly 30ft. (hover)",
+      "str": 28,
+      "dex": 12,
+      "con": 26,
+      "int": 19,
+      "wis": 15,
+      "cha": 18,
+      "save": "int +12, wis +10, cha +12",
+      "skill": {
+        "insight": "+10",
+        "intimidation": "+12",
+        "perception": "+10"
+      },
+      "resist": "thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "poison",
+      "conditionImmune": "charmed, frightened, paralyzed, poisoned, unconscious",
+      "senses": "darkvision 60 ft.",
+      "passive": 20,
+      "languages": "all but rarely speaks",
+      "cr": "25",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Immutable Form",
+          "text": [
+            "The marut is immune to any spell or effect that would alter its form."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The marut's innate spellcasting ability is Intelligence(spell save DC 20). The marut can innately cast the following spell, requiring no material components.",
+            "At will: plane shift(self only)"
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If the marut fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The marut has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The marut makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Unerring Slam",
+          "text": [
+            "Melee Weapon Attack: automatic hit, reach 5 ft., one target. Hit: 60 (1d0+60) force damage, and the target is pushed up to 5 feet away from the marut if it is Huge or smaller."
+          ]
+        },
+        {
+          "name": "Blazing Edict (Recharge 5-6)",
+          "text": [
+            "Arcane energy emanates from the marut's chest in a 60-foot cube. Every creature in that area takes 45 radiant damage. Each creature that takes any of this damage must succeed on a DC 20 Wisdom saving throw or be stunned until the end of the marut's next turn."
+          ]
+        },
+        {
+          "name": "Justify",
+          "text": [
+            "The marut targets up to two creatures it can see within 60 feet of it. Each target must succeed on a DC 20 Charisma saving throw or be teleported to a teleportation circle in the Hall of Concordance in Sigil. A target fails automatically if it is incapacitated. If either target is teleported in this way, the marut teleports with it to the circle.",
+            "After teleporting in this way, the marut can't use this action again until it finishes a short or long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elder Tempest",
+      "size": "G",
+      "type": "elemental",
+      "source": "MTF",
+      "alignment": "Neutral",
+      "ac": "19",
+      "hp": "264 (16d20+96)",
+      "speed": "fly 120 ft. (hover)",
+      "str": 23,
+      "dex": 28,
+      "con": 23,
+      "int": 2,
+      "wis": 21,
+      "cha": 18,
+      "save": "wis +12, cha +11",
+      "resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "lightning, poison, thunder",
+      "conditionImmune": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "senses": "darkvision 60 ft.",
+      "passive": 15,
+      "cr": "23",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Air Form",
+          "text": [
+            "The tempest can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "text": [
+            "The tempest doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If the tempest fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Living Storm",
+          "text": [
+            "The tempest is always at the center of a storm  1d6+4 }miles in diameter. Heavy precipitation in the form of either rain or snow falls there, causing the area to be lightly obscured. Heavy rain also extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing.",
+            "In addition, strong winds swirl in the area covered by the storm. The winds impose disadvantage on ranged attack rolls. The winds extinguish open flames and disperse fog."
+          ]
+        },
+        {
+          "name": "Siege Monster",
+          "text": [
+            "The tempest deals double damage to objects and structures."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The tempest makes two attacks with its thunderous slam."
+          ]
+        },
+        {
+          "name": "Thunderous Slam",
+          "text": [
+            "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 23 (4d6+9) thunder damage."
+          ]
+        },
+        {
+          "name": "Lightning Storm (Recharge 6)",
+          "text": [
+            "All other creatures within 120 feet of the tempest must each make a DC 20 Dexterity saving throw, taking 27 (6d8) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also stunned until the end of its next turn."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Move",
+          "text": [
+            "The tempest moves up to its speed."
+          ]
+        },
+        {
+          "name": "Lightning Strike (Costs 2 Actions)",
+          "text": [
+            "The tempest can cause a bolt of lightning to strike a point on the ground anywhere under its storm. Each creature within 5 feet of that point must make a DC 20 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Screaming Gale (Costs 3 Actions)",
+          "text": [
+            "The tempest releases a blast of thunder and wind in a line that is 1 mile long and 20 feet wide. Objects in that area take 22 ( 4d10}) thunder damage. Each creature there must succeed on a DC 21 Dexterity saving throw or take 22 (4d10) thunder damage and be flung up to 60 feet in a direction away from the line. If a thrown target collides with an immovable object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown before impact. If the target would collide with another creature instead, that other creature must succeed on a DC 19 Dexterity saving throw or take the same damage and be knocked prone."
+          ]
+        }
+      ]
+    },
 		{
 			"name": "Frost Salamander",
 			"size": "H",
 			"type": "elemental",
 			"source": "MTF",
-			"alignment": [
-				"U"
-			],
+			"alignment": "Unaligned",
 			"ac": "17 (natural armor)",
-			"hp": {
-				"average": 168,
-				"formula": "16d12+64"
-			},
-			"speed": {
-				"walk": 60,
-				"burrow": 40,
-				"climb": 40
-			},
+			"hp": "168 (16d12+64)",
+			"speed": "60 ft., burrow 40ft., climb 40ft.",
 			"str": 20,
 			"dex": 12,
 			"con": 18,
 			"int": 7,
 			"wis": 11,
 			"cha": 7,
-			"save": {
-				"con": "+8",
-				"wis": "+4"
-			},
+			"save": "con +8, wis +4",
 			"skill": {
 				"perception": "+4"
 			},
-			"immune": [
-				"cold"
-			],
-			"vulnerable": [
-				"fire"
-			],
+			"immune": "cold",
+			"vulnerable": "fire",
 			"senses": "darkvision 60 ft., tremorsense 60 ft.",
 			"passive": 14,
 			"languages": "Primordial",
@@ -2107,214 +1353,150 @@
 				{
 					"name": "Claws",
 					"text": [
-						"Melee Weapon Attack:  +9} to hit, reach 10 ft., one target. Hit: 8 ( 1d6+5}) piercing damage."
+						"Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 8 (1d6+5) piercing damage."
 					]
 				},
 				{
 					"name": "Bite",
 					"text": [
-						"Melee Weapon Attack:  +9} to hit, reach 15 ft., one target. Hit: 9 ( 1d8+5}) piercing damage and 5 ( 1d10}) cold damage."
+						"Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 9 (1d8+5) piercing damage and 5 (1d10) cold damage."
 					]
 				},
 				{
 					"name": "Freezing Breath (Recharge 6)",
 					"text": [
-						"The salamander exhales chill wind in a 60-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 44 ( 8d10}) cold damage on a failed save, or half as much damage on a successful one."
+						"The salamander exhales chill wind in a 60-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 44 (8d10) cold damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			]
 		},
-		{
-			"name": "Leviathan",
-			"size": "G",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"N"
-			],
-			"ac": "17",
-			"hp": {
-				"average": 328,
-				"formula": "16d20+160"
-			},
-			"speed": {
-				"walk": 40,
-				"swim": 120
-			},
-			"str": 30,
-			"dex": 24,
-			"con": 30,
-			"int": 2,
-			"wis": 18,
-			"cha": 17,
-			"save": {
-				"wis": "+10",
-				"cha": "+9"
-			},
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"acid",
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained",
-				"stunned"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 14,
-			"cr": "20",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If the leviathan fails a saving throw, it can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Partial Freeze",
-					"text": [
-						"If the leviathan takes 50 cold damage or more during a single turn, the leviathan partially freezes; until the end of its next turn, its speeds are reduced to 20 feet, and it makes attack rolls with disadvantage."
-					]
-				},
-				{
-					"name": "Siege Monster",
-					"text": [
-						"The leviathan deals double damage to objects and structures (included in Tidal Wave)."
-					]
-				},
-				{
-					"name": "Water Form",
-					"text": [
-						"The leviathan can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The leviathan makes two attacks: one with its slam and one with its tail."
-					]
-				},
-				{
-					"name": "Slam",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 20 ft., one target. Hit: 15 ( 1d10+10}) bludgeoning damage plus 5 ( 1d10}) acid damage."
-					]
-				},
-				{
-					"name": "Tail",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 20 ft., one target. Hit: 16 ( 1d12+10}) bludgeoning damage plus 6 ( 1d12}) acid damage."
-					]
-				},
-				{
-					"name": "Tidal Wave (Recharge 6)",
-					"text": [
-						"While submerged, the leviathan magically creates a wall of water centered on itself. The wall is up 250 feet long, up to 250 feet high, and up to 50 feet thick. When the wall appears, all other creatures within its area must each make a DC 24 Strength saving throw. A creature takes 33 ( 6d10}) bludgeoning damage on failed save, or half as much damage on a successful one.",
-						"At the start of each of the leviathan's turns after the wall appears, the wall, along with any other creatures in it, moves 50 feet away from the leviathan. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a DC 24 Strength saving throw or take 27 ( 5d10}) bludgeoning damage. A creature takes this damage no more than once on a turn. At the end of each turn the wall moves, the wall's height is reduced by 50 feet, and the damage creatures take from the wall on subsequent rounds is reduced by  1d10}. When the wall reaches 0 feet in height, the effect ends.",
-						"A creature caught in the wall can move by swimming. Because of the force of the wave, though, the creature must make a successful DC 24 Strength (Athletics) check to swim at all during that turn."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Slam (Costs 2 Actions)",
-					"text": [
-						"The leviathan makes one slam attack."
-					]
-				},
-				{
-					"name": "Move",
-					"text": [
-						"The leviathan moves up to its speed."
-					]
-				}
-			]
-		},
+    {
+      "name": "Leviathan",
+      "size": "G",
+      "type": "elemental",
+      "source": "MTF",
+      "alignment": "Neutral",
+      "ac": "17",
+      "hp": "328 (16d20+160)",
+      "speed": "40 ft., swim 120 ft.",
+      "str": 30,
+      "dex": 24,
+      "con": 30,
+      "int": 2,
+      "wis": 18,
+      "cha": 17,
+      "save": "wis +10, cha +9",
+      "resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "acid, poison",
+      "conditionImmune": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+      "senses": "darkvision 60 ft.",
+      "passive": 14,
+      "cr": "20",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If the leviathan fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Partial Freeze",
+          "text": [
+            "If the leviathan takes 50 cold damage or more during a single turn, the leviathan partially freezes; until the end of its next turn, its speeds are reduced to 20 feet, and it makes attack rolls with disadvantage."
+          ]
+        },
+        {
+          "name": "Siege Monster",
+          "text": [
+            "The leviathan deals double damage to objects and structures (included in Tidal Wave)."
+          ]
+        },
+        {
+          "name": "Water Form",
+          "text": [
+            "The leviathan can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The leviathan makes two attacks: one with its slam and one with its tail."
+          ]
+        },
+        {
+          "name": "Slam",
+          "text": [
+            "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 15 (1d10+10) bludgeoning damage plus 5 (1d10) acid damage."
+          ]
+        },
+        {
+          "name": "Tail",
+          "text": [
+            "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 16 (1d12+10) bludgeoning damage plus 6 (1d12) acid damage."
+          ]
+        },
+        {
+          "name": "Tidal Wave (Recharge 6)",
+          "text": [
+            "While submerged, the leviathan magically creates a wall of water centered on itself. The wall is up 250 feet long, up to 250 feet high, and up to 50 feet thick. When the wall appears, all other creatures within its area must each make a DC 24 Strength saving throw. A creature takes 33 (6d10) bludgeoning damage on failed save, or half as much damage on a successful one.",
+            "At the start of each of the leviathan's turns after the wall appears, the wall, along with any other creatures in it, moves 50 feet away from the leviathan. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a DC 24 Strength saving throw or take 27 (5d10) bludgeoning damage. A creature takes this damage no more than once on a turn. At the end of each turn the wall moves, the wall's height is reduced by 50 feet, and the damage creatures take from the wall on subsequent rounds is reduced by  1d10. When the wall reaches 0 feet in height, the effect ends.",
+            "A creature caught in the wall can move by swimming. Because of the force of the wave, though, the creature must make a successful DC 24 Strength (Athletics) check to swim at all during that turn."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Slam (Costs 2 Actions)",
+          "text": [
+            "The leviathan makes one slam attack."
+          ]
+        },
+        {
+          "name": "Move",
+          "text": [
+            "The leviathan moves up to its speed."
+          ]
+        }
+      ]
+    },
 		{
 			"name": "Phoenix",
 			"size": "G",
 			"type": "elemental",
 			"source": "MTF",
-			"alignment": [
-				"N"
-			],
+			"alignment": "Neutral",
 			"ac": "18",
-			"hp": {
-				"average": 175,
-				"formula": "10d20+70"
-			},
-			"speed": {
-				"walk": 20,
-				"fly": 120
-			},
+			"hp": "175 (10d20+70)",
+			"speed": "20 ft., fly 120 ft.",
 			"str": 19,
 			"dex": 26,
 			"con": 25,
 			"int": 2,
 			"wis": 21,
 			"cha": 18,
-			"save": {
-				"wis": "+10",
-				"cha": "+9"
-			},
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"fire",
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained",
-				"stunned"
-			],
+			"save": "wis +10, cha +9",
+		"resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+			"immune": "fire, poison",
+			"conditionImmune": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
 			"senses": "darkvision 60 ft.",
 			"passive": 15,
 			"cr": "16",
 			"page": 0,
 			"trait": [
-				{
-					"name": "Fiery Death and Rebirth",
-					"text": [
-						"When the phoenix dies, it explodes. Each creature within 60-feet of it must make a DC 20 Dexterity saving throw, taking 22 ( 4d10}) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't worn or carried.",
-						"The explosion destroys the phoenix's body and leaves behind an egg-shaped cinder that weighs 5 pounds. The cinder is blazing hot, dealing 21 ( 6d6}) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after  1d6} days, it hatches a new phoenix."
-					]
-				},
+        {
+          "name": "Fiery Death and Rebirth",
+          "text": [
+            "When the phoenix dies, it explodes. Each creature within 60-feet of it must make a DC 20 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't worn or carried.",
+            "The explosion destroys the phoenix's body and leaves behind an egg-shaped cinder that weighs 5 pounds. The cinder is blazing hot, dealing 21 (6d6) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after 1d6 days, it hatches a new phoenix."
+          ]
+        },
 				{
 					"name": "Fire Form",
 					"text": [
-						"The phoenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 ( 1d10}) fire damage. In addition, the phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 ( 1d10}) fire damage. With a touch, the phoenix can also ignite flammable objects that aren't worn or carried (no action required)."
+						"The phoenix can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the phoenix can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage. With a touch, the phoenix can also ignite flammable objects that aren't worn or carried (no action required)."
 					]
 				},
 				{
@@ -2352,13 +1534,13 @@
 				{
 					"name": "Beak",
 					"text": [
-						"Melee Weapon Attack:  +13} to hit, reach 15 ft., one target. Hit: 15 ( 2d6+8}) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ( 1d10}) fire damage at the start of each of its turns."
+						"Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 15 (2d6+8) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns."
 					]
 				},
 				{
 					"name": "Fiery Talons",
 					"text": [
-						"Melee Weapon Attack:  +13} to hit, reach 15 ft., one target. Hit: 17 ( 2d8+8}) fire damage."
+						"Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8+8) fire damage."
 					]
 				}
 			],
@@ -2383,718 +1565,493 @@
 				}
 			]
 		},
-		{
-			"name": "Water Elemental Myrmidon",
-			"size": "M",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"N"
-			],
-			"ac": "18 (plate)",
-			"hp": {
-				"average": 127,
-				"formula": "17d8+51"
-			},
-			"speed": {
-				"walk": 40,
-				"swim": 40
-			},
-			"str": 18,
-			"dex": 14,
-			"con": 15,
-			"int": 8,
-			"wis": 10,
-			"cha": 10,
-			"resist": [
-				"acid",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "Aquan, one language of its creator's choice",
-			"cr": "7",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"The myrmidon's weapon attacks are magical."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The myrmidon makes three trident attacks."
-					]
-				},
-				{
-					"name": "Trident",
-					"text": [
-						"Melee or Ranged Weapon Attack:  +7} to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 ( 1d6+4}) piercing damage, or 8 ( 1d8+4}) piercing damage if used with two hands to make a melee attack."
-					]
-				},
-				{
-					"name": "Freezing Strikes (Recharge 6)",
-					"text": [
-						"The myrmidon uses Multiattack. Each attack that hits deals an extra 5 ( 1d10}) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the myrmidon's next turn."
-					]
-				}
-			]
-		},
-		{
-			"name": "Zaratan",
-			"size": "G",
-			"type": "elemental",
-			"source": "MTF",
-			"alignment": [
-				"N"
-			],
-			"ac": "21 (natural armor)",
-			"hp": {
-				"average": 307,
-				"formula": "15d20+150"
-			},
-			"speed": {
-				"walk": 40,
-				"swim": 40
-			},
-			"str": 30,
-			"dex": 10,
-			"con": 30,
-			"int": 2,
-			"wis": 21,
-			"cha": 18,
-			"save": {
-				"wis": "+12",
-				"cha": "+11"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"stunned"
-			],
-			"vulnerable": [
-				"thunder"
-			],
-			"senses": "darkvision 60 ft., tremorsense 60 ft.",
-			"passive": 15,
-			"cr": "22",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Earth-Shaking Movement",
-					"text": [
-						"As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes difficult terrain for 1 minute. Each creature on the ground that is concentrating must succeed on a DC 25 Constitution saving throw or the creature's concentration is broken.",
-						"The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a DC 25 Dexterity saving throw. On a failed save, the creature takes 17 ( 5d6}) bludgeoning damage, is knocked prone, and is trapped in the rubble. A trapped creature is restrained, requiring a successful DC 20 Strength (Athletics) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall prone or become trapped."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If the zaratan fails a saving throw, it can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"The zaratan's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Siege Monster",
-					"text": [
-						"The elemental deals double damage to objects and structures (included in Earth-Shaking Movement)."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The zaratan makes two attacks: one with its bite and one with its stomp."
-					]
-				},
-				{
-					"name": "Bite",
-					"text": [
-						"Melee Weapon Attack:  +17} to hit, reach 20 ft., one target. Hit: 28 ( 4d8+10}) piercing damage."
-					]
-				},
-				{
-					"name": "Stomp",
-					"text": [
-						"Melee Weapon Attack:  +17} to hit, reach 20 ft., one target. Hit: 26 ( 3d10+10}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Spit Rock",
-					"text": [
-						"Ranged Weapon Attack:  +17} to hit, range 120 ft./240 ft., one target. Hit: 31 ( 6d8+10}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Spew Debris (Recharge 5-6)",
-					"text": [
-						"The zaratan exhales rocky debris in a 90-foot cube. Each creature in that area must make a DC 25 Dexterity saving throw. A creature takes 33 ( 6d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails the save by 5 or more is knocked prone."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Stomp",
-					"text": [
-						"The zaratan makes one stomp attack."
-					]
-				},
-				{
-					"name": "Move",
-					"text": [
-						"The zaratan moves up to its speed."
-					]
-				},
-				{
-					"name": "Spit (Costs 2 Actions)",
-					"text": [
-						"The zaratan uses Spit Rock."
-					]
-				},
-				{
-					"name": "Retract (Costs 2 Actions)",
-					"text": [
-						"The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is restrained. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
-					]
-				},
-				{
-					"name": "Revitalize (Costs 2 Actions)",
-					"text": [
-						"The zaratan can use this option only if it is retracted in its shell. It regains 52 ( 5d20}) hit points. The next time it takes a legendary action, it must take its Emerge action."
-					]
-				},
-				{
-					"name": "Emerge (Costs 2 Actions)",
-					"text": [
-						"The zaratan emerges from its shell and uses Spit Rock. It can use this option only if it is retracted in its shell."
-					]
-				}
-			]
-		},
-		{
-			"name": "Autumn Eladrin",
-			"size": "M",
-			"type": {
-				"type": "fey",
-				"tags": [
-					"elf"
+    {
+      "name": "Zaratan",
+      "size": "G",
+      "type": "elemental",
+      "source": "MTF",
+      "alignment": "Neutral",
+      "ac": "21 (natural armor)",
+      "hp": "307 (15d20+150)",
+      "speed": "40 ft., swim 40 ft.",
+      "str": 30,
+      "dex": 10,
+      "con": 30,
+      "int": 2,
+      "wis": 21,
+      "cha": 18,
+      "save": "wis + 12, cha + 11",
+      "resist": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "immune": "poison",
+      "conditionImmune": "exhaustion, paralyzed, petrified, poisoned, stunned",
+      "vulnerable": "thunder",
+      "senses": "darkvision 60 ft., tremorsense 60 ft.",
+      "passive": 15,
+      "cr": "22",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Earth-Shaking Movement",
+          "text": [
+            "As a bonus action after moving at least 10 feet on the ground, the zaratan can send a shock wave through the ground in a 120-foot-radius circle centered on itself. That area becomes difficult terrain for 1 minute. Each creature on the ground that is concentrating must succeed on a DC 25 Constitution saving throw or the creature's concentration is broken.",
+            "The shock wave deals 100 thunder damage to all structures in contact with the ground in the area. If a creature is near a structure that collapses, the creature might be buried; a creature within half the distance of the structure's height must make a DC 25 Dexterity saving throw. On a failed save, the creature takes 17 (5d6) bludgeoning damage, is knocked prone, and is trapped in the rubble. A trapped creature is restrained, requiring a successful DC 20 Strength (Athletics) check as an action to escape. Another creature within 5 feet of the buried creature can use its action to clear rubble and grant advantage on the check. If three creatures use their actions in this way, the check is an automatic success. On a successful save, the creature takes half as much damage and doesn't fall prone or become trapped."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "text": [
+            "If the zaratan fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "text": [
+            "The zaratan's weapon attacks are magical."
+          ]
+        },
+        {
+          "name": "Siege Monster",
+          "text": [
+            "The elemental deals double damage to objects and structures (included in Earth-Shaking Movement)."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The zaratan makes two attacks: one with its bite and one with its stomp."
+          ]
+        },
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 28 (4d8+10) piercing damage."
+          ]
+        },
+        {
+          "name": "Stomp",
+          "text": [
+            "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 26 (3d10+10) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Spit Rock",
+          "text": [
+            "Ranged Weapon Attack: +17 to hit, range 120 ft./240 ft., one target. Hit: 31 (6d8+10) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Spew Debris (Recharge 5-6)",
+          "text": [
+            "The zaratan exhales rocky debris in a 90-foot cube. Each creature in that area must make a DC 25 Dexterity saving throw. A creature takes 33 (6d10) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature that fails the save by 5 or more is knocked prone."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Stomp",
+          "text": [
+            "The zaratan makes one stomp attack."
+          ]
+        },
+        {
+          "name": "Move",
+          "text": [
+            "The zaratan moves up to its speed."
+          ]
+        },
+        {
+          "name": "Spit (Costs 2 Actions)",
+          "text": [
+            "The zaratan uses Spit Rock."
+          ]
+        },
+        {
+          "name": "Retract (Costs 2 Actions)",
+          "text": [
+            "The zaratan retracts into its shell. Until it takes its Emerge action, it has resistance to all damage, and it is restrained. The next time it takes a legendary action, it must take its Revitalize or Emerge action."
+          ]
+        },
+        {
+          "name": "Revitalize (Costs 2 Actions)",
+          "text": [
+            "The zaratan can use this option only if it is retracted in its shell. It regains 52 (5d20) hit points. The next time it takes a legendary action, it must take its Emerge action."
+          ]
+        },
+        {
+          "name": "Emerge (Costs 2 Actions)",
+          "text": [
+            "The zaratan emerges from its shell and uses Spit Rock. It can use this option only if it is retracted in its shell."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autumn Eladrin",
+      "size": "M",
+      "type": "fey",
+      "source": "MTF",
+      "alignment": "Chaotic Neutral",
+      "ac": "19 (natural armor)",
+      "hp": "127 (17d8+51)",
+      "speed": "30 ft.",
+      "str": 12,
+      "dex": 16,
+      "con": 16,
+      "int": 14,
+      "wis": 17,
+      "cha": 18,
+      "skill": {
+        "insight": "+7",
+        "medicine": "+7"
+      },
+      "resist": " bludgeoning, piercing, and slashing from nonmagical attacks",
+      "senses": "darkvision 60 ft.",
+      "passive": 13,
+      "languages": "Common, Elvish, Sylvan",
+      "cr": "10",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Enchanting Presence",
+          "text": [
+            "Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature is charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
+            "Whenever the eladrin deals damage to the charmed creature, the creature can repeat the saving throw, ending the effect on itself on a success."
+          ]
+        },
+        {
+          "name": "Fey Step (Recharge 4-6)",
+          "text": [
+            "As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The eladrin's innate spellcasting ability is Charisma(Spell save DC 16). It can innately cast the following spells, requiring no material components:",
+            "At will: calm emotions, sleep",
+            "3/day each: cure wounds (as a 5th level spell), lesser restoration",
+            "1/day each: greater restoration, heal, raise dead"
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The eladrin has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Longsword",
+          "text": [
+            "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d8+1) slashing damage plus 18 (4d8) psychic damage, or 6 (1d10+1) slashing damage plus 18 (4d8) psychic damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "text": [
+            "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8+3) piercing damage plus 18 (4d8) psychic damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spring Eladrin",
+      "size": "M",
+      "type": "fey",
+      "source": "MTF",
+      "alignment": "Chaotic Neutral",
+      "ac": "19 (natural armor)",
+      "hp": "127 (17d8+51)",
+      "speed": "30 ft.",
+      "str": 14,
+      "dex": 16,
+      "con": 16,
+      "int": 18,
+      "wis": 11,
+      "cha": 18,
+      "skill": {
+        "deception": "+8",
+        "persuasion": "+8"
+      },
+      "resist": " bludgeoning, piercing, and slashing from nonmagical attacks",
+      "senses": "darkvision 60 ft.",
+      "passive": 10,
+      "languages": "Common, Elvish, Sylvan",
+      "cr": "10",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Fey Step (Recharge 4-6)",
+          "text": [
+            "As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The eladrin's innate spellcasting ability is Charisma(Spell save DC 16). It can innately cast the following spells, requiring no material components:",
+            "At will: charm person, Tasha's hideous laughter",
+            "3/day each:  confusion, entrall, suggestion",
+            "1/day each: hallucinatory terrain, Otto's irresistible dance"
+          ]
+        },
+        {
+          "name": "Joyful Presence",
+          "text": [
+            "Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature is charmed for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.",
+            "Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The eladrin has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The eladrin makes two weapon attacks. The eladrin can cast one spell in place of one of these attacks."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "text": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage plus 4 (1d8) psychic damage, or 7 (1d10+2) slashing damage plus 4 (1d8) psychic damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "text": [
+            "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8+3) piercing damage plus 4 (1d8) psychic damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Summer Eladrin",
+      "size": "M",
+      "type": "fey",
+      "source": "MTF",
+      "alignment": "Chaotic Neutral",
+      "ac": "19 (natural armor)",
+      "hp": "127 (17d8+51)",
+      "speed": "50 ft.",
+      "str": 19,
+      "dex": 21,
+      "con": 16,
+      "int": 14,
+      "wis": 12,
+      "cha": 18,
+      "skill": {
+        "athletics": "+8",
+        "intimidation": "+8"
+      },
+      "resist": " bludgeoning, piercing, and slashing from nonmagical attacks",
+      "senses": "darkvision 60 ft.",
+      "passive": 9,
+      "languages": "Common, Elvish, Sylvan",
+      "cr": "10",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Fearsome Presence",
+          "text": [
+            "Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
+          ]
+        },
+        {
+          "name": "Fey Step (Recharge 4-6)",
+          "text": [
+            "As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The eladrin has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The eladrin makes two weapon attacks."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage plus 4 (1d8) fire damage, or 15 (2d10+4) slashing damage plus 4 (1d8) fire damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "text": [
+            "Ranged Weapon Attack: +9 to hit, range 150/600 ft., one target. Hit: 14 (2d8+5) piercing damage plus 4 (1d8) fire damage."
+          ]
+        }
+      ],
+      "reaction": {
+        "name": "Parry",
+        "text": [
+          "The eladrin adds 3 to its AC against one melee attack that would hit it. To do so, the eladrin must see the attacker and be wielding a melee weapon."
+        ]
+      }
+    },
+    {
+      "name": "Winter Eladrin",
+      "size": "M",
+      "type": "fey",
+      "source": "MTF",
+      "alignment": "Chaotic Neutral",
+      "ac": "19 (natural armor)",
+      "hp": "127 (17d8+51)",
+      "speed": "30 ft.",
+      "str": 11,
+      "dex": 10,
+      "con": 16,
+      "int": 18,
+      "wis": 17,
+      "cha": 13,
+      "resist": "cold; bludgeoning, piercing, and slashing from nonmagical attacks",
+      "senses": "darkvision 60 ft.",
+      "passive": 13,
+      "languages": "Common, Elvish, Sylvan",
+      "cr": "10",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Fey Step (Recharge 4-6)",
+          "text": [
+            "As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The eladrin's innate spellcasting ability is Charisma(Spell save DC 16). It can innately cast the following spells, requiring no material components:",
+            "At will: fog cloud, gust of wind",
+            "1/day each: cone of cold, ice storm"
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "text": [
+            "The eladrin has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Sorrowful Presence",
+          "text": [
+            "Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 13 Wisdom saving throw. On a failed save, the creature is charmed for 1 minute. While charmed in this way, the creature has disadvantage on ability checks and saving throws. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.",
+            "Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Longsword",
+          "text": [
+            "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d8) slashing damage, or 5 (1d10) slashing damage if used with two hands."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "text": [
+            "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 4 (1d8) piercing damage."
+          ]
+        }
+      ],
+      "reaction": {
+				"name": "Frigid Rebuke",
+				"text": [
+					"When the eladrin takes damage from a creature the eladrin can see within 60 feet of it, the eladrin can force that creature to succeed on a DC 16 Constitution saving throw or take 11 (2d10) cold damage."
 				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": "19 (natural armor)",
-			"hp": {
-				"average": 127,
-				"formula": "17d8+51"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 12,
-			"dex": 16,
-			"con": 16,
-			"int": 14,
-			"wis": 17,
-			"cha": 18,
-			"skill": {
-				"insight": "+7",
-				"medicine": "+7"
-			},
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 13,
-			"languages": "Common, Elvish, Sylvan",
-			"cr": "10",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Enchanting Presence",
-					"text": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature is charmed by the eladrin for 1 minute. On a successful save, the creature becomes immune to any eladrin's Enchanting Presence for 24 hours.",
-						"Whenever the eladrin deals damage to the charmed creature, the creature can repeat the saving throw, ending the effect on itself on a success."
-					]
-				},
-				{
-					"name": "Fey Step (Recharge 4-6)",
-					"text": [
-						"As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The eladrin has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Longsword",
-					"text": [
-						"Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 5 ( 1d8+1}) slashing damage plus 18 ( 4d8}) psychic damage, or 6 ( 1d10+1}) slashing damage plus 18 ( 4d8}) psychic damage if used with two hands."
-					]
-				},
-				{
-					"name": "Longbow",
-					"text": [
-						"Ranged Weapon Attack:  +7} to hit, range 150/600 ft., one target. Hit: 7 ( 1d8+3}) piercing damage plus 18 ( 4d8}) psychic damage."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The eladrin's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell calm emotions}",
-						"{@spell sleep}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell cure wounds} (as a 5th-level spell)",
-							"{@spell lesser restoration}"
-						],
-						"1e": [
-							"{@spell greater restoration}",
-							"{@spell heal}",
-							"{@spell raise dead}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Spring Eladrin",
-			"size": "M",
-			"type": {
-				"type": "fey",
-				"tags": [
-					"elf"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": "19 (natural armor)",
-			"hp": {
-				"average": 127,
-				"formula": "17d8+51"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 14,
-			"dex": 16,
-			"con": 16,
-			"int": 18,
-			"wis": 11,
-			"cha": 18,
-			"skill": {
-				"deception": "+8",
-				"persuasion": "+8"
-			},
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 10,
-			"languages": "Common, Elvish, Sylvan",
-			"cr": "10",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Fey Step (Recharge 4-6)",
-					"text": [
-						"As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
-					]
-				},
-				{
-					"name": "Joyful Presence",
-					"text": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature is charmed for 1 minute. On a successful save, the creature becomes immune to any eladrin's Joyful Presence for 24 hours.",
-						"Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The eladrin has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The eladrin makes two weapon attacks. The eladrin can cast one spell in place of one of these attacks."
-					]
-				},
-				{
-					"name": "Longsword",
-					"text": [
-						"Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 6 ( 1d8+2}) slashing damage plus 4 ( 1d8}) psychic damage, or 7 ( 1d10+2}) slashing damage plus 4 ( 1d8}) psychic damage if used with two hands."
-					]
-				},
-				{
-					"name": "Longbow",
-					"text": [
-						"Ranged Weapon Attack:  +7} to hit, range 150/600 ft., one target. Hit: 7 ( 1d8+3}) piercing damage plus 4 ( 1d8}) psychic damage."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The eladrin's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell charm person}",
-						"{@spell Tasha's hideous laughter}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell confusion}",
-							"{@spell enthrall}",
-							"{@spell suggestion}"
-						],
-						"1e": [
-							"{@spell hallucinatory terrain}",
-							"{@spell Otto's irresistible dance}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Summer Eladrin",
-			"size": "M",
-			"type": {
-				"type": "fey",
-				"tags": [
-					"elf"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": "19 (natural armor)",
-			"hp": {
-				"average": 127,
-				"formula": "17d8+51"
-			},
-			"speed": {
-				"walk": 50
-			},
-			"str": 19,
-			"dex": 21,
-			"con": 16,
-			"int": 14,
-			"wis": 12,
-			"cha": 18,
-			"skill": {
-				"athletics": "+8",
-				"intimidation": "+8"
-			},
-			"resist": [
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 9,
-			"languages": "Common, Elvish, Sylvan",
-			"cr": "10",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Fearsome Presence",
-					"text": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 16 Wisdom saving throw. On a failed save, the creature becomes frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Fearsome Presence for the next 24 hours."
-					]
-				},
-				{
-					"name": "Fey Step (Recharge 4-6)",
-					"text": [
-						"As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The eladrin has advantage on saving throws against spells and other magical effects."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The eladrin makes two weapon attacks."
-					]
-				},
-				{
-					"name": "Longsword",
-					"text": [
-						"Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 13 ( 2d8+4}) slashing damage plus 4 ( 1d8}) fire damage, or 15 ( 2d10+4}) slashing damage plus 4 ( 1d8}) fire damage if used with two hands."
-					]
-				},
-				{
-					"name": "Longbow",
-					"text": [
-						"Ranged Weapon Attack:  +9} to hit, range 150/600 ft., one target. Hit: 14 ( 2d8+5}) piercing damage plus 4 ( 1d8}) fire damage."
-					]
-				}
-			]
-		},
-		{
-			"name": "Winter Eladrin",
-			"size": "M",
-			"type": {
-				"type": "fey",
-				"tags": [
-					"elf"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": "19 (natural armor)",
-			"hp": {
-				"average": 127,
-				"formula": "17d8+51"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 11,
-			"dex": 10,
-			"con": 16,
-			"int": 18,
-			"wis": 17,
-			"cha": 13,
-			"resist": [
-				"cold",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 13,
-			"languages": "Common, Elvish, Sylvan",
-			"cr": "10",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Fey Step (Recharge 4-6)",
-					"text": [
-						"As a bonus action, the eladrin can teleport up to 30 feet to an unoccupied space it can see."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"The eladrin has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Sorrowful Presence",
-					"text": [
-						"Any non-eladrin creature that starts its turn within 60 feet of the eladrin must make a DC 13 Wisdom saving throw. On a failed save, the creature is charmed for 1 minute. While charmed in this way, the creature has disadvantage on ability checks and saving throws. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to any eladrin's Sorrowful Presence for the next 24 hours.",
-						"Whenever the eladrin deals damage to the charmed creature, it can repeat the saving throw, ending the effect on itself on a success."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Longsword",
-					"text": [
-						"Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 4 ( 1d8}) slashing damage, or 5 ( 1d10}) slashing damage if used with two hands."
-					]
-				},
-				{
-					"name": "Longbow",
-					"text": [
-						"Ranged Weapon Attack:  +4} to hit, range 150/600 ft., one target. Hit: 4 ( 1d8}) piercing damage."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"The eladrin's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell fog cloud}",
-						"{@spell gust of wind}"
-					],
-					"daily": {
-						"1e": [
-							"{@spell cone of cold}",
-							"{@spell ice storm}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Howler",
-			"size": "L",
-			"type": "fiend",
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "16 (natural armor)",
-			"hp": {
-				"average": 90,
-				"formula": "12d10+24"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 17,
-			"dex": 16,
-			"con": 15,
-			"int": 5,
-			"wis": 20,
-			"cha": 6,
-			"skill": {
-				"perception": "+8"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"frightened"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 15,
-			"languages": "understands Abyssal but can't speak",
-			"cr": "8",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Pack Tactics",
-					"text": [
-						"A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't incapacitated."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"The howler makes two bite attacks."
-					]
-				},
-				{
-					"name": "Rending Bite",
-					"text": [
-						"Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 10 ( 2d6+3}) piercing damage. If the target is frightened it takes an additional 22 ( 4d10}) psychic damage. This attack ignores damage resistance."
-					]
-				},
-				{
-					"name": "Mind-Breaking Howl (Recharge 6)",
-					"text": [
-						"The howler emits a keening howl in a 60-foot cone. Each creature in that area that isn't deafened must succeed on a DC 16 Wisdom saving throw or be frightened until the end of the howler's next turn. While a creature is frightened in this way, its speed is halved, and it is incapacitated. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours."
-					]
-				}
-			]
-		},
+			}
+    },
+    {
+      "name": "Howler",
+      "size": "L",
+      "type": "fiend",
+      "source": "MTF",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": "16 (natural armor)",
+      "hp": {
+        "average": 90,
+        "formula": "12d10+24"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 17,
+      "dex": 16,
+      "con": 15,
+      "int": 5,
+      "wis": 20,
+      "cha": 6,
+      "skill": {
+        "perception": "+8"
+      },
+      "resist": [
+        "cold",
+        "fire",
+        "lightning",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks"
+        }
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "senses": "darkvision 60 ft.",
+      "passive": 15,
+      "languages": "understands Abyssal but can't speak",
+      "cr": "8",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Pack Tactics",
+          "text": [
+            "A howler has advantage on attack rolls against a creature if at least one of the howler's allies is within 5 feet of the creature and the ally isn't incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The howler makes two bite attacks."
+          ]
+        },
+        {
+          "name": "Rending Bite",
+          "text": [
+            "Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 10 ( 2d6+3}) piercing damage. If the target is frightened it takes an additional 22 ( 4d10}) psychic damage. This attack ignores damage resistance."
+          ]
+        },
+        {
+          "name": "Mind-Breaking Howl (Recharge 6)",
+          "text": [
+            "The howler emits a keening howl in a 60-foot cone. Each creature in that area that isn't deafened must succeed on a DC 16 Wisdom saving throw or be frightened until the end of the howler's next turn. While a creature is frightened in this way, its speed is halved, and it is incapacitated. A target that successfully saves is immune to the Mind-Breaking Howl of all howlers for the next 24 hours."
+          ]
+        }
+      ]
+    },
 		{
 			"name": "Abyssal Wretch",
 			"size": "M",
@@ -3346,179 +2303,6 @@
 			]
 		},
 		{
-			"name": "Baphomet",
-			"size": "H",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "22 (natural armor)",
-			"hp": {
-				"average": 275,
-				"formula": "19d12+152"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 30,
-			"dex": 14,
-			"con": 26,
-			"int": 18,
-			"wis": 24,
-			"cha": 16,
-			"save": {
-				"dex": "+9",
-				"con": "+15",
-				"wis": "+14"
-			},
-			"skill": {
-				"intimidation": "+17",
-				"perception": "+14"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 24,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "23",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Charge",
-					"text": [
-						"If Baphomet moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 16 ( 3d10}) piercing damage. If the target is a creature, it must succeed on a DC 25 Strength saving throw or be pushed up to 10 feet away and knocked prone."
-					]
-				},
-				{
-					"name": "Labyrinthine Recall",
-					"text": [
-						"Baphomet can perfectly recall any path he has traveled, and he is immune to the maze spell."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Baphomet fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Baphomet has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Baphomet's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Reckless",
-					"text": [
-						"At the start of his turn, Baphomet can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Baphomet makes three attacks: one with Heartcleaver, one with his bite, and one with his gore attack."
-					]
-				},
-				{
-					"name": "Heartcleaver",
-					"text": [
-						"Melee Weapon Attack:  +17} to hit, reach 15 ft., one target. Hit: 21 ( 2d10+10}) slashing damage."
-					]
-				},
-				{
-					"name": "Bite",
-					"text": [
-						"Melee Weapon Attack:  +17} to hit, reach 10 ft., one target. Hit: 19 ( 2d8+10}) piercing damage."
-					]
-				},
-				{
-					"name": "Gore",
-					"text": [
-						"Melee Weapon Attack:  +17} to hit, reach 10 ft., one target. Hit: 17 ( 2d6+10}) piercing damage."
-					]
-				},
-				{
-					"name": "Frightful Presence",
-					"text": [
-						"Each creature of Baphomet's choice within 120 feet of him and aware of him must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. These later saves have disadvantage if Baphomet is within line of sight of the creature.",
-						"If a creature succeeds on any of these saves or the effect ends on it, the creature is immune to Baphomet's Frightful Presence for the next 24 hours."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Heartcleaver Attack",
-					"text": [
-						"Baphomet makes a melee attack with Heartcleaver."
-					]
-				},
-				{
-					"name": "Charge (Costs 2 Actions)",
-					"text": [
-						"Baphomet moves up to his speed, then makes a gore attack."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Baphomet's spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell detect magic}"
-					],
-					"daily": {
-						"1": [
-							"{@spell teleport}"
-						],
-						"3e": [
-							"{@spell dispel magic}",
-							"{@spell dominate beast}",
-							"{@spell hunter's mark}",
-							"{@spell maze}",
-							"{@spell wall of stone}"
-						]
-					}
-				}
-			]
-		},
-		{
 			"name": "Bulezau",
 			"size": "M",
 			"type": {
@@ -3590,161 +2374,6 @@
 					"text": [
 						"Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 8 ( 1d12+2}) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw against disease or become poisoned until the disease ends. While poisoned in this way, the target sports festering boils, coughs up flies, and sheds rotting skin, and the target must repeat the saving throw after every 24 hours that elapse. On a successful save, the disease ends. On a failed save, the target's hit point maximum is reduced by 4 ( 1d8}). The target dies if its hit point maximum is reduced to 0."
 					]
-				}
-			]
-		},
-		{
-			"name": "Demogorgon",
-			"size": "H",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "22 (natural armor)",
-			"hp": {
-				"average": 406,
-				"formula": "28d12+224"
-			},
-			"speed": {
-				"walk": 50,
-				"swim": 50
-			},
-			"str": 29,
-			"dex": 14,
-			"con": 26,
-			"int": 20,
-			"wis": 17,
-			"cha": 25,
-			"save": {
-				"dex": "+10",
-				"con": "+16",
-				"wis": "+11",
-				"cha": "+15"
-			},
-			"skill": {
-				"insight": "+11",
-				"perception": "+19"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 29,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "26",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Demogorgon fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Demogorgon has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Demogorgon's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Two Heads",
-					"text": [
-						"Demogorgon has advantage on saving throws against being blinded, deafened, stunned, or knocked unconscious."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Demogorgon makes two tentacle attacks."
-					]
-				},
-				{
-					"name": "Tentacle",
-					"text": [
-						"Melee Weapon Attack:  +17} to hit, reach 10 ft., one target. Hit: 28 ( 3d12+9}) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
-					]
-				},
-				{
-					"name": "Gaze",
-					"text": [
-						"Demogorgon turns his magical gaze toward one creature that he can see within 120 feet of him. That target must make a DC 23 Wisdom saving throw. Unless the target is incapacitated, it can avert its eyes to avoid the gaze and to automatically succeed on the save. If the target does so, it can't see Demogorgon until the start of his next turn. If the target looks at him in the meantime, it must immediately make the save.",
-						"If the target fails the save, the target suffers one of the following effects of Demogorgon's choice or at random:",
-						"1. Beguiling Gaze. The target is stunned until the start of Demogorgon's next turn or until Demogorgon is no longer within line of sight.",
-						"2. Hypnotic Gaze. The target is charmed by Demogorgon until the start of Demogorgon's next turn. Demogorgon chooses how the charmed target uses its actions, reactions, and movement. Because this gaze requires Demogorgon to focus both heads on the target, he can't use his Maddening Gaze legendary action until the start of his next turn.",
-						"3. Insanity Gaze. The target suffers the effect of the confusion spell without making a saving throw. The effect lasts until the start of Demogorgon's next turn. Demogorgon doesn't need to concentrate on the spell."
-					]
-				}
-			],
-			"legendaryActions": 2,
-			"legendary": [
-				{
-					"name": "Tail",
-					"text": [
-						"Melee Weapon Attack:  +17} to hit, reach 15 ft., one target. Hit: 20 ( 2d10+9}) bludgeoning damage plus 11 ( 2d10}) necrotic damage."
-					]
-				},
-				{
-					"name": "Maddening Gaze",
-					"text": [
-						"Demogorgon uses his Gaze action, and must choose either the Beguiling Gaze or the Insanity Gaze effect."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Demogorgon's spellcasting ability is Charisma. Demogorgon can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell major image}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell telekinesis}"
-						],
-						"1e": [
-							"{@spell feeblemind}",
-							"{@spell project image}"
-						]
-					}
 				}
 			]
 		},
@@ -3867,332 +2496,6 @@
 						"3e": [
 							"{@spell fear}",
 							"{@spell phantasmal force}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Fraz-Urb'luu",
-			"size": "L",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "18 (natural armor)",
-			"hp": {
-				"average": 337,
-				"formula": "27d10+189"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 40
-			},
-			"str": 29,
-			"dex": 12,
-			"con": 25,
-			"int": 26,
-			"wis": 24,
-			"cha": 26,
-			"save": {
-				"dex": "+8",
-				"con": "+14",
-				"int": "+15",
-				"wis": "+14"
-			},
-			"skill": {
-				"deception": "+15",
-				"perception": "+14",
-				"stealth": "+8"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 24,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "23",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Fraz-Urb'luu fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Fraz-Urb'luu has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Fraz-Urb'luu's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Undetectable",
-					"text": [
-						"Fraz-Urb'luu can't be targeted by divination magic, perceived through magical scrying sensors, or detected by abilities that sense demons or fiends."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Fraz-Urb'luu makes three attacks: one with his bite and two with his fists."
-					]
-				},
-				{
-					"name": "Bite",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 10 ft., one target. Hit: 19 ( 3d6+9}) piercing damage."
-					]
-				},
-				{
-					"name": "Fist",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 10 ft., one target. Hit: 22 ( 3d8+9}) bludgeoning damage."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Tail",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 15 ft., one target. Hit: 20 ( 2d10+9}) bludgeoning damage. If the target is a Large or smaller creature, it is also grappled (escape DC 24). The grappled target is also restrained. Fraz-Urb'luu can grapple only one creature with his tail at a time."
-					]
-				},
-				{
-					"name": "Phantasmal Killer (Costs 2 Actions)",
-					"text": [
-						"Fraz-Urb'luu casts phantasmal killer, no concentration required."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Fraz-Urb'luu's spellcasting ability is Charisma. Fraz-Urb'luu can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell phantasmal force}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell confusion}",
-							"{@spell dream}",
-							"{@spell mislead}",
-							"{@spell programmed illusion}",
-							"{@spell seeming}"
-						],
-						"1e": [
-							"{@spell mirage arcane}",
-							"{@spell modify memory}",
-							"{@spell project image}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Juiblex",
-			"size": "H",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "18 (natural armor)",
-			"hp": {
-				"average": 350,
-				"formula": "28d12+168"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 24,
-			"dex": 10,
-			"con": 23,
-			"int": 20,
-			"wis": 20,
-			"cha": 16,
-			"save": {
-				"dex": "+7",
-				"con": "+13",
-				"wis": "+12"
-			},
-			"skill": {
-				"perception": "+12"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"blinded",
-				"charmed",
-				"deafened",
-				"exhaustion",
-				"frightened",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained",
-				"stunned",
-				"unconscious"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 22,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "23",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Foul",
-					"text": [
-						"Any creature, other than an ooze, that starts its turn within 10 feet of Juiblex must succeed on a DC 21 Constitution saving throw or be poisoned until the start of the creature's next turn."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Juiblex fails a saving throw, it can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Juiblex has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Juiblex's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Regeneration",
-					"text": [
-						"Juiblex regains 20 hit points at the start of its turn. If it takes fire or radiant damage, this trait doesn't function at the start of its next turn. Juiblex dies only if it starts its turn with 0 hit points and doesn't regenerate."
-					]
-				},
-				{
-					"name": "Spider Climb",
-					"text": [
-						"Juiblex can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Juiblex makes three acid lash attacks."
-					]
-				},
-				{
-					"name": "Acid Lash",
-					"text": [
-						"Melee Weapon Attack:  +14} to hit, reach 10 ft., one target. Hit: 21 ( 4d6+7}) acid damage. Any creature killed by this attack is drawn into Juiblex's body, and the corpse is obliterated after 1 minute."
-					]
-				},
-				{
-					"name": "Eject Slime (Recharge 5-6)",
-					"text": [
-						"Juiblex spews out a corrosive slime, targeting one creature that it can see within 60 feet of it. The target must make a DC 21 Dexterity saving throw. On a failure, the target takes 55 ( 10d10}) acid damage. Unless the target avoids taking any of this damage, any metal armor worn by the target takes a permanent -1 penalty to the AC it offers, and any metal weapon it is carrying or wearing takes a permanent -1 penalty to damage rolls. The penalty worsens each time a target is subjected to this effect. If the penalty on an object drops to -5, the object is destroyed."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Acid Splash",
-					"text": [
-						"Juiblex casts acid splash."
-					]
-				},
-				{
-					"name": "Attack",
-					"text": [
-						"Juiblex makes one acid lash attack."
-					]
-				},
-				{
-					"name": "Corrupting Touch (Costs 2 Actions)",
-					"text": [
-						"Melee Weapon Attack:  +14} to hit, reach 10 ft., one creature. Hit: 21 ( 4d6+7}) poison damage, and the target is slimed. Until the slime is scraped off with an action, the target is poisoned, and any creature, other than an ooze, is poisoned while within 10 feet of the target."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Juiblex's spellcasting ability is Charisma. Juiblex can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell acid splash} (17th level)",
-						"{@spell detect magic}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell blight}",
-							"{@spell contagion}",
-							"{@spell gaseous form}"
 						]
 					}
 				}
@@ -4727,167 +3030,6 @@
 			]
 		},
 		{
-			"name": "Orcus",
-			"size": "H",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "17 (natural armor), 20 with the Wand of Orcus",
-			"hp": {
-				"average": 405,
-				"formula": "30d12+210"
-			},
-			"speed": {
-				"walk": 40,
-				"fly": 40
-			},
-			"str": 27,
-			"dex": 14,
-			"con": 25,
-			"int": 20,
-			"wis": 20,
-			"cha": 25,
-			"save": {
-				"dex": "+10",
-				"con": "+15",
-				"wis": "+13"
-			},
-			"skill": {
-				"arcana": "+12",
-				"perception": "+12"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"necrotic",
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 22,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "26",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Wand of Orcus",
-					"text": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast animate dead, blight, or speak with dead. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: circle of death (1 charge), finger of death (1 charge), or power word kill (2 charges). The wand regains  1d4+3 }charges daily at dawn.",
-						"While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Orcus fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Orcus has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Orcus's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Master of Undeath",
-					"text": [
-						"When Orcus casts animate dead or create undead, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Orcus makes two Wand of Orcus attacks."
-					]
-				},
-				{
-					"name": "Wand of Orcus",
-					"text": [
-						"Melee Weapon Attack:  +19} to hit, reach 10 ft., one target. Hit: 21 ( 3d8+8}) bludgeoning damage plus 13 ( 2d12}) necrotic damage."
-					]
-				},
-				{
-					"name": "Tail",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 10 ft., one target. Hit: 21 ( 3d8+8}) piercing damage plus 9 ( 2d8}) poison damage."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Tail",
-					"text": [
-						"Orcus makes one tail attack."
-					]
-				},
-				{
-					"name": "A Taste of Undeath",
-					"text": [
-						"Orcus casts chill touch (17th level)."
-					]
-				},
-				{
-					"name": "Creeping Death (Costs 2 Actions)",
-					"text": [
-						"Orcus chooses a point on the ground that he can see within 100 feet of him. A cylinder of swirling necrotic energy 60 feet tall and with a 10-foot radius rises from that point and lasts until the end of Orcus's next turn. Creatures in that area have vulnerability to necrotic damage."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Orcus's spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell chill touch} (17th level)",
-						"{@spell detect magic}"
-					],
-					"daily": {
-						"1": [
-							"{@spell time stop}"
-						],
-						"3e": [
-							"{@spell create undead}",
-							"{@spell dispel magic}"
-						]
-					}
-				}
-			]
-		},
-		{
 			"name": "Rutterkin",
 			"size": "M",
 			"type": {
@@ -5216,479 +3358,6 @@
 					"text": [
 						"The wastrilith magically launches a spout of water at one creature it can see within 60 feet of it. The target must make a DC 17 Strength saving throw, and it has disadvantage if it's underwater. On a failed save, it takes 22 ( 4d8+4}) acid damage and is pulled up to 60 feet toward the wastrilith. On a successful save, it takes half as much damage and isn't pulled."
 					]
-				}
-			]
-		},
-		{
-			"name": "Yeenoghu",
-			"size": "H",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "20 (natural armor)",
-			"hp": {
-				"average": 333,
-				"formula": "23d12+184"
-			},
-			"speed": {
-				"walk": 50
-			},
-			"str": 29,
-			"dex": 16,
-			"con": 23,
-			"int": 15,
-			"wis": 24,
-			"cha": 15,
-			"save": {
-				"dex": "+10",
-				"con": "+15",
-				"wis": "+14"
-			},
-			"skill": {
-				"intimidation": "+9",
-				"perception": "+14"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 24,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "24",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Yeenoghu fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Yeenoghu has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Yeenoghu's weapon attacks are magical."
-					]
-				},
-				{
-					"name": "Rampage",
-					"text": [
-						"When Yeenoghu reduces a creature to 0 hit points with a melee attack on his turn, Yeenoghu can take a bonus action to move up to half his speed and make a bite attack."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Yeenoghu makes three flail attacks. If an attack hits, he can cause it to create an additional effect of his choice or at random (each effect can be used only once per Multiattack):",
-						"1. The attack deals an extra 13 ( 2d12}) bludgeoning damage.",
-						"2. The target must succeed on a DC 17 Constitution saving throw or be paralyzed until the start of Yeenoghu's next turn.",
-						"3. The target must succeed on a DC 17 Wisdom saving throw or be affected by the confusion spell until the start of Yeenoghu's next turn."
-					]
-				},
-				{
-					"name": "Flail",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 15 ft., one target. Hit: 15 ( 1d12+9}) bludgeoning damage."
-					]
-				},
-				{
-					"name": "Bite",
-					"text": [
-						"Melee Weapon Attack:  +16} to hit, reach 10 ft., one target. Hit: 14 ( 1d10+9}) piercing damage."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Charge",
-					"text": [
-						"Yeenoghu moves up to his speed."
-					]
-				},
-				{
-					"name": "Swat Away",
-					"text": [
-						"Yeenoghu makes a flail attack. If the attack hits, the target must succeed on a DC 24 Strength saving throw or be pushed 15 feet in a straight line away from Yeenoghu. If the saving throw fails by 5 or more, the target falls prone."
-					]
-				},
-				{
-					"name": "Savage (Costs 2 Actions)",
-					"text": [
-						"Yeenoghu makes a bite attack against each creature within 10 feet of him."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Yeenoghu's spellcasting ability is Charisma (spell save DC 17,  +9} to hit with spell attacks). He can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell detect magic}"
-					],
-					"daily": {
-						"1": [
-							"{@spell teleport}"
-						],
-						"3e": [
-							"{@spell dispel magic}",
-							"{@spell fear}",
-							"{@spell invisibility}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Zuggtmoy",
-			"size": "L",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "18 (natural armor)",
-			"hp": {
-				"average": 304,
-				"formula": "32d10+128"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 22,
-			"dex": 15,
-			"con": 18,
-			"int": 20,
-			"wis": 19,
-			"cha": 24,
-			"save": {
-				"dex": "+9",
-				"con": "+11",
-				"wis": "+11"
-			},
-			"skill": {
-				"perception": "+11"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 21,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "23",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Zuggtmoy fails a saving throw, she can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Zuggtmoy has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Zuggtmoy's weapon attacks are magical."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Zuggtmoy makes three pseudopod attacks."
-					]
-				},
-				{
-					"name": "Pseudopod",
-					"text": [
-						"Melee Weapon Attack:  +13} to hit, reach 10 ft., one target. Hit: 15 ( 2d8+6}) bludgeoning damage plus 9 ( 2d8}) poison damage."
-					]
-				},
-				{
-					"name": "Infestation Spores (3/Day)",
-					"text": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Any flesh-and-blood creature in the cloud when it appears, or that enters it later, must make a DC 19 Constitution saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the spores of Zuggtmoy and also gains a random form of madness (determined by rolling on the Madness of Zuggtmoy table) that lasts until the creature is cured of the disease or dies. While infected in this way, the creature can't be reinfected, and it must repeat the saving throw at the end of every 24 hours, ending the infection on a success. On a failure, the infected creature's body is slowly taken over by fungal growth, and after three such failed saves, the creature dies and is reanimated as a spore servant if it's a type of creature that can be (see the \"Myconids\" entry in the Monster Manual)."
-					]
-				},
-				{
-					"name": "Mind Control Spores (Recharge 5-6)",
-					"text": [
-						"Zuggtmoy releases spores that burst out in a cloud that fills a 20-foot-radius sphere centered on her, and it lingers for 1 minute. Humanoids and beasts in the cloud when it appears, or that enter it later, must make a DC 19 Wisdom saving throw. On a successful save, the creature can't be infected by these spores for 24 hours. On a failed save, the creature is infected with a disease called the influence of Zuggtmoy for 24 hours. While infected in this way, the creature is charmed by her and can't be reinfected by these spores."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Attack",
-					"text": [
-						"Zuggtmoy makes one pseudopod attack."
-					]
-				},
-				{
-					"name": "Exert Will",
-					"text": [
-						"One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or to make a weapon attack against a target that she designates."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Zuggtmoy's spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell detect magic}",
-						"{@spell locate animals or plants}",
-						"{@spell ray of sickness}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell dispel magic}",
-							"{@spell ensnaring strike}",
-							"{@spell entangle}",
-							"{@spell plant growth}"
-						],
-						"1e": [
-							"{@spell etherealness}",
-							"{@spell teleport}"
-						]
-					}
-				}
-			]
-		},
-		{
-			"name": "Graz'zt",
-			"size": "L",
-			"type": {
-				"type": "fiend",
-				"tags": [
-					"demon",
-					"shapechanger"
-				]
-			},
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "20 (natural armor)",
-			"hp": {
-				"average": 346,
-				"formula": "33d10+165"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 22,
-			"dex": 15,
-			"con": 21,
-			"int": 23,
-			"wis": 21,
-			"cha": 26,
-			"save": {
-				"dex": "+9",
-				"con": "+12",
-				"wis": "+12"
-			},
-			"skill": {
-				"deception": "+15",
-				"insight": "+12",
-				"perception": "+12",
-				"persuasion": "+15"
-			},
-			"resist": [
-				"cold",
-				"fire",
-				"lightning"
-			],
-			"immune": [
-				"poison",
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"frightened",
-				"poisoned"
-			],
-			"senses": "truesight 120 ft.",
-			"passive": 22,
-			"languages": "all, telepathy 120 ft.",
-			"cr": "24",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Shapechanger",
-					"text": [
-						"Graz'zt can use his action to polymorph into a form that resembles a Medium humanoid, or back into his true form. Aside from his size, his statistics are the same in each form. Any equipment he is wearing or carrying isn't transformed."
-					]
-				},
-				{
-					"name": "Legendary Resistance (3/Day)",
-					"text": [
-						"If Graz'zt fails a saving throw, he can choose to succeed instead."
-					]
-				},
-				{
-					"name": "Magic Resistance",
-					"text": [
-						"Graz'zt has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Magic Weapons",
-					"text": [
-						"Graz'zt's weapon attacks are magical."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack",
-					"text": [
-						"Graz'zt attacks twice with Wave of Sorrow."
-					]
-				},
-				{
-					"name": "Wave of Sorrow (Greatsword)",
-					"text": [
-						"Melee Weapon Attack:  +13} to hit, reach 10 ft., one target. Hit: 20 ( 4d6+6}) slashing damage plus 10 ( 3d6}) acid damage."
-					]
-				},
-				{
-					"name": "Teleport",
-					"text": [
-						"Graz'zt magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
-					]
-				}
-			],
-			"legendary": [
-				{
-					"name": "Attack",
-					"text": [
-						"Graz'zt attacks once with Wave of Sorrow."
-					]
-				},
-				{
-					"name": "Dance, My Puppet",
-					"text": [
-						"One creature charmed by Graz'zt that Graz'zt can see must use its reaction to move up to its speed as Graz'zt directs."
-					]
-				},
-				{
-					"name": "Sow Discord",
-					"text": [
-						"Graz'zt casts crown of madness or dissonant whispers."
-					]
-				},
-				{
-					"name": "Teleport",
-					"text": [
-						"Graz'zt uses his Teleport action."
-					]
-				}
-			],
-			"spellcasting": [
-				{
-					"name": "Innate Spellcasting",
-					"headerEntries": [
-						"Graz'zt's spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:"
-					],
-					"will": [
-						"{@spell charm person}",
-						"{@spell crown of madness}",
-						"{@spell detect magic}",
-						"{@spell dispel magic}",
-						"{@spell dissonant whispers}"
-					],
-					"daily": {
-						"3e": [
-							"{@spell counterspell}",
-							"{@spell darkness}",
-							"{@spell dominate person}",
-							"{@spell sanctuary}",
-							"{@spell telekinesis}",
-							"{@spell teleport}"
-						],
-						"1e": [
-							"{@spell dominate monster}",
-							"{@spell greater invisibility}"
-						]
-					}
 				}
 			]
 		},
@@ -16092,103 +13761,6 @@
 					"name": "Longbow",
 					"text": [
 						"Ranged Weapon Attack:  +3} to hit, range 150/600 ft., one target. Hit: 5 ( 1d8+1}) piercing damage."
-					]
-				}
-			]
-		},
-		{
-			"name": "Vampiric Mist",
-			"size": "M",
-			"type": "undead",
-			"source": "MTF",
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": "13",
-			"hp": {
-				"average": 30,
-				"formula": "4d8+12"
-			},
-			"speed": {
-				"walk": 0,
-				"fly": {
-					"number": 30,
-					"condition": "(hover)"
-				}
-			},
-			"str": 6,
-			"dex": 16,
-			"con": 16,
-			"int": 6,
-			"wis": 12,
-			"cha": 7,
-			"save": {
-				"wis": "+3"
-			},
-			"resist": [
-				"acid",
-				"cold",
-				"lightning",
-				"necrotic",
-				"thunder",
-				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks"
-				}
-			],
-			"immune": [
-				"poison"
-			],
-			"conditionImmune": [
-				"charmed",
-				"exhaustion",
-				"grappled",
-				"paralyzed",
-				"petrified",
-				"poisoned",
-				"prone",
-				"restrained"
-			],
-			"senses": "darkvision 60 ft.",
-			"passive": 11,
-			"cr": "3",
-			"page": 0,
-			"trait": [
-				{
-					"name": "Life Sense",
-					"text": [
-						"The mist can sense the location of any creature within 60 feet of it, unless that creature's type is construct or undead."
-					]
-				},
-				{
-					"name": "Forbiddance",
-					"text": [
-						"The mist can't enter a residence without an invitation from one of the occupants."
-					]
-				},
-				{
-					"name": "Misty Form",
-					"text": [
-						"The mist can occupy another creature's space and vice versa. In addition, if air can pass through a space, the mist can pass through it without squeezing. Each foot of movement in water costs it 2 extra feet, rather than 1 extra foot. The mist can't manipulate objects in any way that requires fingers or manual dexterity."
-					]
-				},
-				{
-					"name": "Sunlight Hypersensitivity",
-					"text": [
-						"The mist takes 10 radiant damage whenever it starts its turn in sunlight. While in sunlight, the mist has disadvantage on attack rolls and ability checks."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Life Drain",
-					"text": [
-						"The mist touches one creature in its space. The target must succeed on a DC 13 Constitution saving throw (undead and constructs automatically succeed), or it takes 10 ( 2d6+3}) necrotic damage, the mist regains 10 hit points, and the target's hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
 					]
 				}
 			]
