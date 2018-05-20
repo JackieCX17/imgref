@@ -1275,6 +1275,13 @@
           ]
         }
       ],
+      "reaction": {
+        "name": "Protective Thrall",
+        "text": [
+          "When Zuggtmoy is hit by an attack, one creature within 5 feet of Zuggtmoy that si charmed by her must use its reaction to be hit by the attack instead."
+        ]
+      },
+
       "legendaryGroup": "Zuggtmoy",
       "legendary": [
         {
