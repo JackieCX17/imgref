@@ -3995,7 +3995,7 @@
           {
             "name": "Brass Crossbow",
             "text": [
-              "Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 14 (2d10+3) piercing damage, plus one of the following effects:",
+              "Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 14 (2d10+3) piercing damage. The target also suffers one of the following effects of the Orthon's choice:",
               "1. Acid: The target must make a DC 17 Constitution saving throw, taking an additional 17 (5d6) acid damage on a failed save, or half as much damage on a successful one.\r\n\n",
               "2. Blindness (1/day): The target takes 5 (1d10) radiant damage. In addition, the target and all other creatures within 20 feet of it must each make a successful DC 17 Dexterity saving throw or be blinded until the end of the orthon's next turn.\r\n\n",
               "3. Concussion: The target and each creature within 20 feet of it must make a DC 17 Constitution saving throw, taking 13 (2d12) thunder damage on a failed save, or half as much damage on a successful one.\r\n\n",
