@@ -5521,105 +5521,6 @@
         ]
       },
       {
-        "name": "Derro Savant",
-        "size": "S",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "derro"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "C",
-          "E"
-        ],
-        "ac": "13 (leather armor)",
-        "hp": {
-          "average": 36,
-          "formula": "8d6+8"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 9,
-        "dex": 14,
-        "con": 12,
-        "int": 11,
-        "wis": 5,
-        "cha": 14,
-        "skill": {
-          "stealth": "+4"
-        },
-        "senses": "darkvision 120 ft.",
-        "passive": 7,
-        "languages": "Dwarvish, Undercommon",
-        "cr": "3",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Magic Resistance",
-            "text": [
-              "The derro savant has advantage on saving throws against spells and other magical effects."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the derro savant has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Quarterstaff",
-            "text": [
-              "Melee Weapon Attack:  +1} to hit, reach 5 ft., one target. Hit: 2 ( 1d6-1}) bludgeoning damage."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The derro savant is a 5th-level spellcaster. Its spellcasting ability is Charisma. The derro knows the following sorcerer spells:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell acid splash}",
-                  "{@spell mage hand}",
-                  "{@spell message}",
-                  "{@spell prestidigitation}",
-                  "{@spell ray of frost}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell burning hands}",
-                  "{@spell chromatic orb}",
-                  "{@spell sleep}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell invisibility}",
-                  "{@spell spider climb}"
-                ]
-              },
-              "3": {
-                "slots": 2,
-                "spells": [
-                  "{@spell lightning bolt}"
-                ]
-              }
-            }
-          }
-        ]
-      },
-      {
         "name": "Duergar Despot",
         "size": "M",
         "type": {
@@ -5629,44 +5530,33 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "21 (natural armor)",
-        "hp": {
-          "average": 119,
-          "formula": "14d8+56"
-        },
-        "speed": {
-          "walk": 25
-        },
+        "hp": "119 (14d8+56)",
+        "speed": "25 ft.",
         "str": 20,
         "dex": 5,
         "con": 19,
         "int": 15,
         "wis": 14,
         "cha": 13,
-        "save": {
-          "con": "+8",
-          "wis": "+6"
-        },
-        "immune": [
-          "poison"
-        ],
-        "conditionImmune": [
-          "charmed",
-          "exhaustion",
-          "frightened",
-          "paralyzed",
-          "poisoned"
-        ],
+        "save": "con +8, wis +6",
+        "immune": "poison",
+        "conditionImmune": "charmed, exhaustion, frightened, paralyzed, poisoned",
         "senses": "darkvision 120 ft.",
         "passive": 12,
         "languages": "Dwarvish, Undercommon",
         "cr": "12",
         "page": 0,
         "trait": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "text": [
+              "The duergar's innate spellcasting ability is Intelligence (spell save DC 12) it can innately cast the following spells, requiring no components:",
+              "At will: minor illusion, mage hand",
+              "1/day each: counterspell, misty step, stinking cloud"
+            ]
+          },
           {
             "name": "Magic Resistance",
             "text": [
@@ -5676,7 +5566,7 @@
           {
             "name": "Psychic Engine",
             "text": [
-              "When the duergar despot suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 ( 4d6}) psychic damage to each creature within 5 feet of it."
+              "When the duergar despot suffers a critical hit or is reduced to 0 hit points, psychic energy erupts from its frame to deal 14 (4d6) psychic damage to each creature within 5 feet of it."
             ]
           },
           {
@@ -5696,121 +5586,19 @@
           {
             "name": "Iron Fist",
             "text": [
-              "Melee Weapon Attack:  +9} to hit, reach 5 ft., one target. Hit: 14 ( 2d8+5}) bludgeoning damage. If the target is a Large or smaller creature, it must make a successful DC 17 Strength saving throw or be thrown up to 30 feet away in a straight line. The target is knocked prone and then takes 10 ( 3d6}) bludgeoning damage."
+              "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) bludgeoning damage. If the target is a Large or smaller creature, it must make a successful DC 17 Strength saving throw or be thrown up to 30 feet away in a straight line. The target is knocked prone and then takes 10 (3d6) bludgeoning damage."
             ]
           },
           {
             "name": "Stomping Foot",
             "text": [
-              "Melee Weapon Attack:  +9} to hit, reach 5 ft., one target. Hit: 9 ( 1d8+5}) bludgeoning damage, or 18 ( 3d8+5}) bludgeoning damage to a prone target."
+              "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 9 (1d8+5) bludgeoning damage, or 18 (3d8+5) bludgeoning damage to a prone target."
             ]
           },
           {
             "name": "Flame Jet",
             "text": [
-              "The duergar spews flames in a line 100 feet long and 5 feet wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 18 ( 4d8}) fire damage on a failed save, or half as much damage on a successful one."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The duergar despot's innate spellcasting ability is Intelligence. It can cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand}",
-              "{@spell minor illusion}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell counterspell}",
-                "{@spell misty step}",
-                "{@spell stinking cloud}"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "Duergar Kavalrachni",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "16 (scale mail, shield)",
-        "hp": {
-          "average": 26,
-          "formula": "4d8+8"
-        },
-        "speed": {
-          "walk": 25
-        },
-        "str": 14,
-        "dex": 11,
-        "con": 14,
-        "int": 11,
-        "wis": 10,
-        "cha": 9,
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision 120 ft.",
-        "passive": 10,
-        "languages": "Dwarvish, Undercommon",
-        "cr": "2",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Cavalry Training",
-            "text": [
-              "When the duergar hits a target with a melee attack while mounted on a female steeder, the steeder can make one melee attack against the same target as a reaction."
-            ]
-          },
-          {
-            "name": "Duergar Resilience",
-            "text": [
-              "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The duergar makes two war pick attacks."
-            ]
-          },
-          {
-            "name": "War Pick",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 6 ( 1d8+2}) piercing damage plus 5 ( 2d4}) poison damage."
-            ]
-          },
-          {
-            "name": "Heavy Crossbow",
-            "text": [
-              "Ranged Weapon Attack:  +2} to hit, range 100/400 ft., one target. Hit: 5 ( 1d10}) piercing damage."
-            ]
-          },
-          {
-            "name": "Shared Invisibility (Recharges after a Short or Long Rest)",
-            "text": [
-              "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it. While the invisible duergar is mounted on a female steeder, the steeder is invisible as well. The invisibility ends early on the steeder immediately after it attacks."
+              "The duergar spews flames in a line 100 feet long and 5 feet wide. Each creature in the line must make a DC 16 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one."
             ]
           }
         ]
@@ -5825,34 +5613,22 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "14 (leather armor)",
-        "hp": {
-          "average": 39,
-          "formula": "6d8+12"
-        },
-        "speed": {
-          "walk": 25
-        },
+        "hp": "39 (6d8+12)",
+        "speed": "25 ft.",
         "str": 11,
         "dex": 17,
         "con": 14,
         "int": 15,
         "wis": 10,
         "cha": 12,
-        "save": {
-          "wis": "+2"
-        },
+        "save": "wis +2",
         "skill": {
           "perception": "+2",
           "stealth": "+5"
         },
-        "resist": [
-          "poison"
-        ],
+        "resist": "poison",
         "senses": "darkvision 120 ft., truesight 30 ft.",
         "passive": 12,
         "languages": "Dwarvish, Undercommon",
@@ -5882,7 +5658,7 @@
           {
             "name": "Mind-Poison Dagger",
             "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 5 ( 1d4+3}) piercing damage and 10 ( 3d6}) psychic damage, or 1 piercing damage and 14 ( 4d6}) psychic damage while reduced."
+              "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage and 10 (3d6) psychic damage, or 1 piercing damage and 14 (4d6) psychic damage while reduced."
             ]
           },
           {
@@ -5905,991 +5681,92 @@
           }
         ]
       },
-      {
-        "name": "Duergar Soulblade",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "14 (leather armor)",
-        "hp": {
-          "average": 18,
-          "formula": "4d8"
-        },
-        "speed": {
-          "walk": 25
-        },
-        "str": 11,
-        "dex": 16,
-        "con": 10,
-        "int": 11,
-        "wis": 10,
-        "cha": 12,
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision 120 ft.",
-        "passive": 10,
-        "languages": "Dwarvish, Undercommon",
-        "cr": "1",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Duergar Resilience",
-            "text": [
-              "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
-            ]
-          },
-          {
-            "name": "Create Soulblade",
-            "text": [
-              "As a bonus action, the duergar can create a shortsword-sized, visible blade of psionic energy. The weapon appears in the duergar's hand and vanishes if it leaves the duergar's grip, or if the duergar dies or is incapacitated."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Soulblade",
-            "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 6 ( 1d6+3}) force damage, or 10 ( 2d6+3}) force damage while enlarged. If the soulblade has advantage on the attack roll, the attack deals an extra 3 ( 1d6}) force damage."
-            ]
-          },
-          {
-            "name": "Enlarge (Recharges after a Short or Long Rest)",
-            "text": [
-              "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
-            ]
-          },
-          {
-            "name": "Invisibility (Recharges after a Short or Long Rest)",
-            "text": [
-              "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The duergar's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell blade ward}",
-              "{@spell true strike}"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell jump}",
-                "{@spell hunter's mark}"
-              ]
-            }
-          }
+    {
+      "name": "Duergar Warlord",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "dwarf"
         ]
       },
-      {
-        "name": "Duergar Stone Guard",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "20 (plate mail, shield)",
+      "hp": "75 (10d8+30)",
+      "speed": "25 ft.",
+      "str": 18,
+      "dex": 11,
+      "con": 17,
+      "int": 12,
+      "wis": 12,
+      "cha": 14,
+      "resist": "poison",
+      "senses": "darkvision 120 ft.",
+      "passive": 11,
+      "languages": "Dwarvish, Undercommon",
+      "cr": "6",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Duergar Resilience",
+          "text": [
+            "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "18 (chain mail, shield)",
-        "hp": {
-          "average": 39,
-          "formula": "6d8+12"
-        },
-        "speed": {
-          "walk": 25
-        },
-        "str": 18,
-        "dex": 11,
-        "con": 14,
-        "int": 11,
-        "wis": 10,
-        "cha": 9,
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision 120 ft.",
-        "passive": 10,
-        "languages": "Dwarvish, Undercommon",
-        "cr": "2",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Duergar Resilience",
-            "text": [
-              "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
-            ]
-          },
-          {
-            "name": "Phalanx Formation",
-            "text": [
-              "The duergar has advantage on attack rolls and Dexterity saving throws while standing within 5 feet of a duergar ally wielding a shield."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "King's Knife (Shortsword)",
-            "text": [
-              "Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4}) piercing damage, or 11 ( 2d6+4}) piercing damage while enlarged."
-            ]
-          },
-          {
-            "name": "Javelin",
-            "text": [
-              "Melee or Ranged Weapon Attack:  +6} to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 ( 1d6+4}) piercing damage, or 11 ( 2d6+4}) piercing damage while enlarged."
-            ]
-          },
-          {
-            "name": "Enlarge (Recharges after a Short or Long Rest)",
-            "text": [
-              "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
-            ]
-          },
-          {
-            "name": "Invisibility (Recharges after a Short or Long Rest)",
-            "text": [
-              "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Duergar Warlord",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
+        {
+          "name": "Sunlight Sensitivity",
+          "text": [
+            "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The duergar makes three hammer or javelin attacks and uses Call to Attack, or Enlarge if it is available."
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "20 (plate mail, shield)",
-        "hp": {
-          "average": 75,
-          "formula": "10d8+30"
-        },
-        "speed": {
-          "walk": 25
-        },
-        "str": 18,
-        "dex": 11,
-        "con": 17,
-        "int": 12,
-        "wis": 12,
-        "cha": 14,
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision 120 ft.",
-        "passive": 11,
-        "languages": "Dwarvish, Undercommon",
-        "cr": "6",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Duergar Resilience",
-            "text": [
-              "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The duergar makes three hammer or javelin attacks and uses Call to Attack, or Enlarge if it is available."
-            ]
-          },
-          {
-            "name": "Psychic-Attuned Hammer",
-            "text": [
-              "Melee Weapon Attack:  +7} to hit, reach 5 ft., one target. Hit: 9 ( 1d10+4}) bludgeoning damage plus 5 ( 1d10}) psychic damage, or 15 ( 2d10+4}) bludgeoning damage plus 5 ( 1d10}) psychic damage while enlarged,"
-            ]
-          },
-          {
-            "name": "Javelin",
-            "text": [
-              "Melee or Ranged Weapon Attack:  +7} to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 ( 1d6+4}) piercing damage, or 11 ( 2d6+4}) piercing damage while enlarged."
-            ]
-          },
-          {
-            "name": "Call to Attack",
-            "text": [
-              "Up to three allied duergar within 120 feet of this duergar that can hear it can each use their reaction to make one weapon attack."
-            ]
-          },
-          {
-            "name": "Enlarge (Recharges after a Short or Long Rest)",
-            "text": [
-              "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
-            ]
-          },
-          {
-            "name": "Invisibility (Recharge 4-6)",
-            "text": [
-              "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Duergar Xarrorn",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
+        {
+          "name": "Psychic-Attuned Hammer",
+          "text": [
+            "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) bludgeoning damage plus 5 (1d10) psychic damage, or 15 (2d10+4) bludgeoning damage plus 5 (1d10) psychic damage while enlarged,"
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "18 (plate mail)",
-        "hp": {
-          "average": 26,
-          "formula": "4d8+8"
-        },
-        "speed": {
-          "walk": 25
-        },
-        "str": 16,
-        "dex": 11,
-        "con": 14,
-        "int": 11,
-        "wis": 10,
-        "cha": 9,
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision 120 ft.",
-        "passive": 10,
-        "languages": "Dwarvish, Undercommon",
-        "cr": "2",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Duergar Resilience",
-            "text": [
-              "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Fire Lance",
-            "text": [
-              "Melee Weapon Attack:  +5} to hit (with disadvantage if the target is within 5 feet of the duergar), reach 10 ft., one target. Hit: 9 ( 1d12+3}) piercing damage plus 3 ( 1d6}) fire damage, or 16 ( 2d12+3}) piercing damage plus 3 ( 1d6}) fire damage while enlarged."
-            ]
-          },
-          {
-            "name": "Fire Spray (Recharge 5-6)",
-            "text": [
-              "From its fire lance, the duergar shoots a 15-foot cone of fire or a line of fire 30 feet long and 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 ( 3d6}) fire damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "name": "Enlarge (Recharges after a Short or Long Rest)",
-            "text": [
-              "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
-            ]
-          },
-          {
-            "name": "Invisibility (Recharges after a Short or Long Rest)",
-            "text": [
-              "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Dwarf Acolyte",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
+        {
+          "name": "Javelin",
+          "text": [
+            "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6+4) piercing damage, or 11 (2d6+4) piercing damage while enlarged."
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "10",
-        "hp": {
-          "average": 9,
-          "formula": "2d8"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 10,
-        "dex": 10,
-        "con": 10,
-        "int": 10,
-        "wis": 14,
-        "cha": 11,
-        "skill": {
-          "medicine": "+4",
-          "religion": "+2"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision",
-        "passive": 12,
-        "languages": "any one language (usually Common)",
-        "cr": "1/4",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Club",
-            "text": [
-              "Melee Weapon Attack:  +2} to hit, reach 5 ft., one target. Hit: 2 ( 1d4}) bludgeoning damage."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom. The acolyte has following cleric spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell light}",
-                  "{@spell sacred flame}",
-                  "{@spell thaumaturgy}"
-                ]
-              },
-              "1": {
-                "slots": 3,
-                "spells": [
-                  "{@spell bless}",
-                  "{@spell cure wounds}",
-                  "{@spell sanctuary}"
-                ]
-              }
-            }
-          }
-        ]
-      },
-      {
-        "name": "Dwarf Guard",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
+        {
+          "name": "Call to Attack",
+          "text": [
+            "Up to three allied duergar within 120 feet of this duergar that can hear it can each use their reaction to make one weapon attack."
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "16 (chain shirt, shield)",
-        "hp": {
-          "average": 11,
-          "formula": "2d8+2"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 13,
-        "dex": 12,
-        "con": 12,
-        "int": 10,
-        "wis": 11,
-        "cha": 10,
-        "skill": {
-          "perception": "+2"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "Darkvision",
-        "passive": 12,
-        "languages": "dwarf",
-        "cr": "1/8",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Spear",
-            "text": [
-              "Melee Attack:  +3} to hit, reach 5 ft. one target. Hit: 4 ( 1d6+1}) piercing damage or 5 ( 1d8+1}) piercing damage if used with two hands. Or Ranged Weapon Attack:  +3} to hit, range 20/60 ft., one target. Hit: 4 ( 1d6+1}) piercing damage"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Dwarf Knight",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
+        {
+          "name": "Enlarge (Recharges after a Short or Long Rest)",
+          "text": [
+            "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "18 (plate)",
-        "hp": {
-          "average": 52,
-          "formula": "8d8+16"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 16,
-        "dex": 11,
-        "con": 14,
-        "int": 11,
-        "wis": 11,
-        "cha": 15,
-        "save": {
-          "con": "+4",
-          "wis": "+2"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision",
-        "passive": 10,
-        "languages": "any one language (usually Common)",
-        "cr": "3",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Brave",
-            "text": [
-              "The knight has advantage on saving throws against being frightened."
-            ]
-          },
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The knight makes two melee attacks."
-            ]
-          },
-          {
-            "name": "Greatsword",
-            "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 10 ( 2d6+3}) slashing damage."
-            ]
-          },
-          {
-            "name": "Heavy Crossbow",
-            "text": [
-              "Ranged Weapon Attack:  +2} to hit, range 100/400 ft., one target. Hit: 5 ( 1d10}) piercing damage."
-            ]
-          },
-          {
-            "name": "Leadership (Recharges after a Short or Long Rest)",
-            "text": [
-              "For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is incapacitated."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Dwarf Mage",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
+        {
+          "name": "Invisibility (Recharge 4-6)",
+          "text": [
+            "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, it uses its Enlarge, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
           ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "12 (15 with mage armor)",
-        "hp": {
-          "average": 40,
-          "formula": "9d8"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 9,
-        "dex": 14,
-        "con": 11,
-        "int": 17,
-        "wis": 12,
-        "cha": 11,
-        "save": {
-          "int": "+6",
-          "wis": "+4"
-        },
-        "skill": {
-          "arcana": "+6",
-          "history": "+6"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision",
-        "passive": 11,
-        "languages": "any four languages",
-        "cr": "6",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Dagger",
-            "text": [
-              "Melee or Ranged Weapon Attack:  +5} to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 ( 1d4+2}) piercing damage."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence. The mage has the following wizard spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell fire bolt}",
-                  "{@spell light}",
-                  "{@spell mage hand}",
-                  "{@spell prestidigitation}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell detect magic}",
-                  "{@spell mage armor}",
-                  "{@spell magic missile}",
-                  "{@spell shield}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell misty step}",
-                  "{@spell suggestion}"
-                ]
-              },
-              "3": {
-                "slots": 3,
-                "spells": [
-                  "{@spell counterspell}",
-                  "{@spell fireball}",
-                  "{@spell fly}"
-                ]
-              },
-              "4": {
-                "slots": 3,
-                "spells": [
-                  "{@spell greater invisibility}",
-                  "{@spell ice storm}"
-                ]
-              },
-              "5": {
-                "slots": 1,
-                "spells": [
-                  "{@spell cone of cold}"
-                ]
-              }
-            }
-          }
+        }
+      ],
+      "reaction": {
+        "name": "Scouring Instruction",
+        "text": [
+          "When an ally that the duergar can see makes a d20 roll, the duergar can roll a d6 and the ally can add the number rolled to the d20 roll by taking 3 (1d6) psychic damage. A creature immune to psychic damage can't be affected by Scouring Instruction."
         ]
-      },
-      {
-        "name": "Dwarf Noble",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "15 (breastplate)",
-        "hp": {
-          "average": 9,
-          "formula": "2d8"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 11,
-        "dex": 12,
-        "con": 11,
-        "int": 12,
-        "wis": 14,
-        "cha": 16,
-        "skill": {
-          "deception": "+5",
-          "insight": "+4",
-          "persuasion": "+5"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision",
-        "passive": 12,
-        "languages": "any two languages",
-        "cr": "1/8",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Rapier",
-            "text": [
-              "Melee Weapon Attack:  +3} to hit, reach 5 ft., one target. Hit: 5 ( 1d8+1}) piercing damage."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Dwarf Priest",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "13 (chain shirt)",
-        "hp": {
-          "average": 27,
-          "formula": "5d8+5"
-        },
-        "speed": {
-          "walk": 25
-        },
-        "str": 10,
-        "dex": 10,
-        "con": 12,
-        "int": 13,
-        "wis": 16,
-        "cha": 13,
-        "skill": {
-          "medicine": "+7",
-          "persuasion": "+3",
-          "religion": "+4"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision",
-        "passive": 13,
-        "languages": "any two languages",
-        "cr": "2",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          },
-          {
-            "name": "Divine Eminence",
-            "text": [
-              "As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 ( 3d6}) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by  1d6} for each level above 1st."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Mace",
-            "text": [
-              "Melee Weapon Attack:  +2} to hit, reach 5 ft., one target. Hit: 3 ( 1d6}) bludgeoning damage."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom. The priest has the following cleric spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell light}",
-                  "{@spell sacred flame}",
-                  "{@spell thaumaturgy}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell cure wounds}",
-                  "{@spell guiding bolt}",
-                  "{@spell sanctuary}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell lesser restoration}",
-                  "{@spell spiritual weapon}"
-                ]
-              },
-              "3": {
-                "slots": 2,
-                "spells": [
-                  "{@spell dispel magic}",
-                  "{@spell spirit guardians}"
-                ]
-              }
-            }
-          }
-        ]
-      },
-      {
-        "name": "Dwarf Scout",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "13 (leather armor)",
-        "hp": {
-          "average": 16,
-          "formula": "3d8+3"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 11,
-        "dex": 14,
-        "con": 12,
-        "int": 11,
-        "wis": 13,
-        "cha": 11,
-        "skill": {
-          "nature": "+4",
-          "perception": "+5",
-          "stealth": "+6",
-          "survival": "+5"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision",
-        "passive": 15,
-        "languages": "any one language (usually Common)",
-        "cr": "1/2",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          },
-          {
-            "name": "Keen Hearing and Sight",
-            "text": [
-              "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The scout makes two melee attacks or two ranged attacks."
-            ]
-          },
-          {
-            "name": "Shortsword",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 5 ( 1d6+2}) piercing damage."
-            ]
-          },
-          {
-            "name": "Longbow",
-            "text": [
-              "Ranged Weapon Attack:  +4} to hit, ranged 150/600 ft., one target. Hit: 6 ( 1d8+2}) piercing damage."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Dwarf Veteran",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "dwarf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "A"
-        ],
-        "ac": "17 (splint)",
-        "hp": {
-          "average": 58,
-          "formula": "9d8+18"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 16,
-        "dex": 13,
-        "con": 14,
-        "int": 10,
-        "wis": 11,
-        "cha": 10,
-        "skill": {
-          "athletics": "+5",
-          "perception": "+2"
-        },
-        "resist": [
-          "poison"
-        ],
-        "senses": "darkvision",
-        "passive": 12,
-        "languages": "any one language (usually Common)",
-        "cr": "3",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Dwarven Resilience",
-            "text": [
-              "The dwarf has advantage on saving throws against poison and has resistance to poison damage"
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
-            ]
-          },
-          {
-            "name": "Longsword",
-            "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 7 ( 1d8+3}) slashing damage, or 8 ( 1d10+3}) slashing damage if used with two hands."
-            ]
-          },
-          {
-            "name": "Shortsword",
-            "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 6 ( 1d6+3}) piercing damage."
-            ]
-          },
-          {
-            "name": "Heavy Crossbow",
-            "text": [
-              "Ranged Weapon Attack:  +3} to hit, range 100/400 ft., one target. Hit: 6 ( 1d10+1}) piercing damage."
-            ]
-          }
-        ]
-      },
-      {
+      }
+    },
+    {
         "name": "Drow Arachnomancer",
         "size": "M",
         "type": {
@@ -9605,66 +8482,6 @@
         ]
       },
       {
-        "name": "Female Steeder",
-        "size": "L",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "U"
-        ],
-        "ac": "14 (natural armor)",
-        "hp": {
-          "average": 30,
-          "formula": "4d10+8"
-        },
-        "speed": {
-          "walk": 30,
-          "climb": 30
-        },
-        "str": 15,
-        "dex": 16,
-        "con": 14,
-        "int": 2,
-        "wis": 10,
-        "cha": 3,
-        "skill": {
-          "stealth": "+7",
-          "perception": "+4"
-        },
-        "senses": "darkvision 120 ft.",
-        "passive": 14,
-        "cr": "1",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Spider Climb",
-            "text": [
-              "The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-            ]
-          },
-          {
-            "name": "Extraordinary Leap",
-            "text": [
-              "The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to move 3 feet."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Bite",
-            "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 7 ( 1d8+3}) piercing damage plus 9 ( 2d8}) poison damage."
-            ]
-          },
-          {
-            "name": "Sticky Leg",
-            "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck to the steeder's leg and is grappled until it escapes (escape DC 12). The steeder can have only one creature grappled at a time."
-            ]
-          }
-        ]
-      },
-      {
         "name": "Gray Render",
         "size": "L",
         "type": "monstrosity",
@@ -9850,66 +8667,6 @@
             "name": "Acid Spray (Recharge 5-6)",
             "text": [
               "The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 ( 4d10}) acid damage on a failed save, or half as much damage on a successful one."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Male Steeder",
-        "size": "M",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "U"
-        ],
-        "ac": "12 (natural armor)",
-        "hp": {
-          "average": 13,
-          "formula": "2d8+4"
-        },
-        "speed": {
-          "walk": 30,
-          "climb": 30
-        },
-        "str": 15,
-        "dex": 12,
-        "con": 14,
-        "int": 2,
-        "wis": 10,
-        "cha": 3,
-        "skill": {
-          "stealth": "+5",
-          "perception": "+4"
-        },
-        "senses": "darkvision 120 ft.",
-        "passive": 14,
-        "cr": "1/4",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Spider Climb",
-            "text": [
-              "The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-            ]
-          },
-          {
-            "name": "Extraordinary Leap",
-            "text": [
-              "The distance of the steeder's long jumps is tripled; every foot of its walking speed that it spends on the jump allows it to jump 3 feet."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Bite",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 6 ( 1d8+2}) piercing damage plus 4 ( 1d8}) poison damage."
-            ]
-          },
-          {
-            "name": "Sticky Leg",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck to the steeder's leg and is grappled until it escapes (escape DC 12). The steeder can have only one creature grappled at a time."
             ]
           }
         ]

@@ -30028,7 +30028,7 @@
 				{
 					"name": "Mounted",
 					"text": [
-						"The vicious kavalrachni are the duergar cavalry of Gracklstugh, riding giant tarantulas known as steeders (see the female steeder stat block)"
+						"The vicious kavalrachni are the duergar cavalry, riding giant tarantulas known as steeders (see the female steeder stat block)"
 					]
 				},
 				{
@@ -30050,49 +30050,55 @@
 					]
 				}
 			],
-			"action": [
-				{
-					"name": "Enlarge (Recharges after a Short or Long Rest)",
-					"text": [
-						"For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
-					]
-				},
-				{
-					"name": "War Pick",
-					"text": [
-						"Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage, or 11 (2d8+2) piercing damage while enlarged."
-					],
-					"attack": [
-						"War Pick|4|1d8+2",
-						"Enlarged|4|2d8+2"
-					]
-				},
-				{
-					"name": "Javelin",
-					"text": [
-						"Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage, or 9 (2d6+2) piercing damage while enlarged."
-					],
-					"attack": [
-						"Javelin|4|1d6+2",
-						"Enlarged|4|2d6+2"
-					]
-				},
-				{
-					"name": "Heavy Crossbow",
-					"text": [
-						"Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage."
-					],
-					"attack": [
-						"|4|1d10"
-					]
-				},
-				{
-					"name": "Invisibility (Recharges after a Short or Long Rest)",
-					"text": [
-						"The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it ."
-					]
-				}
-			]
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The duergar makes two war pick attacks."
+          ]
+        },
+        {
+          "name": "Enlarge (Recharges after a Short or Long Rest)",
+          "text": [
+            "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+          ]
+        },
+        {
+          "name": "War Pick",
+          "text": [
+            "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage plus 5 (2d4) poison damage, or 11 (2d8+2) piercing damage while enlarged."
+          ],
+          "attack": [
+            "War Pick|4|1d8+2",
+            "Enlarged|4|2d8+2"
+          ]
+        },
+        {
+          "name": "Javelin",
+          "text": [
+            "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage plus 5 (2d4) poison damage, or 9 (2d6+2) piercing damage while enlarged."
+          ],
+          "attack": [
+            "Javelin|4|1d6+2",
+            "Enlarged|4|2d6+2"
+          ]
+        },
+        {
+          "name": "Heavy Crossbow",
+          "text": [
+            "Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage."
+          ],
+          "attack": [
+            "|4|1d10"
+          ]
+        },
+        {
+          "name": "Shared Invisibility (Recharges after a Short or Long Rest)",
+          "text": [
+            "The duergar magically turns invisible for up to 1 hour or until it attacks, it casts a spell, or its concentration is broken (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it. While the invisible duergar is mounted on a female steeder, the steeder is invisible as well. The invisibility ends early on the steeder immediately after it attacks."
+          ]
+        }
+      ]
 		},
 		{
 			"name": "Duergar Keeper of the Flame",
@@ -30348,7 +30354,7 @@
 				{
 					"name": "Javelin",
 					"text": [
-						"Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage, or 9 (2d6+2) piercing damage while enlarged."
+						"Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 7 (1d6+4) piercing damage, or 11 (2d6+4) piercing damage while enlarged."
 					],
 					"attack": [
 						"Javelin|4|1d6+2",
@@ -30423,7 +30429,7 @@
 				{
 					"name": "Invisibility (Recharges after a Short or Long Rest)",
 					"text": [
-						"The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it ."
+						"The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
 					]
 				}
 			]
@@ -30457,18 +30463,18 @@
 						"The steeder can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
 					]
 				},
-				{
-					"name": "Leap",
-					"text": [
-						"The steeder can expend all its movement on its turn to jump up to 90 feet vertically or horizontally, provided that is speed is at least 30 feet."
-					]
-				}
+        {
+          "name": "Leap",
+          "text": [
+            "The distance of the steeder's jumps is tripled; every foot of its walking speed that it spends on the jump allows it to move 3 feet."
+          ]
+        }
 			],
 			"action": [
 				{
 					"name": "Bite",
 					"text": [
-						"Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8+3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one."
+						"Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8+3) piercing damageplus 9 (2d8) acid damage."
 					],
 					"attack": [
 						"|5|1d8+3",
@@ -30476,7 +30482,7 @@
 					]
 				},
 				{
-					"name": "Sticky Leg (Recharges when the Steeder Has No Creatures Grappled",
+					"name": "Sticky Leg",
 					"text": [
 						"Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The target is stuck on the steeder's leg and grappled until it escapes (escape DC 12)"
 					],
@@ -30651,16 +30657,16 @@
 				},
 				{
 					"name": "Leap",
-					"text": [
-						"The steeder can expend all its movement on its turn to jump up to 60 feet vertically or horizontally, provided that is speed is at least 30 feet."
-					]
+          "text": [
+            "The distance of the steeder's jumps are doubled; every foot of its walking speed that it spends on the jump allows it to jump 2 feet."
+          ]
 				}
 			],
 			"action": [
 				{
 					"name": "Bite",
 					"text": [
-						"Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8+2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one."
+						"Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d8+2) piercing damage plus 4 (1d8) acid damage."
 					],
 					"attack": [
 						"|4|1d8+2",
@@ -30668,7 +30674,7 @@
 					]
 				},
 				{
-					"name": "Sticky Leg (Recharges when the Steeder Has No Creatures Grappled",
+					"name": "Sticky Leg",
 					"text": [
 						"Melee Weapon Attack: +4 to hit, reach 5 ft., one Small or Tiny creature. Hit: The target is stuck on the steeder's leg and grappled until it escapes (escape DC 12)"
 					],
