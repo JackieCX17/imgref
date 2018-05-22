@@ -5829,7 +5829,7 @@
         {
           "name": "Spellcasting",
           "text": [
-            "The warlock is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15,  to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+            "The warlock is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
             "Cantrips (at will): chill touch, eldritch blast, mage hand, poison spray",
             "1st-5th level (3 5th-level slots): conjure animals(spiders only), crown of madness, dimension door, dispel magic, fear, fly giant insect, hold monster, insect plague, invisibility, vampiric touch, web, witch bolt",
             "1/day each: dominate monster, etherealness, eyebite"
@@ -6156,7 +6156,7 @@
           {
             "name": "Summon Demon (1/Day)",
             "text": [
-              "The drow attempts to magically summon a yochlol, with a 50 percent chance of success. If the attempt fails, the drow takes 5 ( 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action. (see notes for link)"
+              "The drow attempts to magically summon a yochlol, with a 50 percent chance of success. If the attempt fails, the drow takes 5 (1d10) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action. (see notes for link)"
             ]
           }
         ]
@@ -6225,13 +6225,16 @@
             "name": "Spellcasting",
             "text": [
               "The drow is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It has the following cleric spells prepared:",
-              "Cantrips (at will): guidance, message, poison spray, resistance, thaumaturgy",
-              "1st level (4 slots): bane, cure wounds, inflict wounds",
-              "2nd level (3 slots): blindness/deafness, silence, spiritual weapon",
-              "3rd level (3 slots): bestow curse, dispel magic, magic circle",
-              "4th level (3 slots): banishment, divination, freedom of movement",
-              "5th level (2 slots): contagion, dispel evil and good, insect plague",
-              "6th level (1 slot): harm, true seeing"
+              "Cantrips (at will): guidance, mending, resistance, sacred flame, thaumaturgy",
+              "1st level (4 slots): bane, command, cure wounds, guilding bolt",
+              "2nd level (3 slots): hold person, silence, spiritual weapon",
+              "3rd level (3 slots): bestow curse, clairovoyance, dispel magic, spirit guardians",
+              "4th level (3 slots): banishment, death ward, freedom of movement, guardian of faith",
+              "5th level (3 slots): contagion, flame strike, geas, mass cure wounds",
+              "6th level (2 slots): blade barrier, harm",
+              "7th level (2 slots): divine word, plane shift",
+              "8th level (1 slot): holy aura",
+              "9th level (1 slot): gate"
             ]
           },
           {
@@ -6251,13 +6254,13 @@
           {
             "name": "Demon Staff",
             "text": [
-              "Melee Weapon Attack:  +10} to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4}) bludgeoning damage, or 8 ( 1d8+4}) bludgeoning damage if used with two hands, plus 14 ( 4d6}) psychic damage. In addition, the target must succeed on a DC19 Wisdom saving throw or become frightened of the drow for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+              "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) bludgeoning damage, or 8 (1d8+4) bludgeoning damage if used with two hands, plus 14 (4d6) psychic damage. In addition, the target must succeed on a DC19 Wisdom saving throw or become frightened of the drow for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
             ]
           },
           {
             "name": "Tentacle Rod",
             "text": [
-              "Melee Weapon Attack:  +9} to hit, reach 15 ft., one target. Hit: 3 ( 1d6}) bludgeoning damage. If the target is hit three times by the rod on one turn, the target must succeed on a DC 15 Constitution saving throw or suffer the following effects for 1 minute: the target's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
+              "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 3 (1d6) bludgeoning damage. If the target is hit three times by the rod on one turn, the target must succeed on a DC 15 Constitution saving throw or suffer the following effects for 1 minute: the target's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
             ]
           },
           {
@@ -6286,116 +6289,6 @@
               "The drow expends a spell slot to cast a 1st-, 2nd-, or 3rd-level spell that she has prepared. Doing so costs 1 legendary action per level of the spell."
             ]
           }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma (spell save DC 20). She can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}",
-              "{@spell detect magic}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell clairvoyance}",
-                "{@spell darkness}",
-                "{@spell detect thoughts}",
-                "{@spell dispel magic}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)",
-                "{@spell suggestion}"
-              ]
-            }
-          },
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The drow is a 20th-level spellcaster. Her spellcasting ability is Wisdom. The drow has the following cleric spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell guidance}",
-                  "{@spell mending}",
-                  "{@spell resistance}",
-                  "{@spell sacred flame}",
-                  "{@spell thaumaturgy}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell bane}",
-                  "{@spell command}",
-                  "{@spell cure wounds}",
-                  "{@spell guiding bolt}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell hold person}",
-                  "{@spell silence}",
-                  "{@spell spiritual weapon}"
-                ]
-              },
-              "3": {
-                "slots": 3,
-                "spells": [
-                  "{@spell bestow curse}",
-                  "{@spell clairvoyance}",
-                  "{@spell dispel magic}",
-                  "{@spell spirit guardians}"
-                ]
-              },
-              "4": {
-                "slots": 3,
-                "spells": [
-                  "{@spell banishment}",
-                  "{@spell death ward}",
-                  "{@spell freedom of movement}",
-                  "{@spell guardian of faith}"
-                ]
-              },
-              "5": {
-                "slots": 3,
-                "spells": [
-                  "{@spell contagion}",
-                  "{@spell flame strike}",
-                  "{@spell geas}",
-                  "{@spell mass cure wounds}"
-                ]
-              },
-              "6": {
-                "slots": 2,
-                "spells": [
-                  "{@spell blade barrier}",
-                  "{@spell harm}"
-                ]
-              },
-              "7": {
-                "slots": 2,
-                "spells": [
-                  "{@spell divine word}",
-                  "{@spell plane shift}"
-                ]
-              },
-              "8": {
-                "slots": 1,
-                "spells": [
-                  "{@spell holy aura}"
-                ]
-              },
-              "9": {
-                "slots": 1,
-                "spells": [
-                  "{@spell gate}"
-                ]
-              }
-            }
-          }
         ]
       },
       {
@@ -6408,29 +6301,17 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "17 (studded leather)",
-        "hp": {
-          "average": 150,
-          "formula": "20d8+60"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "150 (20d8+60)",
+        "speed": "30 ft.",
         "str": 14,
         "dex": 21,
         "con": 16,
         "int": 12,
         "wis": 14,
         "cha": 13,
-        "save": {
-          "dex": "+9",
-          "con": "+7",
-          "wis": "+6"
-        },
+        "save": "dex +9, con +7, wis +6",
         "skill": {
           "perception": "+6",
           "stealth": "+9"
@@ -6447,105 +6328,12 @@
               "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
             ]
           },
-          {
-            "name": "Shadow Step",
-            "text": [
-              "While in dim light or darkness, the drow can teleport as a bonus action up to 60 feet to an unoccupied space it can see that is also in dim light or darkness. It then has advantage on the first melee attack it makes before the end of the turn."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The drow makes two attacks with its shadow sword. If either attack hits and the target is within 10 feet of a 5-foot cube of darkness created by the shadow sword on a previous turn, the drow can dismiss that darkness and cause the target to take 21 ( 6d6}) necrotic damage. The drow can dismiss darkness in this way no more than once per turn."
-            ]
-          },
-          {
-            "name": "Shadow Sword",
-            "text": [
-              "Melee Weapon Attack:  +9} to hit, reach 5 ft., one target. Hit: 8 ( 1d6+5}) piercing damage plus 10 ( 3d6}) necrotic damage and 10 ( 3d6}) poison damage. The drow can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
-            ]
-          },
-          {
-            "name": "Hand Crossbow",
-            "text": [
-              "Ranged Weapon Attack:  +9} to hit, range 30/120 ft., one target. Hit: 8 ( 1d6+5}) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
-            ]
-          }
-        ],
-        "spellcasting": [
           {
             "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell darkness}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "Drow Shadowblade (variant)",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "elf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "17 (studded leather)",
-        "hp": {
-          "average": 150,
-          "formula": "20d8+60"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 14,
-        "dex": 21,
-        "con": 16,
-        "int": 12,
-        "wis": 14,
-        "cha": 13,
-        "save": {
-          "dex": "+9",
-          "con": "+7",
-          "wis": "+6"
-        },
-        "skill": {
-          "perception": "+6",
-          "stealth": "+9"
-        },
-        "senses": "darkvision 120 ft.",
-        "passive": 16,
-        "languages": "Elvish, Undercommon",
-        "cr": "11",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Fey Ancestry",
             "text": [
-              "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+              "The drow's spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:",
+              "At will: dancing lights",
+              "1/day each: darkness, faerie fire, levitate (self only)"
             ]
           },
           {
@@ -6571,13 +6359,13 @@
           {
             "name": "Shadow Sword",
             "text": [
-              "Melee Weapon Attack:  +9} to hit, reach 5 ft., one target. Hit: 8 ( 1d6+5}) piercing damage plus 10 ( 3d6}) necrotic damage and 10 ( 3d6}) poison damage. The drow can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
+              "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d6+5) piercing damage plus 10 (3d6) necrotic damage and 10 (3d6) poison damage. The drow can then fill an unoccupied 5-foot cube within 5 feet of the target with magical darkness, which remains for 1 minute."
             ]
           },
           {
             "name": "Hand Crossbow",
             "text": [
-              "Ranged Weapon Attack:  +9} to hit, range 30/120 ft., one target. Hit: 8 ( 1d6+5}) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+              "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit: 8 (1d6+5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
             ]
           },
           {
@@ -6586,155 +6374,87 @@
               "The drow attempts to magically summon a shadow demon with a 50 percent chance of success. If the attempt fails, the drow takes 5 ( 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action."
             ]
           }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell darkness}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)"
-              ]
-            }
-          }
         ]
       },
-      {
-        "name": "Gloom Weaver",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "elf"
+    {
+      "name": "Gloom Weaver",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "elf"
+        ]
+      },
+      "source": "MTF",
+      "alignment": "Neutral",
+      "ac": "14 (17 with mage armor)",
+      "hp": "104 (16d8+32)",
+      "speed": "30",
+      "str": 11,
+      "dex": 18,
+      "con": 14,
+      "int": 15,
+      "wis": 12,
+      "cha": 18,
+      "save": "dex +8, con +6",
+      "immune": "necrotic",
+      "conditionImmune": "charmed, exhaustion",
+      "senses": "darkvision 60 ft.",
+      "passive": 11,
+      "languages": "Common, Elvish",
+      "cr": "9",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Burden of Time",
+          "text": [
+            "Beasts and humanoids, other than shadar-kai, have disadvantage on saving throws while within 10 feet of the gloom weaver."
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "N"
-        ],
-        "ac": "14 (17 with mage armor)",
-        "hp": {
-          "average": 104,
-          "formula": "16d8+32"
+        {
+          "name": "Fey Ancestry",
+          "text": [
+            "The gloom weaver has advantage on saving throws against being charmed, and magic can't put it to sleep."
+          ]
         },
-        "speed": {
-          "walk": 30
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The gloom walker's spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+            "At will: arcane eye, mage armor, speak with dead",
+            "1/day each: arcane gate, bane, compulsion, confusion, true seeing"
+          ]
         },
-        "str": 11,
-        "dex": 18,
-        "con": 14,
-        "int": 15,
-        "wis": 12,
-        "cha": 18,
-        "save": {
-          "dex": "+8",
-          "con": "+6"
+        {
+          "name": "Spellcasting",
+          "text": [
+            "The gloom weaver is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+            "Cantrips (at will): chill touch(3d8 damage), eldritch blast(3 beams, +4 bonus to each damage roll), minor illusion, prestidigitation",
+            "1st-5th level (3 5th-level slots): amor of Agathys, blight, darkness, dream, invisibility, fear, hypnotic pattern, major image, contact other plane, vampiric touch, witch bolt"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The gloom weaver makes two spear attacks and casts one spell that takes 1 action to cast."
+          ]
         },
-        "immune": [
-          "necrotic"
-        ],
-        "conditionImmune": [
-          "charmed",
-          "exhaustion"
-        ],
-        "senses": "darkvision 60 ft.",
-        "passive": 11,
-        "languages": "Common, Elvish",
-        "cr": "9",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Burden of Time",
-            "text": [
-              "Beasts and humanoids, other than shadar-kai, have disadvantage on saving throws while within 10 feet of the gloom weaver."
-            ]
-          },
-          {
-            "name": "Fey Ancestry",
-            "text": [
-              "The gloom weaver has advantage on saving throws against being charmed, and magic can't put it to sleep."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The gloom weaver makes two spear attacks and casts one spell that takes 1 action to cast."
-            ]
-          },
-          {
-            "name": "Shadow Spear",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4}) piercing damage plus 26 ( 4d12}) necrotic damage, or 8 ( 1d8+4}) piercing damage plus 26 ( 4d12}) necrotic damage if used with two hands."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The gloom weaver's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell arcane eye}",
-              "{@spell mage armor}",
-              "{@spell speak with dead}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell arcane gate}",
-                "{@spell bane}",
-                "{@spell compulsion}",
-                "{@spell confusion}",
-                "{@spell true seeing}"
-              ]
-            }
-          },
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The gloom weaver is a 12th-level spellcaster. Its spellcasting ability is Charisma. It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell minor illusion}",
-                  "{@spell prestidigitation}",
-                  "{@spell chill touch} (3d8 damage)",
-                  "{@spell eldritch blast}*"
-                ]
-              },
-              "5": {
-                "slots": 3,
-                "spells": [
-                  "{@spell armor of Agathys}",
-                  "{@spell blight}",
-                  "{@spell darkness}",
-                  "{@spell dream}",
-                  "{@spell invisibility}",
-                  "{@spell fear}",
-                  "{@spell hypnotic pattern}",
-                  "{@spell major image}",
-                  "{@spell contact other plane}",
-                  "{@spell vampiric touch}",
-                  "{@spell witch bolt}"
-                ]
-              }
-            },
-            "footerEntries": [
-              "*3 beams +4 bonus to each damage roll"
-            ]
-          }
+        {
+          "name": "Shadow Spear",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) piercing damage plus 26 (4d12) necrotic damage, or 8 (1d8+4) piercing damage plus 26 (4d12) necrotic damage if used with two hands."
+          ]
+        }
+      ],
+      "reaction": {
+        "name": "Misty Escape (Recharges after a Short or Long Rest)",
+        "text": [
+          "When the gloom weaver takes damage, it turns invisible and teleports up to 60 feet to an unoccupied space it can see. It remains invisible until the start of its next turn or until it attacks or casts a spell."
         ]
-      },
+      }
+    },
       {
         "name": "Shadow Dancer",
         "size": "M",
@@ -6745,37 +6465,22 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "N"
-        ],
+        "alignment": "Neutral",
         "ac": "15 (studded leather)",
-        "hp": {
-          "average": 71,
-          "formula": "13d8+13"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "71 (13d8+13)",
+        "speed": "30 ft.",
         "str": 12,
         "dex": 16,
         "con": 13,
         "int": 11,
         "wis": 12,
         "cha": 12,
-        "save": {
-          "dex": "+6",
-          "cha": "+4"
-        },
+        "save": "dex +6, cha +4",
         "skill": {
           "stealth": "+6"
         },
-        "resist": [
-          "necrotic"
-        ],
-        "conditionImmune": [
-          "charmed",
-          "exhaustion"
-        ],
+        "resist": "necrotic",
+        "conditionImmune": "charmed, exhaustion",
         "senses": "darkvision 60 ft.",
         "passive": 11,
         "languages": "Common, Elvish",
