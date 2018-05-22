@@ -5776,76 +5776,78 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "C",
-          "E"
-        ],
+        "alignment": "Chaotic Evil",
         "ac": "15 (studded leather)",
-        "hp": {
-          "average": 162,
-          "formula": "25d8+50"
-        },
-        "speed": {
-          "walk": 30,
-          "climb": 30
-        },
+        "hp": "162 (25d8+50)",
+        "speed": "30 ft., climb 30ft.",
         "str": 11,
         "dex": 17,
         "con": 14,
         "int": 19,
         "wis": 14,
         "cha": 16,
-        "save": {
-          "con": "+7",
-          "int": "+9",
-          "cha": "+8"
-        },
+        "save": "con +7, int +9, cha +8",
         "skill": {
           "arcana": "+9",
           "nature": "+9",
           "perception": "+7",
           "stealth": "+8"
         },
-        "resist": [
-          "poison"
-        ],
+        "resist": "poison",
         "senses": "blindsight 10 ft., darkvision 120 ft.",
         "passive": 17,
         "languages": "Elvish, Undercommon, can speak with spiders",
         "cr": "13",
         "page": 0,
-        "trait": [
-          {
-            "name": "Change Shape (Recharges after a Short or Long Rest)",
-            "text": [
-              "The drow can use a bonus action to magically polymorph into a giant spider, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. It can speak and cast spells while in giant spider form. Any equipment it is wearing or carrying in humanoid form melds into the giant spider form. It can't activate, use, wield, or otherwise benefit from any of its equipment. It reverts to its humanoid form if it dies."
-            ]
-          },
-          {
-            "name": "Fey Ancestry",
-            "text": [
-              "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
-            ]
-          },
-          {
-            "name": "Spider Climb",
-            "text": [
-              "The drow can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "name": "Web Walker",
-            "text": [
-              "The drow ignores movement restrictions caused by webbing."
-            ]
-          }
-        ],
+      "trait": [
+        {
+          "name": "Change Shape (Recharges after a Short or Long Rest)",
+          "text": [
+            "The drow can use a bonus action to magically polymorph into a giant spider, remaining in that form for up to 1 hour. It can revert to its true form as a bonus action. Its statistics, other than its size, are the same in each form. It can speak and cast spells while in giant spider form. Any equipment it is wearing or carrying in humanoid form melds into the giant spider form. It can't activate, use, wield, or otherwise benefit from any of its equipment. It reverts to its humanoid form if it dies."
+          ]
+        },
+        {
+          "name": "Fey Ancestry",
+          "text": [
+            "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+          ]
+        },
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The drow's spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:",
+            "At will: dancing lights",
+            "1/day each: darkness, faerie fire, levitate (self only)"
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "text": [
+            "The drow can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Spellcasting",
+          "text": [
+            "The warlock is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15,  to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+            "Cantrips (at will): chill touch, eldritch blast, mage hand, poison spray",
+            "1st-5th level (3 5th-level slots): conjure animals(spiders only), crown of madness, dimension door, dispel magic, fear, fly giant insect, hold monster, insect plague, invisibility, vampiric touch, web, witch bolt",
+            "1/day each: dominate monster, etherealness, eyebite"
+          ]
+        },
+        {
+          "name": "Sunlight Sensitivity",
+          "text": [
+            "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+          ]
+        },
+        {
+          "name": "Web Walker",
+          "text": [
+            "The drow ignores movement restrictions caused by webbing."
+          ]
+        }
+      ],
         "action": [
           {
             "name": "Multiattack",
@@ -5856,92 +5858,19 @@
           {
             "name": "Poisonous Touch (Humanoid Form Only)",
             "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 28 ( 8d6}) poison damage."
+              "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 28 (8d6) poison damage."
             ]
           },
           {
             "name": "Bite (Giant Spider Form Only)",
             "text": [
-              "Melee Weapon Attack:  +7} to hit, reach 5 ft., one target. Hit: 12 ( 2d8+3}) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 26 ( 4d12}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+              "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d8+3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 26 (4d12) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
             ]
           },
           {
             "name": "Web (Giant Spider Form Only Recharge 5-6)",
             "text": [
-              "Ranged Weapon Attack:  +8} to hit, range 30/60 ft., one target. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 15 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell darkness}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)"
-              ]
-            }
-          },
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The drow is a 16th-level spellcaster. Its spellcasting ability is Charisma. It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell chill touch}",
-                  "{@spell eldritch blast}",
-                  "{@spell mage hand}",
-                  "{@spell poison spray}"
-                ]
-              },
-              "5": {
-                "slots": 3,
-                "spells": [
-                  "{@spell conjure animals} (spiders only)",
-                  "{@spell crown of madness}",
-                  "{@spell dimension door}",
-                  "{@spell dispel magic}",
-                  "{@spell fear}",
-                  "{@spell fly}",
-                  "{@spell giant insect}",
-                  "{@spell hold monster}",
-                  "{@spell insect plague}",
-                  "{@spell invisibility}",
-                  "{@spell vampiric touch}",
-                  "{@spell web}",
-                  "{@spell witch bolt}"
-                ]
-              },
-              "6": {
-                "slots": 1,
-                "spells": [
-                  "{@spell eyebite}*"
-                ]
-              },
-              "7": {
-                "slots": 1,
-                "spells": [
-                  "{@spell etherealness}*"
-                ]
-              },
-              "8": {
-                "slots": 1,
-                "spells": [
-                  "{@spell dominate monster}*"
-                ]
-              }
-            },
-            "footerEntries": [
-              "* Can only be cast 1/day."
+              "Ranged Weapon Attack: +8 to hit, range 30/60 ft., one target. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 15 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
             ]
           }
         ]
@@ -5956,29 +5885,17 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "15 (18 with mage armor)",
-        "hp": {
-          "average": 225,
-          "formula": "30d8+90"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "225 (30d8+90)",
+        "speed": "30 ft.",
         "str": 15,
         "dex": 20,
         "con": 16,
         "int": 18,
         "wis": 15,
         "cha": 18,
-        "save": {
-          "dex": "+11",
-          "con": "+9",
-          "cha": "+10"
-        },
+        "save": "dex +11, con +9, cha +10",
         "skill": {
           "acrobatics": "+11",
           "athletics": "+8",
@@ -5995,6 +5912,27 @@
             "name": "Fey Ancestry",
             "text": [
               "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+            ]
+          },
+          {
+            "name": "Innate Spellcasting",
+            "text": [
+              "The drow's spellcasting ability is Charisma (spell save DC 18). It can innately cast the following spells, requiring no material components:",
+              "At will: dancing lights",
+              "1/day each: darkness, faerie fire, levitate (self only)"
+            ]
+          },
+          {
+            "name": "Spellcasting",
+            "text": [
+              "The drow is a 14th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). The drow has the following wizard spells prepared:",
+              "Cantrips (at will): mage hand, message, poison spray, shocking grasp, ray of frost",
+              "1st level (4 slots): burning hands, mage armor, magic missile, shield",
+              "2nd level (3 slots): gust of wind, invisibility, misty step, shatter",
+              "3rd level (3 slots): counterspell, fireball, haste",
+              "4th level (3 slots): dimension door, Otiluke's Resilient",
+              "5th level (2 slots): cone of cold",
+              "6th level (1 slot): chain lightning"
             ]
           },
           {
@@ -6020,204 +5958,108 @@
           {
             "name": "Scimitar",
             "text": [
-              "Melee Weapon Attack:  +11} to hit, reach 5 ft., one target. Hit: 8 ( 1d6+5}) slashing damage plus 18 ( 4d8}) poison damage. In addition, the target has disadvantage on the next saving throw it makes against a spell the drow casts before the end of the drow's next turn."
+              "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 8 (1d6+5) slashing damage plus 18 (4d8) poison damage. In addition, the target has disadvantage on the next saving throw it makes against a spell the drow casts before the end of the drow's next turn."
             ]
           },
           {
             "name": "Hand Crossbow",
             "text": [
-              "Ranged Weapon Attack:  +11} to hit, range 30/120 ft., one target. Hit: 8 ( 1d6+5}) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+              "Ranged Weapon Attack: +11 to hit, range 30/120 ft., one target. Hit: 8 (1d6+5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
             ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell darkness}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)"
-              ]
-            }
-          },
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The drow is a 11th-level spellcaster. Its spellcasting ability is Intelligence. It has the following wizard spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell mage hand}",
-                  "{@spell message}",
-                  "{@spell poison spray}",
-                  "{@spell shocking grasp}",
-                  "{@spell ray of frost}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell burning hands}",
-                  "{@spell mage armor}",
-                  "{@spell magic missile}",
-                  "{@spell shield}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell gust of wind}",
-                  "{@spell invisibility}",
-                  "{@spell misty step}",
-                  "{@spell shatter}"
-                ]
-              },
-              "3": {
-                "slots": 3,
-                "spells": [
-                  "{@spell counterspell}",
-                  "{@spell fireball}",
-                  "{@spell haste}"
-                ]
-              },
-              "4": {
-                "slots": 3,
-                "spells": [
-                  "{@spell dimension door}",
-                  "{@spell Otiluke's resilient sphere}"
-                ]
-              },
-              "5": {
-                "slots": 2,
-                "spells": [
-                  "{@spell cone of cold}"
-                ]
-              },
-              "6": {
-                "slots": 1,
-                "spells": [
-                  "{@spell chain lightning}"
-                ]
-              }
-            }
           }
         ]
       },
-      {
-        "name": "Drow House Captain",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "elf"
+    {
+      "name": "Drow House Captain",
+      "size": "M",
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "elf"
+        ]
+      },
+      "source": "MTF",
+      "alignment": "Lawful Evil",
+      "ac": "16 (chain mail)",
+      "hp": "162 (25d8+50)",
+      "speed": "30 ft.",
+      "str": 14,
+      "dex": 19,
+      "con": 15,
+      "int": 12,
+      "wis": 14,
+      "cha": 13,
+      "save": "dex +8, con +6, wis +6",
+      "skill": {
+        "perception": "+6",
+        "stealth": "+8"
+      },
+      "senses": "darkvision 120 ft.",
+      "passive": 16,
+      "languages": "Elvish, Undercommon",
+      "cr": "9",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Battle Command",
+          "text": [
+            "As a bonus action, the drow targets one ally he can see within 30 feet of him. If the target can see or hear the drow, the target can use its reaction to make one melee attack or to take the Dodge or Hide action."
           ]
         },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "16 (chain mail)",
-        "hp": {
-          "average": 162,
-          "formula": "25d8+50"
+        {
+          "name": "Fey Ancestry",
+          "text": [
+            "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+          ]
         },
-        "speed": {
-          "walk": 30
+        {
+          "name": "Innate Spellcasting",
+          "text": [
+            "The drow's spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:",
+            "At will: dancing lights",
+            "1/day each: darkness, faerie fire, levitate (self only)"
+          ]
         },
-        "str": 14,
-        "dex": 19,
-        "con": 15,
-        "int": 12,
-        "wis": 14,
-        "cha": 13,
-        "save": {
-          "dex": "+8",
-          "con": "+6",
-          "wis": "+6"
+        {
+          "name": "Sunlight Sensitivity",
+          "text": [
+            "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The drow makes three attacks: two with his scimitar and one with his whip or his hand crossbow."
+          ]
         },
-        "skill": {
-          "perception": "+6",
-          "stealth": "+8"
+        {
+          "name": "Scimitar",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) slashing damage plus 14 (4d6) poison damage."
+          ]
         },
-        "senses": "darkvision 120 ft.",
-        "passive": 16,
-        "languages": "Elvish, Undercommon",
-        "cr": "9",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Battle Command",
-            "text": [
-              "As a bonus action, the drow targets one ally he can see within 30 feet of him. If the target can see or hear the drow, the target can use its reaction to make one melee attack or to take the Dodge or Hide action."
-            ]
-          },
-          {
-            "name": "Fey Ancestry",
-            "text": [
-              "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The drow makes three attacks: two with his scimitar and one with his whip or his hand crossbow."
-            ]
-          },
-          {
-            "name": "Scimitar",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 7 ( 1d6+4}) slashing damage plus 14 ( 4d6}) poison damage."
-            ]
-          },
-          {
-            "name": "Whip",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 10 ft., one target. Hit: 6 ( 1d4+4}) slashing damage. If the target is an ally, it has advantage on attack rolls until the end of its next turn."
-            ]
-          },
-          {
-            "name": "Hand Crossbow",
-            "text": [
-              "Ranged Weapon Attack:  +8} to hit, range 30/120 ft., one target. Hit: 7 ( 1d6+4}) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma (spell save DC 13). He can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell darkness}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)"
-              ]
-            }
-          }
+        {
+          "name": "Whip",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 6 (1d4+4) slashing damage. If the target is an ally, it has advantage on attack rolls until the end of its next turn."
+          ]
+        },
+        {
+          "name": "Hand Crossbow",
+          "text": [
+            "Ranged Weapon Attack: +8 to hit, range 30/120 ft., one target. Hit: 7 (1d6+4) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target regains consciousness if it takes damage or if another creature takes an action to shake it."
+          ]
+        }
+      ],
+      "reaction": {
+        "name": "Parry",
+        "text": [
+          "The captain adds 3 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon."
         ]
-      },
+      }
+    },
       {
         "name": "Drow Inquisitor",
         "size": "M",
@@ -6228,38 +6070,24 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "16 (breastplate)",
-        "hp": {
-          "average": 143,
-          "formula": "22d8+44"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "143 (22d8+44)",
+        "speed": "30",
         "str": 11,
         "dex": 15,
         "con": 14,
         "int": 16,
         "wis": 21,
         "cha": 20,
-        "save": {
-          "con": "+7",
-          "wis": "+10",
-          "cha": "+10"
-        },
+        "save": "con +7, wis +10, cha +10",
         "skill": {
           "insight": "+10",
           "perception": "+10",
           "religion": "+8",
           "stealth": "+7"
         },
-        "conditionImmune": [
-          "frightened"
-        ],
+        "conditionImmune": "frightened",
         "senses": "darkvision 120 ft.",
         "passive": 20,
         "languages": "Elvish, Undercommon",
@@ -6279,178 +6107,24 @@
             ]
           },
           {
-            "name": "Magic Resistance",
-            "text": [
-              "The drow has advantage on saving throws against spells and other magical effects."
-            ]
-          },
-          {
-            "name": "Sunlight Sensitivity",
-            "text": [
-              "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The drow makes three death lance attacks."
-            ]
-          },
-          {
-            "name": "Death Lance",
-            "text": [
-              "Melee Weapon Attack:  +10} to hit, reach 5 ft., one target. Hit: 8 ( 1d6+5}) piercing damage plus 18 ( 4d8}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage it takes. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
             "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}",
-              "{@spell detect magic}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell clairvoyance}",
-                "{@spell darkness}",
-                "{@spell detect thoughts}",
-                "{@spell dispel magic}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)",
-                "{@spell suggestion}"
-              ]
-            }
+            "text": [
+              "The drow's spellcasting ability is Charisma (spell save DC 18). It can innately cast the following spells, requiring no material components:",
+              "At will: dancing lights",
+              "1/day each: clairovoyance, darkness, detect thoughts, dispel magic, faerie fire, levitate (self only), suggestion"
+            ]
           },
           {
             "name": "Spellcasting",
-            "headerEntries": [
-              "The drow is a 12th-level spellcaster. Her spellcasting ability is Wisdom. She has the following cleric spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell guidance}",
-                  "{@spell message}",
-                  "{@spell poison spray}",
-                  "{@spell resistance}",
-                  "{@spell thaumaturgy}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell bane}",
-                  "{@spell cure wounds}",
-                  "{@spell inflict wounds}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell blindness/deafness}",
-                  "{@spell silence}",
-                  "{@spell spiritual weapon}"
-                ]
-              },
-              "3": {
-                "slots": 3,
-                "spells": [
-                  "{@spell bestow curse}",
-                  "{@spell dispel magic}",
-                  "{@spell magic circle}"
-                ]
-              },
-              "4": {
-                "slots": 3,
-                "spells": [
-                  "{@spell banishment}",
-                  "{@spell divination}",
-                  "{@spell freedom of movement}"
-                ]
-              },
-              "5": {
-                "slots": 2,
-                "spells": [
-                  "{@spell contagion}",
-                  "{@spell dispel evil and good}",
-                  "{@spell insect plague}"
-                ]
-              },
-              "6": {
-                "slots": 1,
-                "spells": [
-                  "{@spell harm}",
-                  "{@spell true seeing}"
-                ]
-              }
-            }
-          }
-        ]
-      },
-      {
-        "name": "Drow Inquisitor (variant)",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "elf"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "16 (breastplate)",
-        "hp": {
-          "average": 143,
-          "formula": "22d8+44"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 11,
-        "dex": 15,
-        "con": 14,
-        "int": 16,
-        "wis": 21,
-        "cha": 20,
-        "save": {
-          "con": "+7",
-          "wis": "+10",
-          "cha": "+10"
-        },
-        "skill": {
-          "insight": "+10",
-          "perception": "+10",
-          "religion": "+8",
-          "stealth": "+7"
-        },
-        "conditionImmune": [
-          "frightened"
-        ],
-        "senses": "darkvision 120 ft.",
-        "passive": 20,
-        "languages": "Elvish, Undercommon",
-        "cr": "14",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Discern Lie",
             "text": [
-              "The drow knows when she hears a creature speak a lie in a language she knows."
-            ]
-          },
-          {
-            "name": "Fey Ancestry",
-            "text": [
-              "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+              "The drow is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It has the following cleric spells prepared:",
+              "Cantrips (at will): guidance, message, poison spray, resistance, thaumaturgy",
+              "1st level (4 slots): bane, cure wounds, inflict wounds",
+              "2nd level (3 slots): blindness/deafness, silence, spiritual weapon",
+              "3rd level (3 slots): bestow curse, dispel magic, magic circle",
+              "4th level (3 slots): banishment, divination, freedom of movement",
+              "5th level (2 slots): contagion, dispel evil and good, insect plague",
+              "6th level (1 slot): harm, true seeing"
             ]
           },
           {
@@ -6476,7 +6150,7 @@
           {
             "name": "Death Lance",
             "text": [
-              "Melee Weapon Attack:  +10} to hit, reach 5 ft., one target. Hit: 8 ( 1d6+5}) piercing damage plus 18 ( 4d8}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage it takes. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+              "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 8 (1d6+5) piercing damage plus 18 (4d8) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage it takes. This reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
             ]
           },
           {
@@ -6484,93 +6158,6 @@
             "text": [
               "The drow attempts to magically summon a yochlol, with a 50 percent chance of success. If the attempt fails, the drow takes 5 ( 1d10}) psychic damage. Otherwise, the summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 10 minutes, until it or its summoner dies, or until its summoner dismisses it as an action. (see notes for link)"
             ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The drow's innate spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell dancing lights}",
-              "{@spell detect magic}"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell clairvoyance}",
-                "{@spell darkness}",
-                "{@spell detect thoughts}",
-                "{@spell dispel magic}",
-                "{@spell faerie fire}",
-                "{@spell levitate} (self only)",
-                "{@spell suggestion}"
-              ]
-            }
-          },
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The drow is a 12th-level spellcaster. Her spellcasting ability is Wisdom. She has the following cleric spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell guidance}",
-                  "{@spell message}",
-                  "{@spell poison spray}",
-                  "{@spell resistance}",
-                  "{@spell thaumaturgy}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell bane}",
-                  "{@spell cure wounds}",
-                  "{@spell inflict wounds}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell blindness/deafness}",
-                  "{@spell silence}",
-                  "{@spell spiritual weapon}"
-                ]
-              },
-              "3": {
-                "slots": 3,
-                "spells": [
-                  "{@spell bestow curse}",
-                  "{@spell dispel magic}",
-                  "{@spell magic circle}"
-                ]
-              },
-              "4": {
-                "slots": 3,
-                "spells": [
-                  "{@spell banishment}",
-                  "{@spell divination}",
-                  "{@spell freedom of movement}"
-                ]
-              },
-              "5": {
-                "slots": 2,
-                "spells": [
-                  "{@spell contagion}",
-                  "{@spell dispel evil and good}",
-                  "{@spell insect plague}"
-                ]
-              },
-              "6": {
-                "slots": 1,
-                "spells": [
-                  "{@spell harm}",
-                  "{@spell true seeing}"
-                ]
-              }
-            }
           }
         ]
       },
@@ -6584,40 +6171,24 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "17 (half plate)",
-        "hp": {
-          "average": 262,
-          "formula": "35d8+105"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "262 (35d8+105)",
+        "speed": "30 ft.",
         "str": 12,
         "dex": 18,
         "con": 16,
         "int": 17,
         "wis": 21,
         "cha": 22,
-        "save": {
-          "con": "+9",
-          "wis": "+11",
-          "cha": "+12"
-        },
+        "save": "con +9, wis +11, cha +12",
         "skill": {
           "insight": "+11",
           "perception": "+11",
           "religion": "+9",
           "stealth": "+10"
         },
-        "conditionImmune": [
-          "charmed",
-          "frightened",
-          "poisoned"
-        ],
+        "conditionImmune": "charmed, frightened, poisoned",
         "senses": "darkvision 120 ft.",
         "passive": 21,
         "languages": "Elvish, Undercommon",
@@ -6631,15 +6202,36 @@
             ]
           },
           {
+            "name": "Innate Spellcasting",
+            "text": [
+              "The drow's spellcasting ability is Charisma (spell save DC 20). It can innately cast the following spells, requiring no material components:",
+              "At will: dancing lights, detect magic",
+              "1/day each: clairovoyance, darkness, detect thoughts, dispel magic, faerie fire, levitate (self only), suggestion"
+            ]
+          },
+          {
             "name": "Lolth's Fickle Favor",
             "text": [
-              "As a bonus action, the matron can bestow the Spider Queen's blessing on one ally she can see within 30 feet of her. The ally takes 7 ( 2d6}) psychic damage but has advantage on the next attack roll it makes until the end of its next turn."
+              "As a bonus action, the matron can bestow the Spider Queen's blessing on one ally she can see within 30 feet of her. The ally takes 7 (2d6) psychic damage but has advantage on the next attack roll it makes until the end of its next turn."
             ]
           },
           {
             "name": "Magic Resistance",
             "text": [
               "The drow has advantage on saving throws against spells and other magical effects."
+            ]
+          },
+          {
+            "name": "Spellcasting",
+            "text": [
+              "The drow is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It has the following cleric spells prepared:",
+              "Cantrips (at will): guidance, message, poison spray, resistance, thaumaturgy",
+              "1st level (4 slots): bane, cure wounds, inflict wounds",
+              "2nd level (3 slots): blindness/deafness, silence, spiritual weapon",
+              "3rd level (3 slots): bestow curse, dispel magic, magic circle",
+              "4th level (3 slots): banishment, divination, freedom of movement",
+              "5th level (2 slots): contagion, dispel evil and good, insect plague",
+              "6th level (1 slot): harm, true seeing"
             ]
           },
           {
