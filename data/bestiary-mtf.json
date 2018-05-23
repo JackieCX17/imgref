@@ -6510,15 +6510,15 @@
           {
             "name": "Spiked Chain",
             "text": [
-              "Melee Weapon Attack:  +6} to hit, reach 10 ft., one target. Hit: 10 ( 2d6+3}) piercing damage, and the target must succeed on a DC 14 Dexterity saving throw or suffer one additional effect of the shadow dancer's choice:",
-              {
-                "type": "list",
-                "items": [
-                  "The target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is restrained, and the shadow dancer can't grapple another target.",
-                  "The target is knocked prone.",
-                  "The target takes 22 ( 4d10}) necrotic damage."
-                ]
-              }
+              "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6+3) piercing damage, and the target must succeed on a DC 14 Dexterity saving throw or suffer one additional spiked chain effect of the shadow dancer's choice."
+            ]
+          },
+          {
+            "name": "Spiked Chain Effects",
+            "text": [
+              "1. The target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is restrained, and the shadow dancer can't grapple another target.",
+              "2. The target is knocked prone.",
+              "3. The target takes 22 ( 4d10}) necrotic damage."
             ]
           }
         ]
@@ -6533,40 +6533,22 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "N"
-        ],
+        "alignment": "Neutral",
         "ac": "15 (studded leather)",
-        "hp": {
-          "average": 123,
-          "formula": "19d8+38"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "123 (19d8+38)",
+        "speed": "30 ft.",
         "str": 8,
         "dex": 17,
         "con": 14,
         "int": 19,
         "wis": 15,
         "cha": 13,
-        "save": {
-          "dex": "+7",
-          "wis": "+7",
-          "cha": "+5"
-        },
+        "save": "dex +7, wis +7, cha +5",
         "skill": {
           "perception": "+7"
         },
-        "immune": [
-          "necrotic",
-          "psychic"
-        ],
-        "conditionImmune": [
-          "charmed",
-          "exhaustion",
-          "frightened"
-        ],
+        "immune": "necrotic, psychic",
+        "conditionImmune": "charmed, exhaustion, frightened",
         "senses": "darkvision 60 ft.",
         "passive": 17,
         "languages": "Common, Elvish",
@@ -6577,6 +6559,14 @@
             "name": "Fey Ancestry",
             "text": [
               "The soul monger has advantage on saving throws against being charmed, and magic can't put it to sleep."
+            ]
+          },
+          {
+            "name": "Innate Spellcasting",
+            "text": [
+              "The soul monger's spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+              "At will: chill touch (3d8 damage), poison spray (3d12 damage)",
+              "1/day each: bestow curse, chain lightning, finger of death, gaseous form, phantasmal killer, seeming"
             ]
           },
           {
@@ -6608,36 +6598,14 @@
           {
             "name": "Phantasmal Dagger",
             "text": [
-              "Melee Weapon Attack:  +7} to hit, reach 5 ft., one target. Hit: 13 ( 4d4+3}) piercing damage plus 19 ( 3d12}) necrotic damage, and the target has disadvantage on saving throws until the start of the soul monger's next turn."
+              "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (4d4+3) piercing damage plus 19 (3d12) necrotic damage, and the target has disadvantage on saving throws until the start of the soul monger's next turn."
             ]
           },
           {
             "name": "Wave of Weariness (Recharge 4-6)",
             "text": [
-              "The soul monger emits weariness in a 60-foot cube. Each creature in that area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 45 ( 10d8}) psychic damage and suffers 1 level of exhaustion. On a successful save, it takes 22 ( 5d8}) psychic damage."
+              "The soul monger emits weariness in a 60-foot cube. Each creature in that area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 45 (10d8) psychic damage and suffers 1 level of exhaustion. On a successful save, it takes 22 (5d8) psychic damage."
             ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting",
-            "headerEntries": [
-              "The soul monger's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no material components:"
-            ],
-            "will": [
-              "{@spell chill touch} (3d8 damage)",
-              "{@spell poison spray} (3d12 damage)"
-            ],
-            "daily": {
-              "1e": [
-                "{@spell bestow curse}",
-                "{@spell chain lightning}",
-                "{@spell finger of death}",
-                "{@spell gaseous form}",
-                "{@spell phantasmal killer}",
-                "{@spell seeming}"
-              ]
-            }
           }
         ]
       },
@@ -6651,29 +6619,17 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "17 (half plate)",
-        "hp": {
-          "average": 123,
-          "formula": "19d8+38"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "123 (19d8+38)",
+        "speed": "30 ft.",
         "str": 17,
         "dex": 15,
         "con": 14,
         "int": 16,
         "wis": 15,
         "cha": 16,
-        "save": {
-          "con": "+6",
-          "int": "+7",
-          "wis": "+6"
-        },
+        "save": "con +6, int +7, wis +6",
         "skill": {
           "insight": "+6",
           "perception": "+6",
@@ -6684,6 +6640,26 @@
         "cr": "10",
         "page": 0,
         "trait": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "text": [
+              "The githyanki's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+              "At will: mage hand (the hand is invisible)",
+              "3/day each: jump, misty step, nondetection (self only)",
+              "1/day each: plane shift, telekinesis"
+            ]
+          },
+          {
+            "name": "Spellcasting",
+            "text": [
+              "The githyanki is a 8th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It has the following wizard spells prepared:",
+              "Cantrips (at will): blade ward, light, message, true strike",
+              "1st level (4 slots): expeditious retreat, magic missile, sleep, thunderwave",
+              "2nd level (3 slots): blur, invisibility, levitate",
+              "3rd level (3 slots): counterspell, fireball, haste",
+              "4th level (2 slot): dimension door"
+            ]
+          },
           {
             "name": "War Magic",
             "text": [
@@ -6701,77 +6677,8 @@
           {
             "name": "Longsword",
             "text": [
-              "Melee Weapon Attack:  +7} to hit, reach 5 ft., one target. Hit: 7 ( 1d8+3}) slashing damage plus 18 ( 4d8}) psychic damage, or 8 ( 1d10+3}) slashing damage plus 18 ( 4d8}) psychic damage if used with two hands."
+              "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage plus 18 (4d8) psychic damage, or 8 (1d10+3) slashing damage plus 18 ( 4d8}) psychic damage if used with two hands."
             ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand} (the hand is invisible)"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell jump}",
-                "{@spell misty step}",
-                "{@spell nondetection} (self only)"
-              ],
-              "1e": [
-                "{@spell plane shift}",
-                "{@spell telekinesis}"
-              ]
-            }
-          },
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The githyanki is an 8th-level spellcaster. Its spellcasting ability is Intelligence. The githyanki has the following wizard spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell blade ward}",
-                  "{@spell light}",
-                  "{@spell message}",
-                  "{@spell true strike}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell expeditious retreat}",
-                  "{@spell magic missile}",
-                  "{@spell sleep}",
-                  "{@spell thunderwave}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell blur}",
-                  "{@spell invisibility}",
-                  "{@spell levitate}"
-                ]
-              },
-              "3": {
-                "slots": 3,
-                "spells": [
-                  "{@spell counterspell}",
-                  "{@spell fireball}",
-                  "{@spell haste}"
-                ]
-              },
-              "4": {
-                "slots": 2,
-                "spells": [
-                  "{@spell dimension door}"
-                ]
-              }
-            }
           }
         ]
       },
@@ -6785,29 +6692,17 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "18 (plate)",
-        "hp": {
-          "average": 180,
-          "formula": "24d8+72"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "180 (24d8+72)",
+        "speed": "30 ft.",
         "str": 18,
         "dex": 16,
         "con": 17,
         "int": 16,
         "wis": 15,
         "cha": 17,
-        "save": {
-          "con": "+7",
-          "int": "+7",
-          "wis": "+6"
-        },
+        "save": "con +7, int +7, wis +6",
         "skill": {
           "intimidation": "+7",
           "perception": "+6"
@@ -6817,6 +6712,15 @@
         "cr": "12",
         "page": 0,
         "trait": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "text": [
+              "The githyanki's innate spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+              "At will: mage hand (the hand is invisible)",
+              "3/day each: jump, misty step, nondetection (self only)",
+              "1/day each: plane shift, telekinesis"
+            ]
+          },
           {
             "name": "Rally the Troops",
             "text": [
@@ -6834,108 +6738,16 @@
           {
             "name": "Greatsword",
             "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 11 ( 2d6+4}) slashing damage plus 17 ( 5d6}) psychic damage."
+              "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage plus 17 (5d6) psychic damage."
             ]
           }
         ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand} (the hand is invisible)"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell blur}",
-                "{@spell jump}",
-                "{@spell misty step}",
-                "{@spell nondetection} (self only)"
-              ],
-              "1e": [
-                "{@spell plane shift}",
-                "{@spell telekinesis}"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "Githyanki Knight",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "gith"
+        "reaction": {
+          "name": "Parry",
+          "text": [
+            "The githyanki adds 4 to its AC against one melee attack that would hit it. To do so, the githyanki must see the attacker and be wielding a melee weapon."
           ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "18 (plate)",
-        "hp": {
-          "average": 91,
-          "formula": "14d8+28"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 16,
-        "dex": 14,
-        "con": 15,
-        "int": 14,
-        "wis": 14,
-        "cha": 15,
-        "save": {
-          "con": "+5",
-          "int": "+5",
-          "wis": "+5"
-        },
-        "passive": 12,
-        "languages": "Gith",
-        "cr": "8",
-        "page": 0,
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The githyanki makes two silver greatsword attacks."
-            ]
-          },
-          {
-            "name": "Silver Greatsword",
-            "text": [
-              "Melee Weapon Attack:  +9} to hit, reach 5 ft., one target. Hit: 13 ( 2d6+6}) slashing damage + 10 ( 3d6}) psychic damage. This is a magic weapon attack. On a critical hit against a target in an astral body (as with the astral projection spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand} (the hand is invisible)"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell jump}",
-                "{@spell misty step}",
-                "{@spell nondetection} (self only)",
-                "{@spell tongues}"
-              ],
-              "1e": [
-                "{@spell plane shift}",
-                "{@spell telekinesis}"
-              ]
-            }
-          }
-        ]
+        }
       },
       {
         "name": "Githyanki Supreme Commander",
@@ -6947,29 +6759,17 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "18 (plate)",
-        "hp": {
-          "average": 187,
-          "formula": "22d8+88"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "187 (22d8+88)",
+        "speed": "30 ft.",
         "str": 19,
         "dex": 17,
         "con": 18,
         "int": 16,
         "wis": 16,
         "cha": 18,
-        "save": {
-          "con": "+9",
-          "int": "+8",
-          "wis": "+8"
-        },
+        "save": "con +9, int +8, wis +8",
         "skill": {
           "insight": "+8",
           "intimidation": "+9",
@@ -6979,6 +6779,17 @@
         "languages": "Gith",
         "cr": "14",
         "page": 0,
+        "trait": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "text": [
+              "The githyanki's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+              "At will: mage hand (the hand is invisible)",
+              "3/day each: jump, levitate(self only), misty step, nondetection (self only)",
+              "1/day each: Bigby's hand, mass suggestion, plane shift, telekinesis"
+            ]
+          }
+        ],
         "action": [
           {
             "name": "Multiattack",
@@ -6989,7 +6800,7 @@
           {
             "name": "Silver Greatsword",
             "text": [
-              "Melee Weapon Attack:  +12} to hit, reach 5 ft., one target. Hit: 14 ( 2d6+7}) slashing damage plus 17 ( 5d6}) psychic damage. On a critical hit against a target in an astral body (as with the astral projection spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
+              "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6+7) slashing damage plus 17 (5d6) psychic damage. On a critical hit against a target in an astral body (as with the astral projection spell), the githyanki can cut the silvery cord that tethers the target to its material body, instead of dealing damage."
             ]
           }
         ],
@@ -7009,103 +6820,8 @@
           {
             "name": "Teleport",
             "text": [
-              "The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial until the start of its next turn. While insubstantial, it can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 16 ( 3d10}) force damage and is moved to the nearest unoccupied space."
+              "The githyanki magically teleports, along with any equipment it is wearing and carrying, to an unoccupied space it can see within 30 feet of it. It also becomes insubstantial until the start of its next turn. While insubstantial, it can move through other creatures and objects as if they were difficult terrain. If it ends its turn inside an object, it takes 16 (3d10) force damage and is moved to the nearest unoccupied space."
             ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand} (the hand is invisible)"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell jump}",
-                "{@spell levitate} (self only)",
-                "{@spell misty step}",
-                "{@spell nondetection} (self only)"
-              ],
-              "1e": [
-                "{@spell Bigby's hand}",
-                "{@spell mass suggestion}",
-                "{@spell plane shift}",
-                "{@spell telekinesis}"
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "name": "Githyanki Warrior",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "gith"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "17 (half plate)",
-        "hp": {
-          "average": 49,
-          "formula": "9d8+9"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 15,
-        "dex": 14,
-        "con": 12,
-        "int": 13,
-        "wis": 13,
-        "cha": 10,
-        "save": {
-          "con": "+3",
-          "int": "+3",
-          "wis": "+3"
-        },
-        "passive": 11,
-        "languages": "Gith",
-        "cr": "3",
-        "page": 0,
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The githyanki makes two greatsword attacks."
-            ]
-          },
-          {
-            "name": "Greatsword",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 9 ( 2d6+2}) slashing damage + 7 ( 2d6}) psychic damage."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The githyanki's innate spellcasting ability is Intelligence. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand} (the hand is invisible)"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell jump}",
-                "{@spell misty step}",
-                "{@spell nondetection} (self only)"
-              ]
-            }
           }
         ]
       },
@@ -7119,34 +6835,17 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "N"
-        ],
+        "alignment": "Lawful Neutral",
         "ac": "20",
-        "hp": {
-          "average": 144,
-          "formula": "17d8+68"
-        },
-        "speed": {
-          "walk": 30,
-          "fly": {
-            "number": 40,
-            "condition": "(hover)"
-          }
-        },
+        "hp": "144 (17d8+68)",
+        "speed": "30 ft., fly 40 ft. (hover)",
         "str": 16,
         "dex": 21,
         "con": 18,
         "int": 18,
         "wis": 20,
         "cha": 14,
-        "save": {
-          "str": "+8",
-          "dex": "+10",
-          "int": "+9",
-          "wis": "+10"
-        },
+        "save": "str +8, dex +10, int +9, wis +10",
         "skill": {
           "arcana": "+9",
           "insight": "+10",
@@ -7157,6 +6856,15 @@
         "cr": "16",
         "page": 0,
         "trait": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "text": [
+              "The githzerai's innate spellcasting ability is Wisdom(spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+              "At will: mage hand (the hand is invisible)",
+              "3/day each: feather fall, jump, see invisibility, shield, telekinesis",
+              "1/day each: globe of invulnerability, plane shift, teleportation circle, wall of force."
+            ]
+          },
           {
             "name": "Psychic Defense",
             "text": [
@@ -7174,7 +6882,7 @@
           {
             "name": "Unarmed Strike",
             "text": [
-              "Melee Weapon Attack:  +10} to hit, reach 5 ft., one target. Hit: 14 ( 2d8+5}) bludgeoning damage plus 18 ( 4d8}) psychic damage."
+              "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 14 (2d8+5) bludgeoning damage plus 18 (4d8) psychic damage."
             ]
           }
         ],
@@ -7197,32 +6905,6 @@
               "The anarch casts the reverse gravity spell. The spell has the normal effect, except that the anarch can orient the area in any direction and creatures and objects fall toward the end of the area."
             ]
           }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The anarch's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand} (the hand is invisible)"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell feather fall}",
-                "{@spell jump}",
-                "{@spell see invisibility}",
-                "{@spell shield}",
-                "{@spell telekinesis}"
-              ],
-              "1e": [
-                "{@spell globe of invulnerability}",
-                "{@spell plane shift}",
-                "{@spell teleportation circle}",
-                "{@spell wall of force}"
-              ]
-            }
-          }
         ]
       },
       {
@@ -7235,30 +6917,17 @@
           ]
         },
         "source": "MTF",
-        "alignment": [
-          "L",
-          "N"
-        ],
+        "alignment": "Lawful Neutral",
         "ac": "18",
-        "hp": {
-          "average": 112,
-          "formula": "15d8+45"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "112 (15d8+45)",
+        "speed": "30 ft.",
         "str": 14,
         "dex": 19,
         "con": 16,
         "int": 17,
         "wis": 19,
         "cha": 13,
-        "save": {
-          "str": "+6",
-          "dex": "+8",
-          "int": "+7",
-          "wis": "+8"
-        },
+        "save": "str +6, dex +8, int +7, wis +8",
         "skill": {
           "arcana": "+7",
           "insight": "+8",
@@ -7269,6 +6938,15 @@
         "cr": "10",
         "page": 0,
         "trait": [
+          {
+            "name": "Innate Spellcasting (Psionics)",
+            "text": [
+              "The githzerai's innate spellcasting ability is Wisdom(spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+              "At will: mage hand (the hand is invisible)",
+              "3/day each: blur, expeditious retreat, feather fall, jump, see invisibility, shield",
+              "1/day each: haste, plane shift, teleport."
+            ]
+          },
           {
             "name": "Psychic Defense",
             "text": [
@@ -7286,65 +6964,26 @@
           {
             "name": "Unarmed Strike",
             "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 13 ( 2d8+4}) bludgeoning damage plus 13 ( 3d8}) psychic damage."
+              "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) bludgeoning damage plus 13 (3d8) psychic damage."
             ]
           },
           {
             "name": "Temporal Strike (Recharge 6)",
             "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one creature. Hit: 13 ( 2d8+4}) bludgeoning damage plus 52 ( 8d12}) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or move 1 round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied."
+              "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 13 (2d8+4) bludgeoning damage plus 52 (8d12) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or move 1 round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied."
             ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Innate Spellcasting (Psionics)",
-            "headerEntries": [
-              "The githzerai's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no components:"
-            ],
-            "will": [
-              "{@spell mage hand} (the hand is invisible)"
-            ],
-            "daily": {
-              "3e": [
-                "{@spell blur}",
-                "{@spell expeditious retreat}",
-                "{@spell feather fall}",
-                "{@spell jump}",
-                "{@spell see invisibility}",
-                "{@spell shield}"
-              ],
-              "1e": [
-                "{@spell haste}",
-                "{@spell plane shift}",
-                "{@spell teleport}"
-              ]
-            }
           }
         ]
       },
       {
         "name": "Meazel",
         "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "meazel"
-          ]
-        },
+        "type":"humanoid",
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "13",
-        "hp": {
-          "average": 35,
-          "formula": "10d8-10"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "35 (10d8-10)",
+        "speed": "30 ft.",
         "str": 8,
         "dex": 17,
         "con": 9,
@@ -7372,13 +7011,13 @@
           {
             "name": "Garrote",
             "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target of the meazel's size or smaller. Hit: 6 ( 1d6+3}) bludgeoning damage, and the target is grappled (escape DC 13 with disadvantage). Until the grapple ends, the target takes 10 ( 2d6+3}) bludgeoning damage at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
+              "Melee Weapon Attack: +5 to hit, reach 5 ft., one target of the meazel's size or smaller. Hit: 6 (1d6+3) bludgeoning damage, and the target is grappled (escape DC 13 with disadvantage). Until the grapple ends, the target takes 10 (2d6+3) bludgeoning damage at the start of each of the meazel's turns. The meazel can't make weapon attacks while grappling a creature in this way."
             ]
           },
           {
             "name": "Shortsword",
             "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 6 ( 1d6+3}) piercing damage, plus 3 ( 1d6}) necrotic damage."
+              "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage, plus 3 (1d6) necrotic damage."
             ]
           },
           {
@@ -7393,36 +7032,19 @@
       {
         "name": "Nagpa",
         "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "nagpa"
-          ]
-        },
+        "type": "humanoid",
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "19 (natural armor)",
-        "hp": {
-          "average": 187,
-          "formula": "34d8+34"
-        },
-        "speed": {
-          "walk": 30
-        },
+        "hp": "187 (34d8+34)",
+        "speed": "30 ft.",
         "str": 9,
         "dex": 15,
         "con": 12,
         "int": 23,
         "wis": 18,
         "cha": 21,
-        "save": {
-          "int": "+12",
-          "wis": "+10",
-          "cha": "+11"
-        },
+        "save": "int +12, wis +10, cha +11",
         "skill": {
           "arcana": "+12",
           "deception": "+11",
@@ -7447,264 +7069,29 @@
             "text": [
               "As a bonus action, the nagpa forces each creature within 30 feet of it to succeed on a DC 20 Wisdom saving throw or be paralyzed for 1 minute. A paralyzed target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Undead and constructs are immune to this effect."
             ]
+          },
+          {
+            "name": "Spellcasting",
+            "text": [
+              "The nagpa is an 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The nagpa has the following wizard spells prepared:",
+              "Cantrips (at will): chill touch, fire bolt, mage hand, message, minor illusion",
+              "1st level (4 slots): charm person, detect magic, protection from evil and good, witch bolt",
+              "2nd level (3 slots): hold person, ray of enfeeblement, suggestion",
+              "3rd level (3 slots): counterspell, fireball, fly",
+              "4th level (3 slots): confusion, hallucinatory terrain, wall of fire",
+              "5th level (2 slots): dominate person, dream, geas",
+              "6th level (1 slot): circle of death, disintegrate",
+              "7th level (1 slot): etherealness, prismatic spray",
+              "8th level (1 slot): feeblemind"
+            ]
           }
         ],
         "action": [
           {
             "name": "Staff",
             "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 9 ( 2d6+2}) bludgeoning damage."
+              "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (2d6+2) bludgeoning damage."
             ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The nagpa is a 15th-level spellcaster. Its spellcasting ability is Intelligence. A nagpa has the following wizard spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell chill touch}",
-                  "{@spell fire bolt}",
-                  "{@spell mage hand}",
-                  "{@spell message}",
-                  "{@spell minor illusion}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell charm person}",
-                  "{@spell detect magic}",
-                  "{@spell protection from evil and good}",
-                  "{@spell witch bolt}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell hold person}",
-                  "{@spell ray of enfeeblement}",
-                  "{@spell suggestion}"
-                ]
-              },
-              "3": {
-                "slots": 3,
-                "spells": [
-                  "{@spell counterspell}",
-                  "{@spell fireball}",
-                  "{@spell fly}"
-                ]
-              },
-              "4": {
-                "slots": 3,
-                "spells": [
-                  "{@spell confusion}",
-                  "{@spell hallucinatory terrain}",
-                  "{@spell wall of fire}"
-                ]
-              },
-              "5": {
-                "slots": 2,
-                "spells": [
-                  "{@spell dominate person}",
-                  "{@spell dream}",
-                  "{@spell geas}"
-                ]
-              },
-              "6": {
-                "slots": 1,
-                "spells": [
-                  "{@spell circle of death}",
-                  "{@spell disintegrate}"
-                ]
-              },
-              "7": {
-                "slots": 1,
-                "spells": [
-                  "{@spell etherealness}",
-                  "{@spell prismatic spray}"
-                ]
-              },
-              "8": {
-                "slots": 1,
-                "spells": [
-                  "{@spell feeblemind}"
-                ]
-              }
-            }
-          }
-        ]
-      },
-      {
-        "name": "Tortle",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "tortle"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "G"
-        ],
-        "ac": "17 (natural)",
-        "hp": {
-          "average": 22,
-          "formula": "4d8+4"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 15,
-        "dex": 10,
-        "con": 12,
-        "int": 11,
-        "wis": 13,
-        "cha": 12,
-        "skill": {
-          "athletics": "+4",
-          "survival": "+3"
-        },
-        "passive": 11,
-        "languages": "Aquan, Common",
-        "cr": "1/4",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Hold Breath",
-            "text": [
-              "The tortle can hold its breath for 1 hour."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Claws",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 4 ( 1d4+2}) slashing damage."
-            ]
-          },
-          {
-            "name": "Quarterstaff",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 5 ( 1d6+2}) bludgeoning damage, or 6 ( 1d8+2}) bludgeoning damage if used with two hands."
-            ]
-          },
-          {
-            "name": "Light Crossbow",
-            "text": [
-              "Ranged Weapon Attack:  +2} to hit, range 80/320 ft., one target. Hit: 4 ( 1d8}) piercing damage."
-            ]
-          },
-          {
-            "name": "Shell Defense",
-            "text": [
-              "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Tortle Druid",
-        "size": "M",
-        "type": {
-          "type": "humanoid",
-          "tags": [
-            "tortle"
-          ]
-        },
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "N"
-        ],
-        "ac": "17 (natural)",
-        "hp": {
-          "average": 33,
-          "formula": "6d8+6"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 14,
-        "dex": 10,
-        "con": 12,
-        "int": 11,
-        "wis": 15,
-        "cha": 12,
-        "skill": {
-          "animal handling": "+4",
-          "nature": "+2",
-          "survival": "+4"
-        },
-        "passive": 12,
-        "languages": "Aquan, Common",
-        "cr": "2",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Hold Breath",
-            "text": [
-              "The tortle can hold its breath for 1 hour."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Claws",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 4 ( 1d4+2}) slashing damage."
-            ]
-          },
-          {
-            "name": "Quarterstaff",
-            "text": [
-              "Melee Weapon Attack:  +4} to hit, reach 5 ft., one target. Hit: 5 ( 1d6+2}) bludgeoning damage, or 6 ( 1d8+2}) bludgeoning damage if used with two hands."
-            ]
-          },
-          {
-            "name": "Shell Defense",
-            "text": [
-              "The tortle withdraws into its shell. Until it emerges, it gains a +4 bonus to AC and has advantage on Strength and Constitution saving throws. While in its shell, the tortle is prone, its speed is 0 and can't increase, it has disadvantage on Dexterity saving throws, it can't take reactions, and the only action it can take is a bonus action to emerge."
-            ]
-          }
-        ],
-        "spellcasting": [
-          {
-            "name": "Spellcasting",
-            "headerEntries": [
-              "The tortle is a 4th-level spellcaster. Its spellcasting ability is Wisdom. It has the following druid spells prepared:"
-            ],
-            "spells": {
-              "0": {
-                "spells": [
-                  "{@spell druidcraft}",
-                  "{@spell guidance}",
-                  "{@spell produce flame}"
-                ]
-              },
-              "1": {
-                "slots": 4,
-                "spells": [
-                  "{@spell animal friendship}",
-                  "{@spell cure wounds}",
-                  "{@spell speak with animals}",
-                  "{@spell thunderwave}"
-                ]
-              },
-              "2": {
-                "slots": 3,
-                "spells": [
-                  "{@spell darkvision}",
-                  "{@spell hold person}"
-                ]
-              }
-            }
           }
         ]
       },
@@ -7713,19 +7100,10 @@
         "size": "M",
         "type": "monstrosity",
         "source": "MTF",
-        "alignment": [
-          "U"
-        ],
+        "alignment": "Unaligned",
         "ac": "18 (natural armor)",
-        "hp": {
-          "average": 39,
-          "formula": "6d8+12"
-        },
-        "speed": {
-          "walk": 40,
-          "burrow": 20,
-          "climb": 40
-        },
+        "hp": "39 (6d8+12)",
+        "speed": "40 ft., burrow 20 ft., climb 40 ft.",
         "str": 15,
         "dex": 16,
         "con": 15,
@@ -7767,514 +7145,355 @@
           {
             "name": "Stab",
             "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 6 ( 1d6+3}) piercing damage."
+              "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage."
             ]
           },
           {
             "name": "Spike",
             "text": [
-              "Ranged Weapon Attack:  +5} to hit, range 20/60 ft., one target. Hit: 5 ( 1d4+3}) piercing damage."
+              "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 5 (1d4+3) piercing damage."
             ]
           }
         ]
       },
-      {
-        "name": "Gray Render",
-        "size": "L",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "C",
-          "N"
-        ],
-        "ac": "19 (natural armor)",
-        "hp": {
-          "average": 189,
-          "formula": "18d10+90"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 19,
-        "dex": 13,
-        "con": 20,
-        "int": 3,
-        "wis": 6,
-        "cha": 8,
-        "save": {
-          "str": "+8",
-          "con": "+9"
-        },
-        "skill": {
-          "perception": "+2"
-        },
-        "senses": "darkvision 60 ft.",
-        "passive": 12,
-        "cr": "12",
-        "page": 0,
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The gray render makes three attacks: one with its bite and two with its claws."
-            ]
-          },
-          {
-            "name": "Bite",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 17 ( 2d12+4}) piercing damage. If the target is Medium or smaller, the target must succeed on a DC 16 Strength saving throw or be knocked prone."
-            ]
-          },
-          {
-            "name": "Claws",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 10 ft., one target. Hit: 13 ( 2d8+4}) slashing damage. If the target is prone an additional 7 ( 2d6}) bludgeoning damage is dealt to the target."
-            ]
-          }
-        ]
+    {
+      "name": "Gray Render",
+      "size": "L",
+      "type": "monstrosity",
+      "source": "MTF",
+      "alignment": "Chaotic Neutral",
+      "ac": "19 (natural armor)",
+      "hp": "189 (18d10+90)",
+      "speed": "30 ft.",
+      "str": 19,
+      "dex": 13,
+      "con": 20,
+      "int": 3,
+      "wis": 6,
+      "cha": 8,
+      "save": "str +8, con +9",
+      "skill": {
+        "perception": "+2"
       },
-      {
-        "name": "Griffon",
-        "size": "L",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "U"
-        ],
-        "ac": "12",
-        "hp": {
-          "average": 59,
-          "formula": "7d10+21"
+      "senses": "darkvision 60 ft.",
+      "passive": 12,
+      "cr": "12",
+      "page": 0,
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The gray render makes three attacks: one with its bite and two with its claws."
+          ]
         },
-        "speed": {
-          "walk": 30,
-          "fly": 80
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (2d12+4) piercing damage. If the target is Medium or smaller, the target must succeed on a DC 16 Strength saving throw or be knocked prone."
+          ]
         },
-        "str": 18,
-        "dex": 15,
-        "con": 16,
-        "int": 2,
-        "wis": 13,
-        "cha": 8,
-        "skill": {
-          "perception": "+5"
-        },
-        "senses": "darkvision 60 ft.",
-        "passive": 15,
-        "cr": "2",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Keen Sight",
-            "text": [
-              "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The griffon makes two attacks: one with its beak and one with its claws."
-            ]
-          },
-          {
-            "name": "Beak",
-            "text": [
-              "Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 8 ( 1d8+4}) piercing damage."
-            ]
-          },
-          {
-            "name": "Claws",
-            "text": [
-              "Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 11 ( 2d6+4}) slashing damage."
-            ]
-          }
+        {
+          "name": "Claws",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8+4) slashing damage. If the target is prone an additional 7 (2d6) bludgeoning damage is dealt to the target."
+          ]
+        }
+      ],
+      "reaction": {
+        "name": "Bloody Rampage",
+        "text": [
+          "When the gray render takes damage, it makes one attack with its claws against a random creature within its reach, other than its master."
         ]
+      }
+    },
+    {
+      "name": "Kruthik Hive Lord",
+      "size": "L",
+      "type": "monstrosity",
+      "source": "MTF",
+      "alignment": "Unaligned",
+      "ac": "20 (natural armor)",
+      "hp": "102 (12d10+36)",
+      "speed": "40 ft., burrow 20 ft., climb 40 ft.",
+      "str": 19,
+      "dex": 16,
+      "con": 17,
+      "int": 10,
+      "wis": 14,
+      "cha": 10,
+      "senses": "darkvision 60 ft., tremorsense 60 ft.",
+      "passive": 12,
+      "languages": "Kruthik",
+      "cr": "5",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Keen Smell",
+          "text": [
+            "The kruthik has advantage on Wisdom (Perception) checks that rely on smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "text": [
+            "The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated."
+          ]
+        },
+        {
+          "name": "Tunneler",
+          "text": [
+            "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 10-foot-diameter tunnel in its wake."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The kruthik makes two stab attacks or two spike attacks."
+          ]
+        },
+        {
+          "name": "Stab",
+          "text": [
+            "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10+4) piercing damage."
+          ]
+        },
+        {
+          "name": "Spike",
+          "text": [
+            "Ranged Weapon Attack: +6 to hit, range 30/120 ft., one target. Hit: 7 (1d6+4) piercing damage."
+          ]
+        },
+        {
+          "name": "Acid Spray (Recharge 5-6)",
+          "text": [
+            "The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Angry",
+      "size": "M",
+      "type": "monstrosity",
+      "source": "MTF",
+      "alignment": "Neutral Evil",
+      "ac": "18 (natural armor)",
+      "hp": "255 (30d8+120)",
+      "speed": "30 ft.",
+      "str": 17,
+      "dex": 10,
+      "con": 19,
+      "int": 8,
+      "wis": 13,
+      "cha": 6,
+      "skill": {
+        "perception": "+6"
       },
-      {
-        "name": "Kruthik Hive Lord",
-        "size": "L",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "U"
-        ],
-        "ac": "20 (natural armor)",
-        "hp": {
-          "average": 102,
-          "formula": "12d10+36"
+      "resist": "bludgeoning, piercing, and slashing while in dim light or darkness",
+      "senses": "darkvision 60 ft.",
+      "passive": 16,
+      "languages": "Common",
+      "cr": "13",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Two Heads",
+          "text": [
+            "The Angry has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious."
+          ]
         },
-        "speed": {
-          "walk": 40,
-          "burrow": 20,
-          "climb": 40
+        {
+          "name": "Rising Anger",
+          "text": [
+            "If another creature deals damage to the Angry, the Angry's attack rolls have advantage until the end of its next turn, and the first time it hits with a hook attack on its next turn, the attack's target takes an extra 19 (3d12) psychic damage.",
+            "On its turn, the Angry has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The Angry makes two hook attacks."
+          ]
         },
-        "str": 19,
-        "dex": 16,
-        "con": 17,
-        "int": 10,
-        "wis": 14,
-        "cha": 10,
-        "senses": "darkvision 60 ft., tremorsense 60 ft.",
-        "passive": 12,
-        "languages": "Kruthik",
-        "cr": "5",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Keen Smell",
-            "text": [
-              "The kruthik has advantage on Wisdom (Perception) checks that rely on smell."
-            ]
-          },
-          {
-            "name": "Pack Tactics",
-            "text": [
-              "The kruthik has advantage on an attack roll against a creature if at least one of the kruthik's allies is within 5 feet of the creature and the ally isn't incapacitated."
-            ]
-          },
-          {
-            "name": "Tunneler",
-            "text": [
-              "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 10-foot-diameter tunnel in its wake."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The kruthik makes two stab attacks or two spike attacks."
-            ]
-          },
-          {
-            "name": "Stab",
-            "text": [
-              "Melee Weapon Attack:  +7} to hit, reach 10 ft., one target. Hit: 9 ( 1d10+4}) piercing damage."
-            ]
-          },
-          {
-            "name": "Spike",
-            "text": [
-              "Ranged Weapon Attack:  +6} to hit, range 30/120 ft., one target. Hit: 7 ( 1d6+4}) piercing damage."
-            ]
-          },
-          {
-            "name": "Acid Spray (Recharge 5-6)",
-            "text": [
-              "The kruthik sprays acid in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 ( 4d10}) acid damage on a failed save, or half as much damage on a successful one."
-            ]
-          }
-        ]
+        {
+          "name": "Hook",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d12+3) piercing damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Hungry",
+      "size": "M",
+      "type": "monstrosity",
+      "source": "MTF",
+      "alignment": "Neutral Evil",
+      "ac": "17 (natural armor)",
+      "hp": "225 (30d8+90)",
+      "speed": "30 ft.",
+      "str": 19,
+      "dex": 10,
+      "con": 17,
+      "int": 6,
+      "wis": 11,
+      "cha": 6,
+      "resist": "bludgeoning, piercing, and slashing while in dim light or darkness",
+      "senses": "darkvision 60 ft.",
+      "passive": 10,
+      "languages": "Common",
+      "cr": "11",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Life Hunger",
+          "text": [
+            "If a creature the Hungry can see regains hit points, the Hungry gains two benefits until the end of its next turn: it has advantage on attack rolls, and its bite deals an extra 22 (4d10) necrotic damage on a hit."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The Hungry makes two attacks: one with its bite and one with its claws."
+          ]
+        },
+        {
+          "name": "Bite",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) piercing damage plus 13 (3d8) necrotic damage."
+          ]
+        },
+        {
+          "name": "Claws",
+          "text": [
+            "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (4d6+4) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 16) and is restrained until the grapple ends. While grappling a creature, the Hungry can't attack with its claws."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Lonely",
+      "size": "M",
+      "type": "monstrosity",
+      "source": "MTF",
+      "alignment": "Neutral Evil",
+      "ac": "16 (natural armor)",
+      "hp": "112 (15d8+45)",
+      "speed": "30 ft.",
+      "str": 16,
+      "dex": 12,
+      "con": 17,
+      "int": 6,
+      "wis": 11,
+      "cha": 6,
+      "resist": "bludgeoning, piercing, and slashing while in dim light or darkness",
+      "senses": "darkvision 60 ft.",
+      "passive": 10,
+      "languages": "Common",
+      "cr": "9",
+      "page": 0,
+      "trait": [
+        {
+          "name": "Psychic Leech",
+          "text": [
+            "At the start of each of the Lonely's turns, each creature within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 (3d6) psychic damage."
+          ]
+        },
+        {
+          "name": "Thrives on Company",
+          "text": [
+            "The Lonely has advantage on attack rolls while it is within 30 feet of at least two other creatures. It otherwise has disadvantage on attack rolls."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The Lonely makes one harpoon arm attack and uses Sorrowful Embrace."
+          ]
+        },
+        {
+          "name": "Harpoon Arm",
+          "text": [
+            "Melee Weapon Attack: +7 to hit, reach 60 ft., one target. Hit: 21 (4d8+3) piercing damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. The Lonely has two harpoon arms and can grapple up to two creatures at once."
+          ]
+        },
+        {
+          "name": "Sorrowful Embrace",
+          "text": [
+            "Each creature grappled by the Lonely must make a DC 15 Wisdom saving throw. A creature takes 18 (4d8) psychic damage on a failed save, or half as much damage on a successful one. In either case, the Lonely pulls each creature grappled by it up to 30 feet straight toward it."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Lost",
+      "size": "M",
+      "type": "monstrosity",
+      "source": "MTF",
+      "alignment": "Neutral Evil",
+      "ac": "15 (natural armor)",
+      "hp": "78 (12d8+24)",
+      "speed": "30 ft.",
+      "str": 17,
+      "dex": 12,
+      "con": 15,
+      "int": 6,
+      "wis": 7,
+      "cha": 5,
+      "skill": {
+        "athletics": "+6"
       },
-      {
-        "name": "The Angry",
-        "size": "M",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "18 (natural armor)",
-        "hp": {
-          "average": 255,
-          "formula": "30d8+120"
+      "resist": "bludgeoning, piercing, and slashing while in dim light or darkness",
+      "senses": "darkvision 60 ft.",
+      "passive": 8,
+      "languages": "Common",
+      "cr": "7",
+      "page": 0,
+      "action": [
+        {
+          "name": "Multiattack",
+          "text": [
+            "The Lost makes two arm spike attacks."
+          ]
         },
-        "speed": {
-          "walk": 30
+        {
+          "name": "Arm Spike",
+          "text": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10+3) piercing damage."
+          ]
         },
-        "str": 17,
-        "dex": 10,
-        "con": 19,
-        "int": 8,
-        "wis": 13,
-        "cha": 6,
-        "skill": {
-          "perception": "+6"
-        },
-        "resist": [
-          {
-            "resist": [
-              "bludgeoning",
-              "piercing",
-              "slashing"
-            ],
-            "note": "while in dim light or darkness"
-          }
-        ],
-        "senses": "darkvision 60 ft.",
-        "passive": 16,
-        "languages": "Common",
-        "cr": "13",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Two Heads",
-            "text": [
-              "The Angry has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious."
-            ]
-          },
-          {
-            "name": "Rising Anger",
-            "text": [
-              "If another creature deals damage to the Angry, the Angry's attack rolls have advantage until the end of its next turn, and the first time it hits with a hook attack on its next turn, the attack's target takes an extra 19 ( 3d12}) psychic damage.",
-              "On its turn, the Angry has disadvantage on attack rolls if no other creature has dealt damage to it since the end of its last turn."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The Angry makes two hook attacks."
-            ]
-          },
-          {
-            "name": "Hook",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 16 ( 2d12+3}) piercing damage."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "The Hungry",
-        "size": "M",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "17 (natural armor)",
-        "hp": {
-          "average": 225,
-          "formula": "30d8+90"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 19,
-        "dex": 10,
-        "con": 17,
-        "int": 6,
-        "wis": 11,
-        "cha": 6,
-        "resist": [
-          {
-            "resist": [
-              "bludgeoning",
-              "piercing",
-              "slashing"
-            ],
-            "note": "while in dim light or darkness"
-          }
-        ],
-        "senses": "darkvision 60 ft.",
-        "passive": 10,
-        "languages": "Common",
-        "cr": "11",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Life Hunger",
-            "text": [
-              "If a creature the Hungry can see regains hit points, the Hungry gains two benefits until the end of its next turn: it has advantage on attack rolls, and its bite deals an extra 22 ( 4d10}) necrotic damage on a hit."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The Hungry makes two attacks: one with its bite and one with its claws."
-            ]
-          },
-          {
-            "name": "Bite",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 5 ft., one target. Hit: 8 ( 1d8+4}) piercing damage plus 13 ( 3d8}) necrotic damage."
-            ]
-          },
-          {
-            "name": "Claws",
-            "text": [
-              "Melee Weapon Attack:  +8} to hit, reach 10 ft., one target. Hit: 18 ( 4d6+4}) slashing damage. If the target is Medium or smaller, it is grappled (escape DC 16) and is restrained until the grapple ends. While grappling a creature, the Hungry can't attack with its claws."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "The Lonely",
-        "size": "M",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "16 (natural armor)",
-        "hp": {
-          "average": 112,
-          "formula": "15d8+45"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 16,
-        "dex": 12,
-        "con": 17,
-        "int": 6,
-        "wis": 11,
-        "cha": 6,
-        "resist": [
-          {
-            "resist": [
-              "bludgeoning",
-              "piercing",
-              "slashing"
-            ],
-            "note": "while in dim light or darkness"
-          }
-        ],
-        "senses": "darkvision 60 ft.",
-        "passive": 10,
-        "languages": "Common",
-        "cr": "9",
-        "page": 0,
-        "trait": [
-          {
-            "name": "Psychic Leech",
-            "text": [
-              "At the start of each of the Lonely's turns, each creature within 5 feet of it must succeed on a DC 15 Wisdom saving throw or take 10 ( 3d6}) psychic damage."
-            ]
-          },
-          {
-            "name": "Thrives on Company",
-            "text": [
-              "The Lonely has advantage on attack rolls while it is within 30 feet of at least two other creatures. It otherwise has disadvantage on attack rolls."
-            ]
-          }
-        ],
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The Lonely makes one harpoon arm attack and uses Sorrowful Embrace."
-            ]
-          },
-          {
-            "name": "Harpoon Arm",
-            "text": [
-              "Melee Weapon Attack:  +7} to hit, reach 60 ft., one target. Hit: 21 ( 4d8+3}) piercing damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature.",
-              "The Lonely has two harpoon arms and can grapple up to two creatures at once."
-            ]
-          },
-          {
-            "name": "Sorrowful Embrace",
-            "text": [
-              "Each creature grappled by the Lonely must make a DC 15 Wisdom saving throw. A creature takes 18 ( 4d8}) psychic damage on a failed save, or half as much damage on a successful one. In either case, the Lonely pulls each creature grappled by it up to 30 feet straight toward it."
-            ]
-          }
-        ]
-      },
-      {
-        "name": "The Lost",
-        "size": "M",
-        "type": "monstrosity",
-        "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
-        "ac": "15 (natural armor)",
-        "hp": {
-          "average": 78,
-          "formula": "12d8+24"
-        },
-        "speed": {
-          "walk": 30
-        },
-        "str": 17,
-        "dex": 12,
-        "con": 15,
-        "int": 6,
-        "wis": 7,
-        "cha": 5,
-        "skill": {
-          "athletics": "+6"
-        },
-        "resist": [
-          {
-            "resist": [
-              "bludgeoning",
-              "piercing",
-              "slashing"
-            ],
-            "note": "while in dim light or darkness"
-          }
-        ],
-        "senses": "darkvision 60 ft.",
-        "passive": 8,
-        "languages": "Common",
-        "cr": "7",
-        "page": 0,
-        "action": [
-          {
-            "name": "Multiattack",
-            "text": [
-              "The Lost makes two arm spike attacks."
-            ]
-          },
-          {
-            "name": "Arm Spike",
-            "text": [
-              "Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 14 ( 2d10+3}) piercing damage."
-            ]
-          },
-          {
-            "name": "Embrace",
-            "text": [
-              "Melee Weapon Attack:  +6} to hit, reach 5 ft., one target. Hit: 25 ( 4d10+3}) piercing damage, and the target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is frightened, and it takes 27 ( 6d8}) psychic damage at the end of each of its turns. The Lost can embrace only one creature at a time."
-            ]
-          }
-        ]
-      },
+        {
+          "name": "Embrace",
+          "text": [
+            "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25 (4d10+3) piercing damage, and the target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is frightened, and it takes 27 (6d8) psychic damage at the end of each of its turns. The Lost can embrace only one creature at a time."
+          ]
+        }
+      ]
+    },
       {
         "name": "The Wretched",
         "size": "S",
         "type": "monstrosity",
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Neutral Evil",
         "ac": "15 (natural armor)",
-        "hp": {
-          "average": 10,
-          "formula": "4d6-4"
-        },
-        "speed": {
-          "walk": 40
-        },
+        "hp": "10 (4d6-4)",
+        "speed": "40 ft.",
         "str": 7,
         "dex": 12,
         "con": 9,
         "int": 5,
         "wis": 6,
         "cha": 5,
-        "resist": [
-          {
-            "resist": [
-              "bludgeoning",
-              "piercing",
-              "slashing"
-            ],
-            "note": "while in dim light or darkness"
-          }
-        ],
+        "resist": "bludgeoning, piercing, and slashing while in dim light or darkness",
         "senses": "darkvision 60 ft.",
         "passive": 8,
         "cr": "1/4",
@@ -8291,8 +7510,7 @@
           {
             "name": "Bite",
             "text": [
-              "Melee Weapon Attack:  +3} to hit, reach 5 ft., one target. Hit: 6 ( 1d10+1}) piercing damage, and the Wretched attaches to the target. While attached, the Wretched can't attack, and at the start of each of the Wretched's turns, the target takes 6 ( 1d10+1}) necrotic damage.",
-              "The attached Wretched moves with the target whenever the target moves, requiring none of the Wretched's movement. The Wretched can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach a Wretched."
+              "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (1d10+1) piercing damage, and the Wretched attaches to the target. While attached, the Wretched can't attack, and at the start of each of the Wretched's turns, the target takes 6 (1d10+1) necrotic damage.mThe attached Wretched moves with the target whenever the target moves, requiring none of the Wretched's movement. The Wretched can detach itself by spending 5 feet of its movement on its turn. A creature, including the target, can use its action to detach a Wretched."
             ]
           }
         ]
@@ -8302,19 +7520,10 @@
         "size": "S",
         "type": "monstrosity",
         "source": "MTF",
-        "alignment": [
-          "U"
-        ],
+        "alignment": "Unaligned",
         "ac": "16 (natural armor)",
-        "hp": {
-          "average": 9,
-          "formula": "2d6+2"
-        },
-        "speed": {
-          "walk": 30,
-          "burrow": 10,
-          "climb": 30
-        },
+        "hp": "9 (2d6+2)",
+        "speed": "30 ft., burrow 10 ft., climb 30 ft.",
         "str": 13,
         "dex": 16,
         "con": 13,
@@ -8350,7 +7559,7 @@
           {
             "name": "Stab",
             "text": [
-              "Melee Weapon Attack:  +5} to hit, reach 5 ft., one target. Hit: 5 ( 1d4+3}) piercing damage."
+              "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage."
             ]
           }
         ]
@@ -8358,61 +7567,24 @@
       {
         "name": "Astral Dreadnought",
         "size": "G",
-        "type": {
-          "type": "monstrosity",
-          "tags": [
-            "titan"
-          ]
-        },
+        "type": "monstrosity",
         "source": "MTF",
-        "alignment": [
-          "U"
-        ],
+        "alignment": "Unaligned",
         "ac": "20 (natural armor)",
-        "hp": {
-          "average": 297,
-          "formula": "17d20+119"
-        },
-        "speed": {
-          "walk": 15,
-          "fly": {
-            "number": 80,
-            "condition": "(hover)"
-          }
-        },
+        "hp": "297 (17d20+119)",
+        "speed": "15 ft., fly 80 ft. (hover)",
         "str": 28,
         "dex": 7,
         "con": 25,
         "int": 5,
         "wis": 14,
         "cha": 18,
-        "save": {
-          "dex": "+5",
-          "wis": "+9"
-        },
+        "save": "dex +5, wis +9",
         "skill": {
           "perception": "+9"
         },
-        "resist": [
-          {
-            "resist": [
-              "bludgeoning",
-              "piercing",
-              "slashing"
-            ],
-            "note": "from nonmagical attacks"
-          }
-        ],
-        "conditionImmune": [
-          "charmed",
-          "exhaustion",
-          "frightened",
-          "paralyzed",
-          "petrified",
-          "poisoned",
-          "prone",
-          "stunned"
-        ],
+        "resist": "bludgeoning, piercing, and slashing from nonmagical attacks",
+        "conditionImmune": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned",
         "senses": "darkvision 120 ft.",
         "passive": 19,
         "cr": "21",
@@ -8466,13 +7638,13 @@
           {
             "name": "Bite",
             "text": [
-              "Melee Weapon Attack:  +16} to hit, reach 10 ft., one target. Hit: 36 ( 5d10+9}) piercing damage. If the target is a creature of Huge size or smaller and this damage reduces it to 0 hit points or it is incapacitated, the astral dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon."
+              "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 36 (5d10+9) piercing damage. If the target is a creature of Huge size or smaller and this damage reduces it to 0 hit points or it is incapacitated, the astral dreadnought swallows it. The swallowed target, along with everything it is wearing and carrying, appears in an unoccupied space on the floor of the astral dreadnought's Demiplanar Donjon."
             ]
           },
           {
             "name": "Claw",
             "text": [
-              "Melee Weapon Attack:  +16} to hit, reach 20 ft., one target. Hit: 19 ( 3d6+9}) slashing damage."
+              "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 19 (3d6+9) slashing damage."
             ]
           }
         ],
@@ -8492,7 +7664,7 @@
           {
             "name": "Psychic Projection (Costs 3 Actions)",
             "text": [
-              "Each creature within 60 feet of the astral dreadnought must make a DC 19 Wisdom saving throw, taking 15 ( 2d10+4}) psychic damage on a failed save, or half as much damage on a successful one."
+              "Each creature within 60 feet of the astral dreadnought must make a DC 19 Wisdom saving throw, taking 15 (2d10+4) psychic damage on a failed save, or half as much damage on a successful one."
             ]
           }
         ]
@@ -8502,28 +7674,17 @@
         "size": "M",
         "type": "ooze",
         "source": "MTF",
-        "alignment": [
-          "L",
-          "E"
-        ],
+        "alignment": "Lawful Evil",
         "ac": "14",
-        "hp": {
-          "average": 75,
-          "formula": "10d8+30"
-        },
-        "speed": {
-          "walk": 20
-        },
+        "hp": "75 (10d8+30)",
+        "speed": "20 ft.",
         "str": 8,
         "dex": 19,
         "con": 16,
         "int": 19,
         "wis": 12,
         "cha": 15,
-        "save": {
-          "int": "+7",
-          "cha": "+5"
-        },
+        "save": "int +7, cha +5",
         "skill": {
           "deception": "+5",
           "perception": "+4",
