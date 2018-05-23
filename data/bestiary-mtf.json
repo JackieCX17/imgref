@@ -297,6 +297,12 @@
           ]
         }
       ],
+      "reaction": {
+        "name": "Feed on Weakness",
+        "text": [
+          "When a creature within 20 feet of the larva mage fails a saving throw, the marva mage gains 10 temporary hit points."
+        ]
+      },
       "legendary": [
         {
           "name": "Cantrip (Costs 2 Actions)",
