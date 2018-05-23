@@ -7688,16 +7688,7 @@
         "skill": {
           "deception": "+5",
           "perception": "+4",
-          "other": [
-            {
-              "oneOf": {
-                "arcana": "+7",
-                "history": "+7",
-                "nature": "+7",
-                "religion": "+7"
-              }
-            }
-          ]
+          "arcana": "one of the following: arcana +7, history +7, nature +7, religion +7"
         },
         "conditionImmune": [
           "blinded",
