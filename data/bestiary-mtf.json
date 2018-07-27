@@ -7487,7 +7487,13 @@
             "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 25 (4d10+3) piercing damage, and the target is grappled (escape DC 14) if it is a Medium or smaller creature. Until the grapple ends, the target is frightened, and it takes 27 (6d8) psychic damage at the end of each of its turns. The Lost can embrace only one creature at a time."
           ]
         }
-      ]
+      ],
+      "reaction": {
+        "name": "Tightening Embrace",
+        "text": [
+          "Tightening Embrace. If the Lost takes damage while it has a creature grappled, that creature takes 18 (4d8) psychic damage."
+        ]
+      }
     },
       {
         "name": "The Wretched",
